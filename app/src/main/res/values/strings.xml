@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">汇银乐虎</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- 我的乐虎 -->
+    <string name="tijiao">提交中</string>
+    <string name="login">登录</string>
+    <string name="use_the_third">使用合作账号登录</string>
+    <string name="agree_agreement">同意《汇银乐虎服务协议》</string>
+    <string name="yuyue_message_1">为了更加快速处理您的服务，请申请前一定和我们的客服同学通报哦</string>
+    <string name="kefurexian">客服热线：</string>
+    <string name="resend_tip">短信已发送, %d秒后可重新获取短信验证码</string>
+    <string name="time_tip">%d秒</string>
+    <string name="shenqin_commit">已提交%s条预约申请</string>
+    <string name="lhj_tip">您有%s张即将过期</string>
+    <string name="free_freight">（满%s免运费）</string>
+    <string name="lehujuan_past">有%s张即将过期</string>
+    <string name="lehujuan_total">我的乐虎红包(券)(%s)</string>
+    <string name="system_msg">系统消息(%s)</string>
+    <string name="buy_together">组合购买共%d件商品</string>
+    <string name="lhj_value">乐虎优惠劵面值%s元</string>
+    <string name="lhj_use_condition">该优惠劵要购物满%s元才能使用！</string>
+    <string name="order_deal">请您及时付款，以便订单尽快处理！</string>
+    <string name="phone_is_null">请输入手机号码</string>
+    <string name="yuyue_phone_number_regx">手机号码格式不正确！</string>
+    <string name="yuyue_order_num_regx">订单编号不能为空！</string>
+    <string name="yuyue_order_num_format">订单号格式不正确！</string>
+    <string name="yuyeu_tiem">预约时间不能为空！</string>
+    <string name="card_is_null">请输入卡号</string>
+    <string name="card_disenable">卡号不存在</string>
+    <string name="email_disenable">邮箱地址格式错误</string>
+    <string name="phone_disenable">手机号码格式错误</string>
+    <string name="regedit_success">注册成功</string>
+    <string name="bind_success">绑定成功</string>
+    <string name="login_success">登录成功</string>
+    <string name="msg_success">留言成功</string>
+    <string name="yanzheng_success">验证通过</string>
+    <string name="modify_success">密码修改成功！</string>
+    <string name="total_useable_hj">共%s张乐虎劵可使用</string>
+    <string name="remark_msg">备注信息</string>
+    <string name="getback_money">我要退款</string>
+    <string name="back_change_good">我要换货（只能换同类同款商品）</string>
+    <string name="order_discount_1"><Data><![CDATA[共<font color="red">%s</font>张可用的虎劵， ]]></Data></string>
+    <string name="order_discount_2"><Data><![CDATA[打算使用面值<font color="red">%s</font>元的虎劵]]></Data></string>
+    <string name="order_remark">注：一旦交易订单成功，虎劵不可返回！</string>
+    <string name="integral_deducate_1"><Data><![CDATA[共<font color="red">%s</font>个积分，  ]]></Data></string>
+    <string name="integral_deducate_2"><Data><![CDATA[抵<font color="red">%s</font>元]]></Data></string>
+    <string name="jifen_deducate"><Data><![CDATA[个积分，可抵<font color="red">%s</font>元]]></Data></string>
+    <string name="sure_receive">如果商家确认收货：</string>
+    <string name="back_money">退款成功并退款至你的提交的账户</string>
+    <string name="pic_upload">图片上传：最多上传9张</string>
+    <string name="save_space_not_enough">sd卡储存空间不足</string>
+    <string name="choice_image_tip">图片上传</string>
+    <string name="wenxin_tip_7">请选择上传图片的来源</string>
+    <string name="wenxin_tip">温馨提示</string>
+    <string name="wenxin_tip_8">是否执行此操作?</string>
+    <string name="phone_msg">需要解绑手机或更换手机，请联系汇银乐虎客服！</string>
+    <string name="phone_title_1">你的手机已经绑定该账号</string>
+    <string name="phone_title_2">绑定手机号码：%s</string>
+    <string name="about_title_1">扫描二维码</string>
+    <string name="about_title_2">你的朋友也可以下载汇银乐虎客户端</string>
+    <string name="about_title_3">For Android V4.4.0 Build1.0</string>
+    <string name="about_title_4">Copyright @ 2011-2014</string>
+    <string name="about_title_5">汇银乐虎lehumall.com版权所有</string>
+    <string name="back_title_info">请退货给汇银乐虎</string>
+    <string name="back_info">退货时间：</string>
+    <string name="back_addr">退货地址：</string>
+    <string name="addr_detail_info">详细地址：(*)%s</string>
+    <string name="addr_detail_is_null">详细地址不能为空</string>
+    <string name="ensure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="good_detail">查看详情</string>
+    <string name="focus_cancel">取消收藏</string>
+    <string name="app_surelogout">确定退出程序吗？</string>
+    <string name="surelogout">退出</string>
+    <string name="sure">确定</string>
+    <string name="lhj_demand">满%s使用</string>
+    <string name="settlement">结算(%d)</string>
+    <string name="addr_is_null">地址不能为空</string>
+    <string name="commodity_is_null">无预约商品！</string>
+    <string name="yuyue_content_length">字数不能超过300,否则无法提交！</string>
+    <string name="yuyue_content_over_length">备注信息字已经超过了最大规定字数！</string>
+    <string name="user_is_null">用户名不能为空</string>
+    <string name="pwd_is_null">密码不能为空</string>
+    <string name="pwd_is_six">密码不能少于6位</string>
+    <string name="newpwd_is_null">新密码不能为空</string>
+    <string name="user_name_disable">用户名格式错误</string>
+    <string name="affirm_pwd_not_same">确认密码跟输入密码不一致</string>
+    <string name="not_get_ver_code">请获取验证码</string>
+    <string name="ver_code_is_null">验证码不能为空</string>
+    <string name="agreement">勾选协议方能注册</string>
+    <string name="num_code_is_null">手机号或验证码不正确</string>
+    <string name="code_is_null">验证号无效</string>
+    <string name="receiver_is_null">收货人不能为空</string>
+    <string name="mailcode_is_null">邮编不能为空</string>
+    <string name="bank_is_null">银行不能为空</string>
+    <string name="branch_is_null">支行不能为空</string>
+    <string name="name_is_null">真实姓名不能为空</string>
+    <string name="account_is_null">账号不能为空</string>
+    <string name="reason_is_null">原因不能为空</string>
+    <string name="contact_is_null">联系人不能为空</string>
+    <string name="content_is_null">内容不能为空</string>
+    <string name="logistic_company">物流公司不能为空</string>
+    <string name="logistic_num">物流单号不能为空</string>
+    <string name="loading">正在加载...</string>
+    <string name="socket_exception_error">网络异常，读取数据超时</string>
+    <string name="shop_pay_title">继续完成下面的步骤，选择支付平台</string>
+    <string name="invoice_info_1">如果您是首次开具增值税发票，请您填写纳税人识别号等开票信息，并发送加盖公章的
+         营业执照副本、税务登记证副本、一般纳税人资格证书及银行开户许可证扫描件乐虎邮箱地址kf@lehumail.com,收到您的开票
+         资料后，我们会尽快审核。</string>
+    <string name="invoice_info_2">注意：此账户订单的发票将邮寄到该地址。如果地址变更，所有待邮寄的发票都
+         将邮寄到新地址。</string>
+
+    <!-- 智慧管家 -->
+    <string name="hk_tip">温馨提示：为了后续提供更好的服务，请优先拍照上传对应的发票，或上传铭牌</string>
+
+    <!-- MAIN -->
+    <string name="first_page">首页</string>
+    <string name="classification">分类</string>
+    <string name="shopping_car">购物车</string>
+    <string name="housekeeper">管家</string>
+    <string name="my_lehu">我的乐虎</string>
+
+    <!-- xlist -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间:</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="nodata">暂无数据！</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+    <!-- 商品详细页 -->
+    <string name="goods_detail_xiangxi">商品详细</string>
+    <string name="goods_detail_xinxi">基本信息</string>
+    <string name="goods_detail_tuwen">图文详情</string>
+    <string name="goods_detail_guige">参数规格</string>
+    <string name="goods_detail_qingdan">包装清单</string>
+    <string name="goods_detail_shouhoufuwu">售后服务</string>
+    <string name="sure_add">加入购物车</string>
+    <string name="sure_buy">确定购买</string>
+    <string name="error_tip"><Data><![CDATA[ <font color="red">%1$s</font> ]]></Data></string>
+
+    <!-- 充值 -->
+    <string name="check_sign_failed">您的订单信息已被非法篡改。</string>
+
+    <!-- 欢迎界面 -->
+    <string name="welcome_company">汇银控股集团</string>
+
+    <!-- 有版本更新 -->
+    <string name="txt_update_msg">检测到新版本，是否进行更新？</string>
+    <string name="txt_update_ok">马上更新</string>
+    <string name="txt_download_cancel">取消</string>
+    <string name="txt_update_cancel">暂不更新</string>
+    <string name="txt_download">正在下载更新</string>
+    <string name="txt_download_pro">下载进度</string>
+    <string name="club_count">您今天还有<u>%d </u>次抽奖机会</string>
+    <string name="club_count_without_login">您还未登录,每天有<u>%d </u>次免费抽奖机会</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="ming_pai_ding_yi">铭牌定义：产品投放市场后，固定在产品上向用户提供厂家商标识别，
+             品牌区分，产品参数铭记等信息的铭牌，铭牌又称标牌，
+            铭牌主要用来记载生产厂家及额定工作情况下的一些技术数据，以供正确使用而不致损坏设备。</string>
+
+    <!-- 物流列表 -->
+    <string name="logisticsinfo"><Data><![CDATA[<font>订单编号：%1$s</font>&nbsp<font color="#3994E2">%2$s</font>&nbsp<font>%3$s件商品，共计</font><font color="red">%4$s</font>]]></Data></string>
+    <!-- 组合购买 -->
+    <string name="buy_sum"><Data><![CDATA[<font >已搭配</font><font color="red">%1$s</font><font >件</font> ]]></Data></string>
+    <string name="price_before"><Data><![CDATA[<font >组合价：¥%1$s</font>]]></Data></string>
+    <string name="price_after"><Data><![CDATA[<font >乐虎价：</font><font color="red">¥%1$s</font>]]></Data></string>
+    <string name="price_min"><Data><![CDATA[<font >立即省：</font><font color="green">¥%1$s</font>]]></Data></string>
+
+    <!--  -->
+    <string name="confirm_title">提示</string>
+    <string name="content_description_icon">icon</string>
+    <string name="refresh">刷新</string>
+    <string name="processing">加载中</string>
+    <string name="download">下载</string>
+    <string name="download_fail">下载安装包失败</string>
+    <string name="cancel_install_msp">你已取消安装移动快捷支付服务</string>
+    <string name="cancel_install_alipay">你已取消安装支付宝钱包</string>
+    <string name="redo">重试</string>
+    <string name="install_msp">你尚未安装支付宝移动快捷支付服务，请立即安装</string>
+    <string name="install_alipay">你尚未安装支付宝钱包，请立即安装</string>
+
+    <!-- 友推 -->
+    <string name="yt_sharepic">分享图片</string>
+    <string name="yt_savecap">截屏文件已保存至SDCard/youtui目录下</string>
+    <string name="yt_pointcharge">积分兑换</string>
+    <string name="yt_cancel">取消</string>
+    <string name="yt_nonetwork">无网络连接，请查看您的网络情况</string>
+    <string name="yt_wechat">微信</string>
+    <string name="yt_wechatmoments">微信朋友圈</string>
+    <string name="yt_sinaweibo">新浪微博</string>
+    <string name="yt_qzone">QQ空间</string>
+    <string name="yt_tencentweibo">腾讯微博</string>
+    <string name="yt_renn">人人网</string>
+    <string name="yt_shortmessage">短信</string>
+    <string name="yt_email">邮件</string>
+    <string name="yt_more">更多</string>
+    <string name="yt_copylink">复制链接</string>
+    <string name="yt_screencap">截屏</string>
+    <string name="yt_getsharecontent_fail">获取分享内容失败...</string>
+    <string name="yt_nowechatclient">未安装微信</string>
+    <string name="yt_authfailed">授权失败</string>
+    <string name="yt_authcancel">授权取消</string>
+    <string name="yt_noqqclient">未安装QQ</string>
+    <string name="yt_norennclient">未安装人人网</string>
+    <string name="yt_connecterror">连接到服务器错误</string>
+    <string name="yt_nopic">未找到分享图片，请重新设置分享图片路径...</string>
+    <string name="yt_teccentweibo">腾讯微博</string>
+    <string name="yt_reauth">授权失败,请重新获取授权</string>
+    <string name="yt_shareing">分享中</string>
+    <string name="yt_description">描述</string>
+    <string name="yt_share">分享</string>
+    <string name="yt_man">男</string>
+    <string name="yt_woman">女</string>
+    <string name="yt_loading">加载中</string>
+    <string name="yt_authsuccess">授权成功</string>
+    <string name="yt_authing">授权中</string>
+    <string name="yt_reconnect">网络连接异常，是否重新连接？</string>
+    <string name="yt_chooseemail">请选择邮件发送软件</string>
+    <string name="yt_logincancel">登录取消</string>
+    <string name="yt_loginsuccess">登录成功,请再点击进行分享</string>
+    <string name="yt_unknownfilesize">无法获知文件大小 </string>
+    <string name="yt_copysuccess">复制成功</string>
+    <string name="yt_copyfail">复制失败，请手动复制</string>
+    <string name="yt_qrcode">二维码</string>
+    <string name="yt_notargeturl">分享链接为空</string>
+
+    <!-- 服务器后台响应code说明    网络错误 -->
+    <string name="networkFailure">网络连接失败</string>
+    <string name="responseTimeout">响应超时</string>
+    <string name="requestTimeout">请求超时</string>
+    <string name="networkError">网络不可用</string>
+    <string name="jsonError">网络错误</string>
+    <string name="canNotGetConnected">无法连接网络</string>
+
+</resources>

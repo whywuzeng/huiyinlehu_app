@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title_layout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="物流公司：" />
+
+    <EditText
+        android:id="@+id/logistic_company"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/grey_cornor_bg"
+        android:gravity="left|center"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="物流单号：" />
+
+    <EditText
+        android:id="@+id/logistic_num"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/grey_cornor_bg"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        android:textColor="@color/blue_color" />
+    <!-- 上传凭证 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="上传物流凭证：最多上传5张（可不传）" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/grey_cornor_bg"
+        android:orientation="vertical" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <LinearLayout
+                android:id="@+id/dongtai_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:divider="@drawable/horizontal_divider"
+                android:orientation="horizontal"
+                android:showDividers="middle" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/make_pointment"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/add_pic" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/write_logistic_commit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/ok_btn_bg"
+        android:gravity="center"
+        android:text="提交物流信息"
+        android:textColor="@color/white" />
+
+</LinearLayout>

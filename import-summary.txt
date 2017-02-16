@@ -1,0 +1,171 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .metadata\
+* .metadata\.lock
+* .metadata\.log
+* .metadata\.plugins\
+* .metadata\.plugins\org.eclipse.cdt.core\
+* .metadata\.plugins\org.eclipse.cdt.core\.log
+* .metadata\.plugins\org.eclipse.cdt.make.core\
+* .metadata\.plugins\org.eclipse.cdt.make.core\specs.c
+* .metadata\.plugins\org.eclipse.cdt.make.core\specs.cpp
+* .metadata\.plugins\org.eclipse.core.resources\
+* .metadata\.plugins\org.eclipse.core.resources\.root\
+* .metadata\.plugins\org.eclipse.core.resources\.root\.indexes\
+* .metadata\.plugins\org.eclipse.core.resources\.root\.indexes\history.version
+* .metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.index
+* .metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.version
+* .metadata\.plugins\org.eclipse.core.resources\.root\4.tree
+* .metadata\.plugins\org.eclipse.core.resources\.safetable\
+* .metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources
+* .metadata\.plugins\org.eclipse.core.runtime\
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\com.android.ide.eclipse.adt.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.core.resources.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.debug.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.team.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.ide.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.prefs
+* .metadata\.plugins\org.eclipse.e4.workbench\
+* .metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi
+* .metadata\.plugins\org.eclipse.jdt.core\
+* .metadata\.plugins\org.eclipse.jdt.core\invalidArchivesCache
+* .metadata\.plugins\org.eclipse.jdt.core\nonChainingJarsCache
+* .metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat
+* .metadata\.plugins\org.eclipse.jdt.ui\
+* .metadata\.plugins\org.eclipse.jdt.ui\OpenTypeHistory.xml
+* .metadata\.plugins\org.eclipse.jdt.ui\QualifiedTypeNameHistory.xml
+* .metadata\.plugins\org.eclipse.jdt.ui\dialog_settings.xml
+* .metadata\.plugins\org.eclipse.ui.ide\
+* .metadata\.plugins\org.eclipse.ui.ide\dialog_settings.xml
+* .metadata\.plugins\org.eclipse.ui.workbench\
+* .metadata\.plugins\org.eclipse.ui.workbench\dialog_settings.xml
+* .metadata\.plugins\org.eclipse.ui.workbench\workingsets.xml
+* .metadata\version.ini
+* ant.properties
+* ic_launcher-web.png
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:20.0.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* bin\res\ => app\src\androidTest\res\
+* libs\alipay.jar => app\libs\alipay.jar
+* libs\android-async-http-1.4.4.jar => app\libs\android-async-http-1.4.4.jar
+* libs\android-custom-vg.2.6.0.jar => app\libs\android-custom-vg.2.6.0.jar
+* libs\android_api_1.1_forsdk.jar => app\libs\android_api_1.1_forsdk.jar
+* libs\android_api_3_5.jar => app\libs\android_api_3_5.jar
+* libs\Android_SDK.jar => app\libs\Android_SDK.jar
+* libs\armeabi-v7a\libapp_BaiduNaviApplib_v1_0_0.so => app\src\main\jniLibs\armeabi-v7a\libapp_BaiduNaviApplib_v1_0_0.so
+* libs\armeabi-v7a\libapp_BaiduPanoApplib.so => app\src\main\jniLibs\armeabi-v7a\libapp_BaiduPanoApplib.so
+* libs\armeabi-v7a\libBaiduMapSDK_v3_1_1.so => app\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_v3_1_1.so
+* libs\armeabi-v7a\libbdpush_V2_2.so => app\src\main\jniLibs\armeabi-v7a\libbdpush_V2_2.so
+* libs\armeabi-v7a\libentryexpro.so => app\src\main\jniLibs\armeabi-v7a\libentryexpro.so
+* libs\armeabi-v7a\liblocnaviSDK.so => app\src\main\jniLibs\armeabi-v7a\liblocnaviSDK.so
+* libs\armeabi-v7a\liblocSDK4d.so => app\src\main\jniLibs\armeabi-v7a\liblocSDK4d.so
+* libs\armeabi-v7a\libRongIMLib.so => app\src\main\jniLibs\armeabi-v7a\libRongIMLib.so
+* libs\armeabi-v7a\libRongIMVoip.so => app\src\main\jniLibs\armeabi-v7a\libRongIMVoip.so
+* libs\armeabi-v7a\libumcs.so => app\src\main\jniLibs\armeabi-v7a\libumcs.so
+* libs\armeabi\libapp_BaiduNaviApplib_v1_0_0.so => app\src\main\jniLibs\armeabi\libapp_BaiduNaviApplib_v1_0_0.so
+* libs\armeabi\libapp_BaiduPanoApplib.so => app\src\main\jniLibs\armeabi\libapp_BaiduPanoApplib.so
+* libs\armeabi\libBaiduMapSDK_v3_1_1.so => app\src\main\jniLibs\armeabi\libBaiduMapSDK_v3_1_1.so
+* libs\armeabi\libbdpush_V2_2.so => app\src\main\jniLibs\armeabi\libbdpush_V2_2.so
+* libs\armeabi\libentryexpro.so => app\src\main\jniLibs\armeabi\libentryexpro.so
+* libs\armeabi\liblocnaviSDK.so => app\src\main\jniLibs\armeabi\liblocnaviSDK.so
+* libs\armeabi\liblocSDK4d.so => app\src\main\jniLibs\armeabi\liblocSDK4d.so
+* libs\armeabi\libRongIMLib.so => app\src\main\jniLibs\armeabi\libRongIMLib.so
+* libs\armeabi\libRongIMVoip.so => app\src\main\jniLibs\armeabi\libRongIMVoip.so
+* libs\armeabi\libumcs.so => app\src\main\jniLibs\armeabi\libumcs.so
+* libs\BaiduLBS_Android.jar => app\libs\BaiduLBS_Android.jar
+* libs\commons-httpclient-3.1.jar => app\libs\commons-httpclient-3.1.jar
+* libs\core.jar => app\libs\core.jar
+* libs\eims.jar => app\libs\eims.jar
+* libs\galaxy_mini.jar => app\libs\galaxy_mini.jar
+* libs\libammsdk.jar => app\libs\libammsdk.jar
+* libs\mips\libapp_BaiduNaviApplib_v1_0_0.so => app\src\main\jniLibs\mips\libapp_BaiduNaviApplib_v1_0_0.so
+* libs\mips\libapp_BaiduPanoApplib.so => app\src\main\jniLibs\mips\libapp_BaiduPanoApplib.so
+* libs\mips\libBaiduMapSDK_v3_1_1.so => app\src\main\jniLibs\mips\libBaiduMapSDK_v3_1_1.so
+* libs\mips\libbdpush_V2_2.so => app\src\main\jniLibs\mips\libbdpush_V2_2.so
+* libs\mips\libentryexpro.so => app\src\main\jniLibs\mips\libentryexpro.so
+* libs\mips\liblocnaviSDK.so => app\src\main\jniLibs\mips\liblocnaviSDK.so
+* libs\mips\liblocSDK4d.so => app\src\main\jniLibs\mips\liblocSDK4d.so
+* libs\mips\libRongIMLib.so => app\src\main\jniLibs\mips\libRongIMLib.so
+* libs\mips\libRongIMVoip.so => app\src\main\jniLibs\mips\libRongIMVoip.so
+* libs\mips\libumcs.so => app\src\main\jniLibs\mips\libumcs.so
+* libs\mta-sdk-1.0.0.jar => app\libs\mta-sdk-1.0.0.jar
+* libs\nineoldanimatin.jar => app\libs\nineoldanimatin.jar
+* libs\open_sdk.jar => app\libs\open_sdk.jar
+* libs\pushservice-4.2.0.63.jar => app\libs\pushservice-4.2.0.63.jar
+* libs\RennSDK-Android.jar => app\libs\RennSDK-Android.jar
+* libs\Rong_IMKit_v1_2_0.jar => app\libs\Rong_IMKit_v1_2_0.jar
+* libs\universal-image-loader-1.8.5-with-sources.jar => app\libs\universal-image-loader-1.8.5-with-sources.jar
+* libs\UPPayAssistEx.jar => app\libs\UPPayAssistEx.jar
+* libs\UPPayPluginExPro.jar => app\libs\UPPayPluginExPro.jar
+* libs\weibosdkcore.jar => app\libs\weibosdkcore.jar
+* libs\x86\libapp_BaiduNaviApplib_v1_0_0.so => app\src\main\jniLibs\x86\libapp_BaiduNaviApplib_v1_0_0.so
+* libs\x86\libapp_BaiduPanoApplib.so => app\src\main\jniLibs\x86\libapp_BaiduPanoApplib.so
+* libs\x86\libBaiduMapSDK_v3_1_1.so => app\src\main\jniLibs\x86\libBaiduMapSDK_v3_1_1.so
+* libs\x86\libbdpush_V2_2.so => app\src\main\jniLibs\x86\libbdpush_V2_2.so
+* libs\x86\libentryexpro.so => app\src\main\jniLibs\x86\libentryexpro.so
+* libs\x86\liblocnaviSDK.so => app\src\main\jniLibs\x86\liblocnaviSDK.so
+* libs\x86\liblocSDK4d.so => app\src\main\jniLibs\x86\liblocSDK4d.so
+* libs\x86\libRongIMLib.so => app\src\main\jniLibs\x86\libRongIMLib.so
+* libs\x86\libRongIMVoip.so => app\src\main\jniLibs\x86\libRongIMVoip.so
+* libs\x86\libumcs.so => app\src\main\jniLibs\x86\libumcs.so
+* libs\youitui-point_fat.jar => app\libs\youitui-point_fat.jar
+* libs\youtui-template.jar => app\libs\youtui-template.jar
+* libs\YtCore_fat.jar => app\libs\YtCore_fat.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

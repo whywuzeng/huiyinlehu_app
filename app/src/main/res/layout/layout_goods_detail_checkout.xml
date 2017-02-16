@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="#fff1f3f0" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="#ffb6b6b6" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="90dip"
+        android:layout_height="35dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dip"
+        android:background="@drawable/common_btn_red_selector"
+        android:text="加入购物车"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_checkout"
+        android:layout_width="75dip"
+        android:layout_height="35dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dip"
+        android:layout_toRightOf="@+id/btn_add"
+        android:background="@drawable/common_btn_red_selector"
+        android:text="马上结算"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/care"
+        android:layout_width="96dip"
+        android:layout_height="42dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="0.5dip" >
+
+        <Button
+            android:id="@+id/btn_shopping_car"
+            android:layout_width="86dip"
+            android:layout_height="35dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/common_btn_yellow_selector"
+            android:drawableRight="@drawable/ic_goods_detail_car"
+            android:paddingLeft="4dip"
+            android:paddingRight="12dip"
+            android:text="购物车"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_shopping_car_count"
+            android:layout_width="22dip"
+            android:layout_height="22dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bg_radius_count_red"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_width="75dip"
+        android:layout_height="35dip"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/care"
+        android:background="@drawable/common_btn_red_selector"
+        android:text="马上预约"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

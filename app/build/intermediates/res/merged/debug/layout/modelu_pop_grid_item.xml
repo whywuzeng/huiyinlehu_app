@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eims.widget.layout.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:padding="5dip" >
+
+    <!-- <ImageView -->
+    <!-- android:id="@+id/home_drag_grid_item_icon_iv" -->
+    <!-- android:scaleType="centerCrop" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:src="@drawable/icon_caipiao" /> -->
+
+    <com.huiyin.ui.home.module.RoundImageView
+        android:id="@+id/home_drag_grid_item_icon_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_caipiao"
+        imagecontrol:border_inside_color="#ffffff"
+        imagecontrol:border_outside_color="@color/gray6"
+        imagecontrol:border_thickness="2dip" />
+
+    <ImageView
+        android:id="@+id/home_drag_grid_item_del_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="-15dip"
+        android:layout_toRightOf="@+id/home_drag_grid_item_icon_iv"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_shanchu" />
+
+    <TextView
+        android:id="@+id/home_drag_grid_item_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_drag_grid_item_icon_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dip"
+        android:text="ddfdfdfddffd"
+        android:textColor="@android:color/white" />
+
+</com.eims.widget.layout.SquareRelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/browse_item_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/browse_item_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/browse_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="衣服" />
+
+    <TextView
+        android:id="@+id/browse_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1234.0" />
+
+</LinearLayout>

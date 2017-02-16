@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_text_black_selector.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\color\\common_text_black_selector.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_text_gray_selector_1.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\color\\common_text_gray_selector_1.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\color\\rc_list_item_selector.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\color\\rc_list_item_selector.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_tab_text_red_selector.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\color\\common_tab_text_red_selector.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_text_blue_selector.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\color\\common_text_blue_selector.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\color\\rc_switch_text_selector.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\color\\rc_switch_text_selector.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_text_gray_selector.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\color\\common_text_gray_selector.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_tab_text_selector.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\color\\common_tab_text_selector.xml"
+    }
+]

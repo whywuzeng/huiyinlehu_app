@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_common_search_category" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/class_sort_list1_xiaoliang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="销量"
+            android:textSize="@dimen/common_lage_text_size" />
+
+        <View
+            android:layout_width="0.1dip"
+            android:layout_height="match_parent"
+            android:background="#ffb6b6b6" />
+
+        <LinearLayout
+            android:id="@+id/class_sort_list1_jiage_l1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/class_sort_list1_jiage_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/jiage1"
+                    android:textSize="@dimen/common_lage_text_size"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/class_sort_list1_jiage_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/jiage2"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/class_sort_list1_jiage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="价格"
+                android:textSize="@dimen/common_lage_text_size" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.1dip"
+            android:layout_height="match_parent"
+            android:background="#ffb6b6b6" />
+
+        <TextView
+            android:id="@+id/class_sort_list1_pingjia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="评价"
+            android:textSize="@dimen/common_lage_text_size" />
+
+        <View
+            android:layout_width="0.1dip"
+            android:layout_height="match_parent"
+            android:background="#ffb6b6b6" />
+
+        <TextView
+            android:id="@+id/class_sort_list1_renqi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="人气"
+            android:textSize="@dimen/common_lage_text_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="#ffb6b6b6" />
+
+    <TextView
+        android:id="@+id/class_sort_tv"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:gravity="center"
+        android:text="抱歉，没有找到符合条件的商品"
+        android:textSize="@dimen/common_lage_text_size"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.huiyin.wight.XListView
+            android:id="@+id/class_sort_list1_xv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none"
+            android:listSelector="@drawable/common_gray_list_selector"
+            android:scrollbars="vertical" >
+        </com.huiyin.wight.XListView>
+
+        <TextView
+            android:id="@+id/class_sort_list1_yema"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/grey_corner_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="当前页码数"
+            android:textSize="@dimen/common_big_text_size"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

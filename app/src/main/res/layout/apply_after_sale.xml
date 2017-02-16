@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="售后类型：" />
+
+            <!-- 售后类型 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/grey_cornor_bg" >
+
+                <TextView
+                    android:id="@+id/getback_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left|center"
+                    android:paddingRight="10dp"
+                    android:text="@string/getback_money" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/getback_money"
+                    android:background="@color/grey" />
+
+                <TextView
+                    android:id="@+id/back_change_good"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/getback_money"
+                    android:layout_marginLeft="10dp"
+                    android:drawableRight="@drawable/icon_choice"
+                    android:gravity="left|center"
+                    android:paddingRight="10dp"
+                    android:text="@string/back_change_good" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="申请原因：" />
+
+            <!-- 申请原因 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/grey_cornor_bg" >
+
+                <EditText
+                    android:id="@+id/after_reason"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="top"
+                    android:maxEms="300"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/common_big_text_size" />
+
+                <TextView
+                    android:id="@+id/after_reason_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="0/300字"
+                    android:textColor="@color/gray" />
+            </RelativeLayout>
+
+            <!-- 上传凭证 -->
+
+            <LinearLayout
+                android:id="@+id/apply_upload_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="上传凭证：" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="最多上传5张"
+                        android:textColor="@color/gray" />
+                </LinearLayout>
+
+                <com.huiyin.utils.imageupload.ImageUploadGridView
+                    android:id="@+id/upload_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+
+            <!-- 退款：收款信息 -->
+
+            <LinearLayout
+                android:id="@+id/apply_after_backmoney_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收款信息：" />
+
+                <TextView
+                    android:id="@+id/back_money_info1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grey_cornor_bg"
+                    android:orientation="horizontal"
+                    android:padding="2dp" >
+
+                    <TextView
+                        android:id="@+id/apply_after_zfb"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableRight="@drawable/black_ver_line"
+                        android:gravity="center"
+                        android:text="支付宝"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/apply_after_cft"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableRight="@drawable/black_ver_line"
+                        android:gravity="center"
+                        android:text="财付通"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/apply_after_yh"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/blue_color"
+                        android:gravity="center"
+                        android:text="银行"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/bank_choice_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/bank_ed"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/grey_cornor_bg"
+                            android:gravity="left|center"
+                            android:hint="请选择银行"
+                            android:paddingLeft="10dp"
+                            android:textSize="@dimen/common_big_text_size" />
+
+                        <EditText
+                            android:id="@+id/branch_bank_ed"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/grey_cornor_bg"
+                            android:gravity="left|center"
+                            android:hint="请输入支行"
+                            android:paddingLeft="10dp"
+                            android:textSize="@dimen/common_big_text_size" />
+
+                        <EditText
+                            android:id="@+id/bank_username_ed"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/grey_cornor_bg"
+                            android:gravity="left|center"
+                            android:hint="请输入开户人真实姓名"
+                            android:paddingLeft="10dp"
+                            android:textSize="@dimen/common_big_text_size" />
+
+                        <EditText
+                            android:id="@+id/bank_account_ed"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/grey_cornor_bg"
+                            android:gravity="left|center"
+                            android:hint="请输入开户银行账号"
+                            android:numeric="integer"
+                            android:paddingLeft="10dp"
+                            android:textSize="@dimen/common_big_text_size" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/cft_choice_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <EditText
+                            android:id="@+id/cft_account"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/grey_cornor_bg"
+                            android:gravity="left|center"
+                            android:hint="财付通账号"
+                            android:paddingLeft="10dp"
+                            android:textSize="@dimen/common_big_text_size" />
+
+                        <EditText
+                            android:id="@+id/cft_realname"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/grey_cornor_bg"
+                            android:gravity="left|center"
+                            android:hint="真实姓名"
+                            android:paddingLeft="10dp"
+                            android:textSize="@dimen/common_big_text_size" />
+
+                        <EditText
+                            android:id="@+id/cft_phone_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/grey_cornor_bg"
+                            android:gravity="left|center"
+                            android:hint="手机号码"
+                            android:numeric="integer"
+                            android:paddingLeft="10dp"
+                            android:textSize="@dimen/common_big_text_size" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/zfb_choice_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <EditText
+                            android:id="@+id/zfb_account"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/grey_cornor_bg"
+                            android:gravity="left|center"
+                            android:hint="支付宝账号"
+                            android:paddingLeft="10dp"
+                            android:textSize="@dimen/common_big_text_size" />
+
+                        <EditText
+                            android:id="@+id/zfb_realname"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/grey_cornor_bg"
+                            android:gravity="left|center"
+                            android:hint="真实姓名"
+                            android:paddingLeft="10dp"
+                            android:textSize="@dimen/common_big_text_size" />
+
+                        <EditText
+                            android:id="@+id/zfb_phone_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/grey_cornor_bg"
+                            android:gravity="left|center"
+                            android:hint="手机号码"
+                            android:numeric="integer"
+                            android:paddingLeft="10dp"
+                            android:textSize="@dimen/common_big_text_size" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- 退货：收货信息 -->
+
+            <LinearLayout
+                android:id="@+id/apply_after_changegood_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/shouhuo_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="收货信息：" />
+
+                <EditText
+                    android:id="@+id/after_receiver"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/grey_cornor_bg"
+                    android:gravity="left|center"
+                    android:hint="收货人"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/common_big_text_size" />
+
+                <EditText
+                    android:id="@+id/after_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/grey_cornor_bg"
+                    android:gravity="left|center"
+                    android:hint="收货人手机号码"
+                    android:numeric="integer"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/common_big_text_size" />
+
+                <EditText
+                    android:id="@+id/after_addr"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/grey_cornor_bg"
+                    android:gravity="left|center"
+                    android:hint="收货人详细地址"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/common_big_text_size" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/after_sale_commit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/ok_btn_bg"
+                android:gravity="center"
+                android:text="提交申请"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

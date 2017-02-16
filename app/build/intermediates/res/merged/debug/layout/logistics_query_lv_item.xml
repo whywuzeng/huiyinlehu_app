@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray6"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <TextView
+        android:id="@+id/logistics_item_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="订单编号：8828654214 待收货  1件商品，共计 ￥3660.00"
+        android:textColor="@color/font_black"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray7" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <ImageView
+            android:id="@+id/logistics_item_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <TextView
+            android:id="@+id/logistics_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/logistics_item_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/logistics_item_image"
+            android:ellipsize="end"
+            android:lines="2"
+            android:maxLines="2"
+            android:text="海尔哥哥公关广告公关广过梵蒂冈法过梵蒂冈法过梵蒂冈法"
+            android:textColor="@color/font_black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/logistics_item_specvalue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/logistics_item_name"
+            android:layout_below="@+id/logistics_item_name"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="颜色 ： 尺寸： 数量：颜色 ： 尺寸： 数量：颜色 ： 尺寸： 数量：颜色 ： 尺寸： 数量："
+            android:textColor="@color/grey_text"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/logistics_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/logistics_item_image"
+            android:layout_alignLeft="@+id/logistics_item_specvalue"
+            android:layout_marginBottom="10dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:text="价格：￥3660.00"
+            android:textColor="@color/grey_text"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/logistics_item_creat_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/font_black"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/logistics_item_car"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/common_btn_orange_selector"
+            android:text="车辆定位"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray7" />
+
+    <com.huiyin.ui.home.Logistics.LogisticLineView
+        android:id="@+id/mLogisticLineView "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

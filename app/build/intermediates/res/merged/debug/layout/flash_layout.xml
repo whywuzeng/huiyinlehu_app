@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray6"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/flash_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:background="@color/index_red" >
+
+        <TextView
+            android:id="@+id/ab_back"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/com_return"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="返回"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/common_lage_text_size" />
+
+        <TextView
+            android:id="@+id/ab_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:maxEms="10"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="热门闪购"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/common_lage_text_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView_top"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/flash_top"
+        android:layout_margin="10dp"
+        android:background="@color/font_black"
+        android:gravity="center"
+        android:lines="1"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <com.huiyin.wight.XListView
+        android:id="@+id/xlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView_top"
+        android:background="@color/transparent"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@android:color/transparent"
+        android:fadeScrollbars="true"
+        android:fadingEdge="none"
+        android:listSelector="@color/transparent"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/textView_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@color/grey_text"
+        android:gravity="center"
+        android:lines="1"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

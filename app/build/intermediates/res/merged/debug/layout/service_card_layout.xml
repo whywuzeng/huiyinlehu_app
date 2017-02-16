@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title_layout" />
+
+    <RadioGroup
+        android:id="@+id/service_card_layout_RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/all_RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="历史记录"
+            android:textColor="@drawable/sank_select"
+            android:textSize="@dimen/common_lage_text_size" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:background="@color/gray" />
+
+        <RadioButton
+            android:id="@+id/recharge_RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="今日记录"
+            android:textColor="@drawable/sank_select"
+            android:textSize="@dimen/common_lage_text_size" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:background="@color/gray"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/expense_RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="消费记录"
+            android:textColor="@drawable/sank_select"
+            android:textSize="@dimen/common_lage_text_size"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:background="@color/gray"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/refund_RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="退款记录"
+            android:textColor="@drawable/sank_select"
+            android:textSize="@dimen/common_lage_text_size"
+            android:visibility="gone" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+
+    <include layout="@layout/service_card_top_layout" />
+
+    <com.huiyin.wight.XListView
+        android:id="@+id/xlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray7"
+        android:divider="@color/gray7"
+        android:dividerHeight="10dp"
+        android:fadeScrollbars="true"
+        android:fadingEdge="none"
+        android:listSelector="@color/transparent"
+        android:scrollbars="none" />
+
+</LinearLayout>

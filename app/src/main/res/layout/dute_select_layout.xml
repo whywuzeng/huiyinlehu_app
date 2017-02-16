@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" >
+
+        <ImageView
+            android:id="@+id/close_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@drawable/com_return" />
+
+        <TextView
+            android:id="@+id/month_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="一月"
+            android:textColor="@color/text_color_red"
+            android:textSize="@dimen/common_lage_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/next_month_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="下一月"
+            android:textColor="@color/text_color_brown"
+            android:textSize="@dimen/common_text_size" />
+
+        <TextView
+            android:id="@+id/pre_month_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/next_month_tv"
+            android:padding="5dp"
+            android:text="上一月"
+            android:textColor="@color/text_color_brown"
+            android:textSize="@dimen/common_text_size" />
+    </RelativeLayout>
+
+    <com.huiyin.wight.CalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.huiyin.wight.CalendarView>
+
+</LinearLayout>

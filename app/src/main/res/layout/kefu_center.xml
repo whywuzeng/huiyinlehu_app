@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe7e7e7"
+    android:fadingEdge="none"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionbar_height"
+            layout="@layout/actionbar_common_back_menu" />
+
+        <LinearLayout
+            android:id="@+id/kefu_setting"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/setting_item_selector"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/icon_set" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dip"
+                android:drawableRight="@drawable/com_black_arraw"
+                android:gravity="left|center"
+                android:text="设置" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#ffb6b6b6" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="15dip"
+            android:background="#ffb6b6b6" />
+
+        <LinearLayout
+            android:id="@+id/kefu_online_help"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/setting_item_selector"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/icon_help" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dip"
+                android:drawableRight="@drawable/com_black_arraw"
+                android:gravity="left|center"
+                android:text="使用帮助" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#ffb6b6b6" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="15dip"
+            android:background="#ffb6b6b6" />
+
+        <LinearLayout
+            android:id="@+id/kefu_online_msg"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/setting_item_selector"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/icon_liuyan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dip"
+                android:drawableRight="@drawable/com_black_arraw"
+                android:gravity="left|center"
+                android:text="在线留言" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#ffb6b6b6" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="15dip"
+            android:background="#ffb6b6b6" />
+
+        <LinearLayout
+            android:id="@+id/kefu_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/setting_item_selector"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/icon_kefu" />
+
+            <TextView
+                android:id="@+id/tel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dip"
+                android:drawableRight="@drawable/com_black_arraw"
+                android:gravity="left|center"
+                android:text="电话客服：400-188-2108" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#ffb6b6b6" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="15dip"
+            android:background="#ffb6b6b6" />
+
+        <LinearLayout
+            android:id="@+id/kefu_check_version"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/setting_item_selector"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/icon_chcek_version" />
+
+            <TextView
+                android:id="@+id/kefu_version_code"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dip"
+                android:drawableRight="@drawable/com_black_arraw"
+                android:gravity="left|center"
+                android:text="检查更新" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#ffb6b6b6" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="15dip"
+            android:background="#ffb6b6b6" />
+
+        <LinearLayout
+            android:id="@+id/kefu_about"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/setting_item_selector"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/icon_about" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dip"
+                android:drawableRight="@drawable/com_black_arraw"
+                android:gravity="left|center"
+                android:text="关于" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#ffb6b6b6" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="15dip"
+            android:background="#ffb6b6b6" />
+
+        <LinearLayout
+            android:id="@+id/kefu_server_agreement"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/setting_item_selector"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/icon_xy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dip"
+                android:drawableRight="@drawable/com_black_arraw"
+                android:gravity="left|center"
+                android:text="服务协议" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginBottom="15dip"
+            android:background="#ffb6b6b6" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.huiyin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray6"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:background="@color/index_red" >
+
+        <TextView
+            android:id="@+id/ab_back"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/com_return"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="返回"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/common_lage_text_size" />
+
+        <TextView
+            android:id="@+id/ab_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:maxEms="10"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="新品预约"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/common_lage_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ab_right"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/red_dark_cornor_bg"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="预售规则"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/common_lage_text_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <com.huiyin.wight.StickyScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/layout_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fragment_home_gallery_height" >
+
+                <com.huiyin.wight.viewflow.ViewFlow
+                    android:id="@+id/viewflow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.huiyin.wight.viewflow.CircleFlowIndicator
+                    android:id="@+id/viewflowindic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dip"
+                    android:paddingBottom="6dip"
+                    android:paddingLeft="1dip"
+                    android:paddingRight="1dip"
+                    android:paddingTop="6dip"
+                    app:activeColor="@color/index_red"
+                    app:activeType="fill"
+                    app:circleSeparation="16dip"
+                    app:inactiveColor="#ffbcbcbc"
+                    app:inactiveType="stroke"
+                    app:radius="4dip" />
+            </RelativeLayout>
+
+            <com.huiyin.ui.classic.HorizontialListView
+                android:id="@+id/lv_h"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:background="#ffffffff"
+                android:tag="sticky-nonconstant-hastransparancy"
+                android:visibility="gone" >
+            </com.huiyin.ui.classic.HorizontialListView>
+
+            <com.huiyin.wight.MyListView
+                android:id="@+id/bespeak_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#0000"
+                android:cacheColorHint="#0000"
+                android:divider="#0000"
+                android:dividerHeight="10dp"
+                android:fadeScrollbars="true"
+                android:fadingEdge="none"
+                android:listSelector="@drawable/list_item_drawable_bg"
+                android:scrollbars="none" />
+
+            <TextView
+                android:id="@+id/showfoot"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/gray7"
+                android:gravity="center"
+                android:text="没有更多预约商品"
+                android:visibility="gone" />
+        </LinearLayout>
+    </com.huiyin.wight.StickyScrollView>
+
+</LinearLayout>

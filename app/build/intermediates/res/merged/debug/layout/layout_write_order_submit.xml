@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#fff1f3f0" >
+
+    <TextView
+        android:id="@+id/pay_money_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        android:text="应付金额： " />
+
+    <TextView
+        android:id="@+id/final_pay_price"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/pay_money_tv"
+        android:gravity="left|center"
+        android:textColor="@color/red_color" />
+
+    <TextView
+        android:id="@+id/submit_order"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_alignBaseline="@+id/pay_money_tv"
+        android:layout_alignBottom="@+id/pay_money_tv"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/ok_btn_bg"
+        android:gravity="center"
+        android:text="提交订单"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

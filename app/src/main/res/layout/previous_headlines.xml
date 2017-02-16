@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!--
+          <ListView 
+         android:id="@+id/lv_recommend_product"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:cacheColorHint="@color/transparent"
+         android:divider="@color/recommend_products_item_line"
+         android:fadingEdge="none"
+         android:scrollbars="none"
+         ></ListView>
+    -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/gray7" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:text="往期头条"
+            android:textColor="@color/recommend_products_title"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/ib_next"
+            android:layout_width="16dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/transparent"
+            android:src="@drawable/xiaye" />
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="16dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@id/ib_next"
+            android:background="@color/transparent"
+            android:src="@drawable/shangye" />
+    </RelativeLayout>
+
+    <!--
+        <ListView 
+         android:id="@+id/lv_topline"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="20dp"
+    	android:layout_marginBottom="20dp"
+         android:cacheColorHint="@color/transparent"
+         android:divider="@color/recommend_products_item_line"
+         android:fadingEdge="none"
+         android:scrollbars="none"
+         ></ListView>
+    -->
+    <!--
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >  
+         <include android:id="@+id/lv_topline" layout="@layout/topline_listview"/>
+     	</LinearLayout>
+    -->
+
+</LinearLayout>

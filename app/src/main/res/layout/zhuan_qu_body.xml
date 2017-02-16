@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_common_back_btn" />
+
+    <com.huiyin.wight.pulltorefresh.PullToRefreshScrollView
+        android:id="@+id/zhuan_qu_body_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/zhuan_qu_body_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/zhuanqu_barner_img"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fragment_home_gallery_height"
+                android:scaleType="fitXY"
+                android:visibility="gone" >
+            </ImageView>
+
+            <View
+                android:id="@+id/zhun_qu_view"
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/grey"
+                android:visibility="gone" />
+
+            <com.huiyin.wight.MyListView
+                android:id="@+id/zhuan_qu_body_xv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#0000"
+                android:cacheColorHint="#0000"
+                android:divider="@color/grey"
+                android:dividerHeight="0.1dp"
+                android:fadingEdge="none"
+                android:listSelector="@drawable/common_gray_list_selector"
+                android:scrollbars="vertical"
+                android:visibility="gone" >
+            </com.huiyin.wight.MyListView>
+
+            <com.huiyin.wight.MyGridView
+                android:id="@+id/zhuan_qu_body_gv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:horizontalSpacing="5dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="2"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </com.huiyin.wight.pulltorefresh.PullToRefreshScrollView>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffe7e7e7"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_common_back" />
+
+    <!-- 我的收藏 -->
+
+    <LinearLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/mylehu_item_selector"
+        android:orientation="horizontal"
+        android:paddingBottom="16dip"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip"
+        android:paddingTop="16dip" >
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text=""
+            android:textColor="#ff484848"
+            android:textSize="@dimen/common_big_text_size" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/zxing_code_scan_result_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="60dp" />
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff5836"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/layout_ab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_bar_height"
+        layout="@layout/actionbar_common_back_club" />
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_ab"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:layout_marginTop="12dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_info"
+            android:layout_width="wrap_content"
+            android:layout_height="24dip"
+            android:background="@drawable/bg_club_label_drawable"
+            android:paddingLeft="8dip"
+            android:paddingRight="8dip"
+            android:text="查看活动说明"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="已参与人数"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <GridView
+                android:id="@+id/mGridView"
+                android:layout_width="26dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:listSelector="@android:color/transparent" >
+            </GridView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lotteryView_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tv_count"
+        android:layout_below="@+id/layout_title" >
+
+        <ImageView
+            android:id="@+id/bg_club"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/bg_cycle_club" />
+
+        <com.huiyin.view.LotteryView
+            android:id="@+id/lotteryView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/club_arrow" />
+
+        <ImageView
+            android:id="@+id/arrowBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/club_button" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/bg_club"
+            android:layout_alignTop="@+id/bg_club"
+            android:src="@drawable/ic_club_2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bg_club"
+            android:layout_alignLeft="@+id/bg_club"
+            android:src="@drawable/ic_club_3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bg_club"
+            android:layout_alignRight="@+id/bg_club"
+            android:src="@drawable/ic_club_4" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_above="@+id/tv_ad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_ad"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dip"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:background="@drawable/bg_club_label"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

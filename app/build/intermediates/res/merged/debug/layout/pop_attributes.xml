@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:id="@+id/layout_pop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:padding="3dp" >
+
+        <TextView
+            android:id="@+id/tv_pop_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="属性名称"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/common_title_size" />
+
+        <RelativeLayout
+            android:id="@+id/layout_pop_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:id="@+id/layout_price"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_startprice"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mashangjeiusan_06"
+                    android:hint="￥"
+                    android:inputType="number"
+                    android:maxLength="12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:text="—"
+                    android:textColor="@color/gray"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/et_endprice"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mashangjeiusan_06"
+                    android:hint="￥"
+                    android:inputType="number"
+                    android:maxLength="12" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btn_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/common_btn_blue_selector"
+                android:paddingBottom="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp"
+                android:text="确认"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/luck_pop_listView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/layout_pop_price"
+            android:layout_below="@+id/tv_pop_title"
+            android:background="#ffffff"
+            android:cacheColorHint="#00000000"
+            android:divider="#ffb6b6b6"
+            android:dividerHeight="0.1dp"
+            android:fadingEdge="none"
+            android:listSelector="@drawable/common_btn_orange_selector" />
+    </RelativeLayout>
+
+</RelativeLayout>

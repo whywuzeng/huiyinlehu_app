@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:button="@drawable/radio_btn_selector"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:singleLine="true"
+    android:text="Hello world"
+    android:textColor="#ff484848"
+    android:textSize="14sp" />

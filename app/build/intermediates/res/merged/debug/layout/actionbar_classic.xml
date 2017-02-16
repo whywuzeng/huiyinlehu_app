@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/index_sousuo_linlayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:background="@color/index_red"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/ab_search"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="12dip"
+        android:layout_weight="1"
+        android:background="@drawable/common_edit_bg_5"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="16dip"
+            android:layout_height="16dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/ab_ic_search" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="4dip"
+            android:background="@null"
+            android:hint="搜索乐虎商品"
+            android:singleLine="true"
+            android:textColor="#ff505050"
+            android:textColorHint="#ffbcbcbc"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/class_sort_code_scan"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ab_home_barcode" />
+
+</LinearLayout>

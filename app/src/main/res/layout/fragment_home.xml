@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.huiyin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_home_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionbar_height"
+        layout="@layout/actionbar_home" />
+
+    <com.huiyin.wight.pulltorefresh.PullToRefreshScrollView
+        android:id="@+id/home_body_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/layout_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fragment_home_gallery_height" >
+
+                <com.huiyin.wight.viewflow.ViewFlow
+                    android:id="@+id/mHomeViewflow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.huiyin.wight.viewflow.CircleFlowIndicator
+                    android:id="@+id/mHomeViewflowindic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dip"
+                    android:paddingBottom="6dip"
+                    android:paddingLeft="1dip"
+                    android:paddingRight="1dip"
+                    android:paddingTop="6dip"
+                    app:activeColor="@color/index_red"
+                    app:activeType="fill"
+                    app:circleSeparation="16dip"
+                    app:inactiveColor="#ffbcbcbc"
+                    app:inactiveType="stroke"
+                    app:radius="4dip" />
+            </RelativeLayout>
+
+            <!--
+                <GridView
+                android:id="@+id/mHomeGridView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fragment_home_tools_height"
+                android:layout_marginBottom="4dip"
+                android:layout_marginTop="4dip"
+                android:background="@color/white"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4"
+                android:visibility="visible" />
+            -->
+
+            <RelativeLayout
+                android:id="@+id/myView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <com.huiyin.wight.ScrollLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/ScrollLayoutTest"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/fragment_home_tools_height"
+                    android:background="@color/white" >
+                </com.huiyin.wight.ScrollLayout>
+
+                <com.huiyin.wight.PageControlView
+                    android:id="@+id/pageControl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@id/ScrollLayoutTest"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/fastImg"
+                android:layout_width="match_parent"
+                android:layout_height="80dip"
+                android:layout_marginTop="10dip"
+                android:scaleType="centerCrop"
+                android:visibility="gone" />
+
+            <!-- 今日秒杀 -->
+
+            <LinearLayout
+                android:id="@+id/layout_seckill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" />
+            <!-- 促销活动 -->
+
+            <LinearLayout
+                android:id="@+id/layout_cuxiao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <!-- 销量榜 -->
+
+            <ImageView
+                android:id="@+id/list_top"
+                android:layout_width="match_parent"
+                android:layout_height="88dip"
+                android:layout_marginBottom="10dip"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/home_classification_linlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </com.huiyin.wight.pulltorefresh.PullToRefreshScrollView>
+
+</LinearLayout>

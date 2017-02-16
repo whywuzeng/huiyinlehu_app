@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 布局1 -->
+
+            <include
+                layout="@layout/backgoods_layout1"
+                android:visibility="visible" />
+
+            <!-- 布局2 -->
+
+            <include
+                layout="@layout/backgoods_layout2"
+                android:visibility="gone" />
+            <!-- 布局3 -->
+
+            <include
+                layout="@layout/backgoods_layout3"
+                android:visibility="gone" />
+
+            <!-- 布局4 -->
+
+            <RelativeLayout
+                android:id="@+id/layout_4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/ly4_img_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/icon_money" />
+
+                <TextView
+                    android:id="@+id/ly4_top_title_statu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/ly4_img_id"
+                    android:textColor="@color/blue_color" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/grey_cornor_bg"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="right|center"
+                        android:text="商品状态：" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="right|center"
+                        android:text="商品名称：" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="right|center"
+                        android:text="售后类型：" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="right|center"
+                        android:maxLines="2"
+                        android:text="申请原因：" />
+
+                    <LinearLayout
+                        android:id="@+id/layout4_invisible_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="right|center"
+                            android:text="退款金额：" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="right|center"
+                            android:text="收款信息：" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/good_statu_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="left|center" />
+
+                    <TextView
+                        android:id="@+id/good_name_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="left|center"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:id="@+id/sale_type_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="left|center" />
+
+                    <TextView
+                        android:id="@+id/sale_reason_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:ellipsize="end"
+                        android:gravity="left|center"
+                        android:maxLines="2" />
+
+                    <LinearLayout
+                        android:id="@+id/layout4_invisible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/sale_total_price_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="left|center"
+                            android:textColor="@color/red_color" />
+
+                        <TextView
+                            android:id="@+id/sale_bank_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="left|center" />
+
+                        <TextView
+                            android:id="@+id/sale_username_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="left|center" />
+
+                        <TextView
+                            android:id="@+id/sale_account_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="left|center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

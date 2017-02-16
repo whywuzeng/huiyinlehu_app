@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe7e7e7"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionbar_height"
+        layout="@layout/actionbar_common_back_menu" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 消息设置 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    android:text="消息设置"
+                    android:textColor="#ff484848"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#ffb6b6b6" />
+
+                <RelativeLayout
+                    android:id="@+id/receive_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/setting_item_selector" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:text="接收消息通知"
+                            android:textColor="#ff484848"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/receive_message_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dip"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:text="已开启消息推送通知"
+                            android:textColor="#ff9e9e9e"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/receive_message_checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="16dp"
+                        android:button="@drawable/radio_btn_selector"
+                        android:checked="true" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:background="#ffb6b6b6"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/receive_message_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/setting_item_selector"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:text="接收通知时段"
+                            android:textColor="#ff484848"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dip"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:text="每日 07:00 - 23:00"
+                            android:textColor="#ff9e9e9e"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/receive_message_time_checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="16dp"
+                        android:button="@drawable/radio_btn_selector"
+                        android:checked="true" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:background="#ffb6b6b6" />
+
+                <RelativeLayout
+                    android:id="@+id/receive_message_sound"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/setting_item_selector" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="left|center"
+                        android:paddingLeft="10dp"
+                        android:text="声音提醒"
+                        android:textColor="#ff484848"
+                        android:textSize="14sp" />
+
+                    <CheckBox
+                        android:id="@+id/receive_message_sound_checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="16dp"
+                        android:button="@drawable/radio_btn_selector"
+                        android:checked="true" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#ffb6b6b6" />
+            </LinearLayout>
+
+            <!-- 节省流量设置 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dip"
+                android:background="#ffb6b6b6" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    android:text="节省流量设置"
+                    android:textColor="#ff484848"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#ffb6b6b6" />
+
+                <RelativeLayout
+                    android:id="@+id/internet_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/setting_item_selector" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:text="普通（适合2G/3G网络，手动下载）"
+                            android:textColor="#ff484848"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dip"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:text="开启后显示默认图片，需要手动点击才会显示"
+                            android:textColor="#ff9e9e9e"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/internet_normal_checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="16dp"
+                        android:button="@drawable/radio_btn_selector"
+                        android:checked="true"
+                        android:clickable="false" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:background="#ffb6b6b6" />
+
+                <RelativeLayout
+                    android:id="@+id/internet_high_quality"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/setting_item_selector" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="left|center"
+                        android:paddingLeft="10dp"
+                        android:text="高质量（适合wifi环境）"
+                        android:textColor="#ff484848"
+                        android:textSize="14sp" />
+
+                    <CheckBox
+                        android:id="@+id/internet_high_quality_checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="16dp"
+                        android:button="@drawable/radio_btn_selector"
+                        android:checked="true"
+                        android:clickable="false" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:background="#ffb6b6b6" />
+
+                <RelativeLayout
+                    android:id="@+id/internet_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/setting_item_selector" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="left|center"
+                        android:paddingLeft="10dp"
+                        android:text="智能模式"
+                        android:textColor="#ff484848"
+                        android:textSize="14sp" />
+
+                    <CheckBox
+                        android:id="@+id/internet_auto_checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="16dp"
+                        android:button="@drawable/radio_btn_selector"
+                        android:checked="true"
+                        android:clickable="false" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#ffb6b6b6" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dip"
+                android:background="#ffb6b6b6" />
+
+            <TextView
+                android:id="@+id/clean_image"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/setting_item_selector"
+                android:drawableRight="@drawable/com_black_arraw"
+                android:gravity="left|center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="清除缓存图片" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="15dip"
+                android:background="#ffb6b6b6" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

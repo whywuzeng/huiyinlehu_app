@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/dian_ping_shai_dan_username"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textSize="@dimen/common_lage_text_size" />
+
+        <ImageView
+            android:id="@+id/dian_ping_shai_dan_pingxing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/px_5" />
+
+        <TextView
+            android:id="@+id/dian_ping_shai_dan_create_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/common_lage_text_size" />
+    </LinearLayout>
+
+    <!-- 晒图 -->
+
+    <com.huiyin.wight.MyGridView
+        android:id="@+id/grv_share_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="8dp"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:horizontalSpacing="2dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:padding="1dp"
+        android:scrollbars="none"
+        android:verticalSpacing="2dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="评价：" />
+
+        <TextView
+            android:id="@+id/dian_ping_shai_dan_pingjia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="非常不错"
+            android:textSize="@dimen/common_lage_text_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dian_ping_shai_dan_sepc_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/common_lage_text_size"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="购买日期：" />
+
+        <TextView
+            android:id="@+id/dian_ping_shai_dan_buy_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014-10-25"
+            android:textSize="@dimen/common_lage_text_size" />
+    </LinearLayout>
+
+    <include layout="@layout/goods_detail_line_hor" />
+
+    <LinearLayout
+        android:id="@+id/dian_ping_shai_dan_reply"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/dian_ping_shai_dan_reply_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="管理员2014-10-25回复："
+            android:textColor="@color/gray"
+            android:textSize="@dimen/common_lage_text_size" />
+
+        <TextView
+            android:id="@+id/dian_ping_shai_dan_reply_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="尊敬的客户....."
+            android:textSize="@dimen/common_lage_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

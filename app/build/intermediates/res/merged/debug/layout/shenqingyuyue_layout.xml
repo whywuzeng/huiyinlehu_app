@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="商品信息：" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/grey_cornor_bg"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/sq_order_num"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="left|center"
+                    android:hint="关联订单号"
+                    android:lines="1"
+                    android:maxLength="21"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/common_big_text_size" />
+
+                <ImageView
+                    android:id="@+id/sq_icon_search"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/icon_search"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/yuyue_add_good_ly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/grey_cornor_bg"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="2dp"
+                android:visibility="gone" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sq_type_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="预约类型：" />
+
+                <LinearLayout
+                    android:id="@+id/yuyue_type_add_ly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/grey_cornor_bg"
+                    android:minHeight="50dp"
+                    android:orientation="vertical"
+                    android:padding="3dp" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/yuyue_time"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/grey_cornor_bg"
+                android:gravity="left|center"
+                android:hint="预约时间"
+                android:paddingLeft="10dp"
+                android:textSize="@dimen/common_big_text_size" />
+
+            <LinearLayout
+                android:id="@+id/sq_peijian_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="所需配件：" />
+
+                <LinearLayout
+                    android:id="@+id/peijian_add_ly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:minHeight="45dp"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="联系信息：" />
+
+            <EditText
+                android:id="@+id/sh_phone"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/grey_cornor_bg"
+                android:gravity="left|center"
+                android:hint="手机号码"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:paddingLeft="5dp"
+                android:textSize="@dimen/common_big_text_size" />
+
+            <EditText
+                android:id="@+id/sh_contact"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/grey_cornor_bg"
+                android:gravity="left|center"
+                android:hint="联系人"
+                android:lines="1"
+                android:maxLength="20"
+                android:paddingLeft="5dp"
+                android:textSize="@dimen/common_big_text_size" />
+
+            <EditText
+                android:id="@+id/sh_addr_detail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/grey_cornor_bg"
+                android:gravity="left|center"
+                android:hint="详细地址"
+                android:paddingLeft="5dp"
+                android:textSize="@dimen/common_big_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:gravity="left|center"
+                android:text="@string/remark_msg" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/grey_cornor_bg" >
+
+                <EditText
+                    android:id="@+id/sh_remark"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="top"
+                    android:maxLength="300"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/common_big_text_size" />
+
+                <TextView
+                    android:id="@+id/sh_remark_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="0/300字"
+                    android:textColor="@color/gray" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/yuyue_commit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/ok_btn_bg"
+                android:gravity="center"
+                android:text="提交申请"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray6"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/class_sort_list1_img_mode_jiage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/class_sort_list1_img_mode_iv"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="￥2999"
+        android:textColor="@color/red"
+        android:textSize="@dimen/common_big_text_size" />
+
+    <ImageView
+        android:id="@+id/class_sort_list1_img_mode_iv"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/img_corner_bg"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/class_sort_list1_img_mode_jiage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/class_sort_list1_img_mode_jiage1"
+        android:layout_alignBottom="@+id/class_sort_list1_img_mode_jiage1"
+        android:layout_alignRight="@+id/class_sort_list1_img_mode_iv"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="￥3999"
+        android:textColor="@color/gray" />
+
+</RelativeLayout>

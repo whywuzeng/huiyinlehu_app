@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/actionbar_height"
+                layout="@layout/actionbar_classic" />
+
+            <LinearLayout
+                android:id="@+id/class_list_level1_netll"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/app_network_off_tips" />
+
+                <Button
+                    android:id="@+id/class_list_level1_reload"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/reload_bt_bg_selector"
+                    android:text="重新加载" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/class_list_level1_rl"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <com.huiyin.ui.show.view.AnimationSildingLayout
+                    android:id="@+id/main_slayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true" >
+
+                    <ListView
+                        android:id="@+id/leftCategoryList"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#FFFFFF"
+                        android:divider="@null"
+                        android:dividerHeight="0dp"
+                        android:listSelector="@drawable/category_left_item_selector" >
+                    </ListView>
+
+                    <FrameLayout
+                        android:id="@+id/parentView_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:paddingLeft="@dimen/leftlist_img_width" >
+
+                        <ListView
+                            android:id="@+id/rightCategoryList"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/category_right_item_normal"
+                            android:listSelector="@drawable/category_right_item_selector"
+                            android:visibility="visible" >
+                        </ListView>
+
+                        <ImageView
+                            android:id="@+id/img_arrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dip"
+                            android:layout_marginLeft="@dimen/class_point_left"
+                            android:nextFocusLeft="@+id/rightCategoryList"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/icon_zhixiang" >
+                        </ImageView>
+                    </FrameLayout>
+                </com.huiyin.ui.show.view.AnimationSildingLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

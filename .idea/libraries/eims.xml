@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="eims">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/eims.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

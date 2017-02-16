@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:background="@color/index_red" >
+
+        <TextView
+            android:id="@+id/ab_back"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/com_return"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="返回"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/common_lage_text_size" />
+
+        <TextView
+            android:id="@+id/ab_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:maxEms="10"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="今日秒杀"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/common_lage_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ab_right"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/red_dark_cornor_bg"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="秒杀秘籍"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/common_lage_text_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <com.huiyin.wight.StickyScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/miaoshabac"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/ab_fenlei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/fenlei" />
+
+                <LinearLayout
+                    android:id="@+id/ab_search"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/common_edit_bg_5"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/activity_index_sousuo_iv"
+                        android:layout_width="19dip"
+                        android:layout_height="19dip"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="6dp"
+                        android:src="@drawable/ab_ic_search" />
+
+                    <TextView
+                        android:id="@+id/activity_index_search_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="4dip"
+                        android:focusable="false"
+                        android:hint="搜索乐虎商品"
+                        android:singleLine="true"
+                        android:textColor="#ff505050"
+                        android:textColorHint="#c1c1c3"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/service_card_layout_RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/first_RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:textColor="@drawable/seckill_title_select"
+                    android:textSize="@dimen/common_lage_text_size"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="30dp"
+                    android:background="@color/gray" />
+
+                <RadioButton
+                    android:id="@+id/second_RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textColor="@drawable/seckill_title_select"
+                    android:textSize="@dimen/common_lage_text_size"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="30dp"
+                    android:background="@color/gray" />
+
+                <RadioButton
+                    android:id="@+id/third_RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textColor="@drawable/seckill_title_select"
+                    android:textSize="@dimen/common_lage_text_size"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="30dp"
+                    android:background="@color/gray" />
+
+                <RadioButton
+                    android:id="@+id/four_RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:lines="2"
+                    android:textColor="@drawable/seckill_title_select"
+                    android:textSize="@dimen/common_lage_text_size"
+                    android:visibility="gone" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/miaoshabac"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:tag="sticky-nonconstant-hastransparancy" >
+
+                <TextView
+                    android:id="@+id/seckill_status"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="抢购中"
+                    android:textColor="@color/grey_text"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/seckill_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="距离本场结束"
+                    android:textColor="@color/grey_text"
+                    android:textSize="14sp" />
+
+                <include layout="@layout/time_count_view2" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/seckill_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:scrollbars="none" />
+
+            <TextView
+                android:id="@+id/shownext"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/EE"
+                android:gravity="center"
+                android:text="没有喜欢的？看看下一场>"
+                android:textColor="@color/grey_text"
+                android:visibility="gone" />
+        </LinearLayout>
+    </com.huiyin.wight.StickyScrollView>
+
+</LinearLayout>

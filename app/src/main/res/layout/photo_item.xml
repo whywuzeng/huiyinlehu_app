@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--
+          <TextView
+        android:id="@+id/tv_bingxiang"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/icon_xuxiankuang"
+          android:padding="20dip"
+        android:text="冰箱"
+        android:textColor="#484848"
+        android:textSize="10sp"
+         />
+    -->
+
+    <ImageView
+        android:id="@+id/tv_bingxiang"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_toLeftOf="@+id/tv_bingxiang"
+        android:background="@drawable/icon_xuxiankuang" />
+
+    <TextView
+        android:id="@+id/lehuquan_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_bingxiang"
+        android:layout_alignRight="@+id/tv_bingxiang"
+        android:layout_margin="15dp"
+        android:text="冰箱" />
+
+</RelativeLayout>

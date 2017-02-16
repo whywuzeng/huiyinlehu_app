@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_common_back" />
+
+    <com.huiyin.ui.classic.HorizontialListView
+        android:id="@+id/lv_h"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:background="#ffffffff"
+        android:visibility="gone" >
+    </com.huiyin.ui.classic.HorizontialListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#ffb6b6b6" />
+
+    <com.huiyin.wight.pulltorefresh.PullToRefreshListView
+        android:id="@+id/lv_v"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+    </com.huiyin.wight.pulltorefresh.PullToRefreshListView>
+
+</LinearLayout>

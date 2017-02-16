@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title_layout" />
+
+    <HorizontalScrollView
+        android:id="@+id/dian_ping_shai_dan_hScrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/dian_ping_shai_dan_pinglun_ll"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dian_ping_shai_dan_pinglun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="全部评论"
+                    android:textColor="@color/common_tab_text_red_selector"
+                    android:textSize="@dimen/common_lage_text_size" />
+
+                <TextView
+                    android:id="@+id/dian_ping_shai_dan_pinglun_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="()"
+                    android:textColor="@color/grey_text"
+                    android:textSize="@dimen/common_lage_text_size" />
+            </LinearLayout>
+
+            <include layout="@layout/dian_ping_shai_dan_line_ver" />
+
+            <LinearLayout
+                android:id="@+id/dian_ping_shai_dan_haoping_ll"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dian_ping_shai_dan_haoping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="好评()"
+                    android:textColor="@color/common_tab_text_red_selector"
+                    android:textSize="@dimen/common_lage_text_size" />
+
+                <TextView
+                    android:id="@+id/dian_ping_shai_dan_haopinglu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="%"
+                    android:textColor="@color/grey_text"
+                    android:textSize="@dimen/common_lage_text_size" />
+            </LinearLayout>
+
+            <include layout="@layout/dian_ping_shai_dan_line_ver" />
+
+            <LinearLayout
+                android:id="@+id/dian_ping_shai_dan_zhongping_ll"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dian_ping_shai_dan_zhongping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中评()"
+                    android:textColor="@color/common_tab_text_red_selector"
+                    android:textSize="@dimen/common_lage_text_size" />
+
+                <TextView
+                    android:id="@+id/dian_ping_shai_dan_zhongpinglu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:textColor="@color/grey_text"
+                    android:textSize="@dimen/common_lage_text_size" />
+            </LinearLayout>
+
+            <include layout="@layout/dian_ping_shai_dan_line_ver" />
+
+            <LinearLayout
+                android:id="@+id/dian_ping_shai_dan_chaping_ll"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dian_ping_shai_dan_chaping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="差评()"
+                    android:textColor="@color/common_tab_text_red_selector"
+                    android:textSize="@dimen/common_lage_text_size" />
+
+                <TextView
+                    android:id="@+id/dian_ping_shai_dan_chapinglu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:textColor="@color/grey_text"
+                    android:textSize="@dimen/common_lage_text_size" />
+            </LinearLayout>
+
+            <include layout="@layout/dian_ping_shai_dan_line_ver" />
+
+            <LinearLayout
+                android:id="@+id/dian_ping_shai_dan_shaidan_ll"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dian_ping_shai_dan_shaidan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="晒单()"
+                    android:textColor="@color/common_tab_text_red_selector"
+                    android:textSize="@dimen/common_lage_text_size" />
+
+                <TextView
+                    android:id="@+id/dian_ping_shai_dan_shaidanlu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:textColor="@color/grey_text"
+                    android:textSize="@dimen/common_lage_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <include layout="@layout/goods_detail_line_hor" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/dian_ping_shai_dan_ll"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <com.huiyin.wight.MyListView
+                android:id="@+id/dian_ping_shai_dan_xv"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="#E7E7E7"
+                android:dividerHeight="10dp"
+                android:fadingEdge="none"
+                android:listSelector="@drawable/common_gray_list_selector"
+                android:scrollbars="none" >
+            </com.huiyin.wight.MyListView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

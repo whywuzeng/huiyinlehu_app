@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="245dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/zhuan_qu2_iv_img"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_marginTop="8dip"
+        android:clickable="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/zhuan_qu2_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:lines="2"
+        android:maxLines="2"
+        android:text="Haier/海尔 "
+        android:textColor="#ff484848"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/zhuan_qu2_ll_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/zhuan_qu2_tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="￥3599.00"
+            android:textColor="#ffff0103"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/zhuan_qu2_tv_del_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="￥4599.00"
+            android:textColor="#ff9e9e9e"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/zhuan_qu2_tv_buy_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="2dp"
+        android:ellipsize="none"
+        android:gravity="left"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:text="3185人已经购买"
+        android:textColor="#ff9e9e9e"
+        android:textSize="12sp" />
+
+</LinearLayout>

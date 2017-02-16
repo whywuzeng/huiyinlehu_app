@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:background="#ffb6b6b6" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" >
+
+        <RatingBar
+            android:id="@+id/dianping_ratingBar"
+            style="@style/mRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dip"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/dianping_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="12dip"
+            android:gravity="center_vertical"
+            android:textColor="#ff9e9e9e"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dianping_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dip"
+            android:layout_toLeftOf="@id/dianping_time"
+            android:gravity="center_vertical"
+            android:textColor="#ff9e9e9e"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dianping_pingjia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip"
+        android:textColor="#ff9e9e9e"
+        android:textSize="16sp" />
+
+</LinearLayout>

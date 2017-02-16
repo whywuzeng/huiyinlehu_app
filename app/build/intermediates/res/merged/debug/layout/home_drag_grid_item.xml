@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eims.widget.layout.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/gray6"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/home_drag_grid_item_icon_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_caipiao" />
+
+    <ImageView
+        android:id="@+id/home_drag_grid_item_del_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="-5dip"
+        android:layout_toRightOf="@+id/home_drag_grid_item_icon_iv"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_shanchu" />
+
+    <TextView
+        android:id="@+id/home_drag_grid_item_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_drag_grid_item_icon_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dip"
+        android:text="ddfdfdfddffd" />
+
+</com.eims.widget.layout.SquareRelativeLayout>

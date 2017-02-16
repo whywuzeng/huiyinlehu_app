@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_ab"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:background="@color/orange" >
+
+    <TextView
+        android:id="@+id/ab_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:maxEms="10"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="购物车"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/common_lage_text_size"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ab_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip"
+        android:src="@drawable/ab_ic_delete" />
+
+</RelativeLayout>

@@ -1,0 +1,2271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="rc_emoji_array">
+        <item>@drawable/u1f60a</item>
+        <item>@drawable/u1f628</item>
+        <item>@drawable/u1f60d</item>
+        <item>@drawable/u1f633</item>
+        <item>@drawable/u1f60e</item>
+        <item>@drawable/u1f62d</item>
+        <item>@drawable/u1f60c</item>
+        <item>@drawable/u1f635</item>
+        <item>@drawable/u1f634</item>
+        <item>@drawable/u1f622</item>
+        <item>@drawable/u1f605</item>
+        <item>@drawable/u1f621</item>
+        <item>@drawable/u1f61c</item>
+        <item>@drawable/u1f600</item>
+        <item>@drawable/u1f632</item>
+        <item>@drawable/u1f61f</item>
+        <item>@drawable/u1f624</item>
+        <item>@drawable/u1f61e</item>
+        <item>@drawable/u1f62b</item>
+        <item>@drawable/u1f623</item>
+        <item>@drawable/u1f608</item>
+        <item>@drawable/u1f609</item>
+        <item>@drawable/u1f62f</item>
+        <item>@drawable/u1f615</item>
+        <item>@drawable/u1f630</item>
+        <item>@drawable/u1f60b</item>
+        <item>@drawable/u1f61d</item>
+        <item>@drawable/u1f613</item>
+        <item>@drawable/u1f603</item>
+        <item>@drawable/u1f602</item>
+        <item>@drawable/u1f618</item>
+        <item>@drawable/u1f612</item>
+        <item>@drawable/u1f60f</item>
+        <item>@drawable/u1f636</item>
+        <item>@drawable/u1f631</item>
+        <item>@drawable/u1f616</item>
+        <item>@drawable/u1f629</item>
+        <item>@drawable/u1f614</item>
+        <item>@drawable/u1f611</item>
+        <item>@drawable/u1f61a</item>
+        <item>@drawable/u1f62a</item>
+        <item>@drawable/u1f607</item>
+        <item>@drawable/u1f64a</item>
+        <item>@drawable/u1f44a</item>
+        <item>@drawable/u1f44e</item>
+        <item>@drawable/u261d</item>
+        <item>@drawable/u270c</item>
+        <item>@drawable/u1f62c</item>
+        <item>@drawable/u1f637</item>
+        <item>@drawable/u1f648</item>
+        <item>@drawable/u1f44c</item>
+        <item>@drawable/u1f44f</item>
+        <item>@drawable/u270a</item>
+        <item>@drawable/u1f4aa</item>
+        <item>@drawable/u1f606</item>
+        <item>@drawable/u263a</item>
+        <item>@drawable/u1f649</item>
+        <item>@drawable/u1f44d</item>
+        <item>@drawable/u1f64f</item>
+        <item>@drawable/u270b</item>
+        <item>@drawable/u2600</item>
+        <item>@drawable/u2615</item>
+        <item>@drawable/u26c4</item>
+        <item>@drawable/u1f4da</item>
+        <item>@drawable/u1f381</item>
+        <item>@drawable/u1f389</item>
+        <item>@drawable/u1f366</item>
+        <item>@drawable/u2601</item>
+        <item>@drawable/u2744</item>
+        <item>@drawable/u26a1</item>
+        <item>@drawable/u1f4b0</item>
+        <item>@drawable/u1f382</item>
+        <item>@drawable/u1f393</item>
+        <item>@drawable/u1f356</item>
+        <item>@drawable/u2614</item>
+        <item>@drawable/u26c5</item>
+        <item>@drawable/u270f</item>
+        <item>@drawable/u1f4a9</item>
+        <item>@drawable/u1f384</item>
+        <item>@drawable/u1f377</item>
+        <item>@drawable/u1f3a4</item>
+        <item>@drawable/u1f3c0</item>
+        <item>@drawable/u1f004</item>
+        <item>@drawable/u1f4a3</item>
+        <item>@drawable/u1f4e2</item>
+        <item>@drawable/u1f30f</item>
+        <item>@drawable/u1f36b</item>
+        <item>@drawable/u1f3b2</item>
+        <item>@drawable/u1f3c2</item>
+        <item>@drawable/u1f4a1</item>
+        <item>@drawable/u1f4a4</item>
+        <item>@drawable/u1f6ab</item>
+        <item>@drawable/u1f33b</item>
+        <item>@drawable/u1f37b</item>
+        <item>@drawable/u1f3b5</item>
+        <item>@drawable/u1f3e1</item>
+        <item>@drawable/u1f4a2</item>
+        <item>@drawable/u1f4de</item>
+        <item>@drawable/u1f6bf</item>
+        <item>@drawable/u1f35a</item>
+        <item>@drawable/u1f46a</item>
+        <item>@drawable/u1f47c</item>
+        <item>@drawable/u1f48a</item>
+        <item>@drawable/u1f52b</item>
+        <item>@drawable/u1f339</item>
+        <item>@drawable/u1f436</item>
+        <item>@drawable/u1f484</item>
+        <item>@drawable/u1f46b</item>
+        <item>@drawable/u1f47d</item>
+        <item>@drawable/u1f48b</item>
+        <item>@drawable/u1f319</item>
+        <item>@drawable/u1f349</item>
+        <item>@drawable/u1f437</item>
+        <item>@drawable/u1f494</item>
+        <item>@drawable/u1f47b</item>
+        <item>@drawable/u1f47f</item>
+        <item>@drawable/u1f48d</item>
+        <item>@drawable/u1f332</item>
+        <item>@drawable/u1f434</item>
+        <item>@drawable/u1f451</item>
+        <item>@drawable/u1f525</item>
+        <item>@drawable/u2b50</item>
+        <item>@drawable/u26bd</item>
+        <item>@drawable/u1f556</item>
+        <item>@drawable/u23f0</item>
+        <item>@drawable/u1f601</item>
+        <item>@drawable/u1f680</item>
+        <item>@drawable/u23f3</item>
+    </array>
+    <array name="rc_emoji_code">
+        <item>[/u1F60A]</item>
+        <item>[/u1F628]</item>
+        <item>[/u1F60D]</item>
+        <item>[/u1F633]</item>
+        <item>[/u1F60E]</item>
+        <item>[/u1F62D]</item>
+        <item>[/u1F60C]</item>
+        <item>[/u1F635]</item>
+        <item>[/u1F634]</item>
+        <item>[/u1F622]</item>
+        <item>[/u1F605]</item>
+        <item>[/u1F621]</item>
+        <item>[/u1F61C]</item>
+        <item>[/u1F600]</item>
+        <item>[/u1F632]</item>
+        <item>[/u1F61F]</item>
+        <item>[/u1F624]</item>
+        <item>[/u1F61E]</item>
+        <item>[/u1F62B]</item>
+        <item>[/u1F623]</item>
+        <item>[/u1F608]</item>
+        <item>[/u1F609]</item>
+        <item>[/u1F62F]</item>
+        <item>[/u1F615]</item>
+        <item>[/u1F630]</item>
+        <item>[/u1F60B]</item>
+        <item>[/u1F61D]</item>
+        <item>[/u1F613]</item>
+        <item>[/u1F603]</item>
+        <item>[/u1F602]</item>
+        <item>[/u1F618]</item>
+        <item>[/u1F612]</item>
+        <item>[/u1F60F]</item>
+        <item>[/u1F636]</item>
+        <item>[/u1F631]</item>
+        <item>[/u1F616]</item>
+        <item>[/u1F629]</item>
+        <item>[/u1F614]</item>
+        <item>[/u1F611]</item>
+        <item>[/u1F61A]</item>
+        <item>[/u1F62A]</item>
+        <item>[/u1F607]</item>
+        <item>[/u1F64A]</item>
+        <item>[/u1F44A]</item>
+        <item>[/u1F44E]</item>
+        <item>[/u261D]</item>
+        <item>[/u270C]</item>
+        <item>[/u1F62C]</item>
+        <item>[/u1F637]</item>
+        <item>[/u1F648]</item>
+        <item>[/u1F44C]</item>
+        <item>[/u1F44F]</item>
+        <item>[/u270A]</item>
+        <item>[/u1F4AA]</item>
+        <item>[/u1F606]</item>
+        <item>[/u263A]</item>
+        <item>[/u1F649]</item>
+        <item>[/u1F44D]</item>
+        <item>[/u1F64F]</item>
+        <item>[/u270B]</item>
+        <item>[/u2600]</item>
+        <item>[/u2615]</item>
+        <item>[/u26C4]</item>
+        <item>[/u1F4DA]</item>
+        <item>[/u1F381]</item>
+        <item>[/u1F389]</item>
+        <item>[/u1F366]</item>
+        <item>[/u2601]</item>
+        <item>[/u2744]</item>
+        <item>[/u26A1]</item>
+        <item>[/u1F4B0]</item>
+        <item>[/u1F382]</item>
+        <item>[/u1F393]</item>
+        <item>[/u1F356]</item>
+        <item>[/u2614]</item>
+        <item>[/u26C5]</item>
+        <item>[/u270F]</item>
+        <item>[/u1F4A9]</item>
+        <item>[/u1F384]</item>
+        <item>[/u1F377]</item>
+        <item>[/u1F3A4]</item>
+        <item>[/u1F3C0]</item>
+        <item>[/u1F004]</item>
+        <item>[/u1F4A3]</item>
+        <item>[/u1F4E2]</item>
+        <item>[/u1F30F]</item>
+        <item>[/u1F36B]</item>
+        <item>[/u1F3B2]</item>
+        <item>[/u1F3C2]</item>
+        <item>[/u1F4A1]</item>
+        <item>[/u1F4A4]</item>
+        <item>[/u1F6AB]</item>
+        <item>[/u1F33B]</item>
+        <item>[/u1F37B]</item>
+        <item>[/u1F3B5]</item>
+        <item>[/u1F3E1]</item>
+        <item>[/u1F4A2]</item>
+        <item>[/u1F4DE]</item>
+        <item>[/u1F6BF]</item>
+        <item>[/u1F35A]</item>
+        <item>[/u1F46A]</item>
+        <item>[/u1F47C]</item>
+        <item>[/u1F48A]</item>
+        <item>[/u1F52B]</item>
+        <item>[/u1F339]</item>
+        <item>[/u1F436]</item>
+        <item>[/u1F484]</item>
+        <item>[/u1F46B]</item>
+        <item>[/u1F47D]</item>
+        <item>[/u1F48B]</item>
+        <item>[/u1F319]</item>
+        <item>[/u1F349]</item>
+        <item>[/u1F437]</item>
+        <item>[/u1F494]</item>
+        <item>[/u1F47B]</item>
+        <item>[/u1F47F]</item>
+        <item>[/u1F48D]</item>
+        <item>[/u1F332]</item>
+        <item>[/u1F434]</item>
+        <item>[/u1F451]</item>
+        <item>[/u1F525]</item>
+        <item>[/u2B50]</item>
+        <item>[/u26BD]</item>
+        <item>[/u1F556]</item>
+        <item>[/u23F0]</item>
+        <item>[/u1F601]</item>
+        <item>[/u1F680]</item>
+        <item>[/u23F3]</item>
+    </array>
+    <array name="rc_emoji_int">
+        <item>"128522"</item>
+        <item>"128552"</item>
+        <item>"128525"</item>
+        <item>"128563"</item>
+        <item>"128526"</item>
+        <item>"128557"</item>
+        <item>"128524"</item>
+        <item>"128565"</item>
+        <item>"128564"</item>
+        <item>"128546"</item>
+        <item>"128517"</item>
+        <item>"128545"</item>
+        <item>"128540"</item>
+        <item>"128512"</item>
+        <item>"128562"</item>
+        <item>"128543"</item>
+        <item>"128548"</item>
+        <item>"128542"</item>
+        <item>"128555"</item>
+        <item>"128547"</item>
+        <item>"128520"</item>
+        <item>"128521"</item>
+        <item>"128559"</item>
+        <item>"128533"</item>
+        <item>"128560"</item>
+        <item>"128523"</item>
+        <item>"128541"</item>
+        <item>"128531"</item>
+        <item>"128515"</item>
+        <item>"128514"</item>
+        <item>"128536"</item>
+        <item>"128530"</item>
+        <item>"128527"</item>
+        <item>"128566"</item>
+        <item>"128561"</item>
+        <item>"128534"</item>
+        <item>"128553"</item>
+        <item>"128532"</item>
+        <item>"128529"</item>
+        <item>"128538"</item>
+        <item>"128554"</item>
+        <item>"128519"</item>
+        <item>"128586"</item>
+        <item>"128074"</item>
+        <item>"128078"</item>
+        <item>"9757"</item>
+        <item>"9996"</item>
+        <item>"128556"</item>
+        <item>"128567"</item>
+        <item>"128584"</item>
+        <item>"128076"</item>
+        <item>"128079"</item>
+        <item>"9994"</item>
+        <item>"128170"</item>
+        <item>"128518"</item>
+        <item>"9786"</item>
+        <item>"128585"</item>
+        <item>"128077"</item>
+        <item>"128591"</item>
+        <item>"9995"</item>
+        <item>"9728"</item>
+        <item>"9749"</item>
+        <item>"9924"</item>
+        <item>"128218"</item>
+        <item>"127873"</item>
+        <item>"127881"</item>
+        <item>"127846"</item>
+        <item>"9729"</item>
+        <item>"10052"</item>
+        <item>"9889"</item>
+        <item>"128176"</item>
+        <item>"127874"</item>
+        <item>"127891"</item>
+        <item>"127830"</item>
+        <item>"9748"</item>
+        <item>"9925"</item>
+        <item>"9999"</item>
+        <item>"128169"</item>
+        <item>"127876"</item>
+        <item>"127863"</item>
+        <item>"127908"</item>
+        <item>"127936"</item>
+        <item>"126980"</item>
+        <item>"128163"</item>
+        <item>"128226"</item>
+        <item>"127759"</item>
+        <item>"127851"</item>
+        <item>"127922"</item>
+        <item>"127938"</item>
+        <item>"128161"</item>
+        <item>"128164"</item>
+        <item>"128683"</item>
+        <item>"127803"</item>
+        <item>"127867"</item>
+        <item>"127925"</item>
+        <item>"127969"</item>
+        <item>"128162"</item>
+        <item>"128222"</item>
+        <item>"128703"</item>
+        <item>"127834"</item>
+        <item>"128106"</item>
+        <item>"128124"</item>
+        <item>"128138"</item>
+        <item>"128299"</item>
+        <item>"127801"</item>
+        <item>"128054"</item>
+        <item>"128132"</item>
+        <item>"128107"</item>
+        <item>"128125"</item>
+        <item>"128139"</item>
+        <item>"127769"</item>
+        <item>"127817"</item>
+        <item>"128055"</item>
+        <item>"128148"</item>
+        <item>"128123"</item>
+        <item>"128127"</item>
+        <item>"128141"</item>
+        <item>"127794"</item>
+        <item>"128052"</item>
+        <item>"128081"</item>
+        <item>"128293"</item>
+        <item>"11088"</item>
+        <item>"9917"</item>
+        <item>"128342"</item>
+        <item>"9200"</item>
+        <item>"128513"</item>
+        <item>"128640"</item>
+        <item>"9203"</item>
+    </array>
+    <string-array name="rc_search_letters">
+        <item>""#""</item>
+        <item>""A""</item>
+        <item>""B""</item>
+        <item>""C""</item>
+        <item>""D""</item>
+        <item>""E""</item>
+        <item>""F""</item>
+        <item>""G""</item>
+        <item>""H""</item>
+        <item>""I""</item>
+        <item>""J""</item>
+        <item>""K""</item>
+        <item>""L""</item>
+        <item>""M""</item>
+        <item>""N""</item>
+        <item>""O""</item>
+        <item>""P""</item>
+        <item>""Q""</item>
+        <item>""R""</item>
+        <item>""S""</item>
+        <item>""T""</item>
+        <item>""U""</item>
+        <item>""V""</item>
+        <item>""W""</item>
+        <item>""X""</item>
+        <item>""Y""</item>
+        <item>""Z""</item>
+    </string-array>
+    <string-array name="show_search_option">
+        <item>全部</item>
+        <item>会员</item>
+    </string-array>
+    <string-array name="update_user_icon">
+        <item>相册上传</item>
+        <item>拍照上传</item>
+        <item>取消上传</item>
+    </string-array>
+    <attr format="boolean" name="centered_"/>
+    <attr name="gravity">
+
+        <!-- Push object to the top of its container, not changing its size. -->
+        <flag name="top" value="0x30"/>
+        <!-- Push object to the bottom of its container, not changing its size. -->
+        <flag name="bottom" value="0x50"/>
+        <!-- Push object to the left of its container, not changing its size. -->
+        <flag name="left" value="0x03"/>
+        <!-- Push object to the right of its container, not changing its size. -->
+        <flag name="right" value="0x05"/>
+        <!-- Place object in the vertical center of its container, not changing its size. -->
+        <flag name="center_vertical" value="0x10"/>
+        <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+        <flag name="fill_vertical" value="0x70"/>
+        <!-- Place object in the horizontal center of its container, not changing its size. -->
+        <flag name="center_horizontal" value="0x01"/>
+        <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+        <flag name="fill_horizontal" value="0x07"/>
+        <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+        <flag name="center" value="0x11"/>
+        <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+        <flag name="fill" value="0x77"/>
+        <!--
+             Additional option that can be set to have the top and/or bottom edges of
+             the child clipped to its container's bounds.
+             The clip will be based on the vertical gravity: a top gravity will clip the bottom
+             edge, a bottom gravity will clip the top edge, and neither will clip both edges.
+
+        -->
+        <flag name="clip_vertical" value="0x80"/>
+        <!--
+             Additional option that can be set to have the left and/or right edges of
+             the child clipped to its container's bounds.
+             The clip will be based on the horizontal gravity: a left gravity will clip the right
+             edge, a right gravity will clip the left edge, and neither will clip both edges.
+
+        -->
+        <flag name="clip_horizontal" value="0x08"/>
+    </attr>
+    <attr format="reference" name="gridViewStyle"/>
+    <attr format="color" name="selectedColor_"/>
+    <attr format="dimension" name="strokeWidth_"/>
+    <attr format="color" name="unselectedColor_"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="EE">#eeeeee</color>
+    <color name="TextColorBlack">#FF000000</color>
+    <color name="TextColorGray">#FF505050</color>
+    <color name="TextColorWhite">#FFFFFFFF</color>
+    <color name="ToastBgColor">#FF424242</color>
+    <color name="add_troop_member_bg">#ffdadfe2</color>
+    <color name="background_color">#FAF8F0</color>
+    <color name="bgColor">#FFF2F2F2</color>
+    <color name="bg_color">#EDEDED</color>
+    <color name="black">#000000</color>
+    <color name="blue">#D6E1EF</color>
+    <color name="blue1">#2e3192</color>
+    <color name="blue2">#ff3693e3</color>
+    <color name="blue3">#2e3192</color>
+    <color name="blue4">#3492e2</color>
+    <color name="blue5">#3592e2</color>
+    <color name="blue8">#3592e2</color>
+    <color name="blue_color">#3592e2</color>
+    <color name="bluesky">#3d85c6</color>
+    <color name="brandbg">#548bcb</color>
+    <color name="btnColor">#FFFFFF</color>
+    <color name="button_reply_normal">#ffffffff</color>
+    <color name="button_reply_pressed">#fffff8d0</color>
+    <color name="button_unselected">#ff54acea</color>
+    <color name="cardchildname">#a6a7ae</color>
+    <color name="chat_background">@color/window_bg</color>
+    <color name="chat_history_time_text">@color/color_shenhui</color>
+    <color name="chat_text">@color/color_cihei</color>
+    <color name="chat_time">@color/color_bai</color>
+    <color name="chat_title_name">@color/color_bai</color>
+    <color name="class_listitemcolor">#f6f6f6</color>
+    <color name="classic_item_selected_category_color">#e7e7e7</color>
+    <color name="classic_normal_category_color">#9f9f9f</color>
+    <color name="classic_selected_category_color">#484848</color>
+    <color name="color_bai">#ffffffff</color>
+    <color name="color_bai_8">#ffffffff</color>
+    <color name="color_cihei">#ff333333</color>
+    <color name="color_divider">#ffc9c9c9</color>
+    <color name="color_divider_for_contactlist_lower">#ffc2c8cd</color>
+    <color name="color_divider_for_recentlist_upper">#ffadb4ba</color>
+    <color name="color_divider_for_trooplist">#ffc9c9c9</color>
+    <color name="color_hei">#ff000000</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="color_lan">#ff067bb1</color>
+    <color name="color_qianhui">#ff888b8d</color>
+    <color name="color_shenhui">#ff999999</color>
+    <color name="color_zhonghui">#ff798089</color>
+    <color name="color_zuiqianhui">#ffb4b4b4</color>
+    <color name="comment_nick_name">#ff000000</color>
+    <color name="contact_category_text">#ff454a52</color>
+    <color name="contact_category_text_focused">#ff4686b3</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="cornor_clolr">#b6b6b6</color>
+    <color name="cyan">#FF00FFFF</color>
+    <color name="dark">#000000</color>
+    <color name="darkGreen">#FF32cd32</color>
+    <color name="darkred">#D51A28</color>
+    <color name="deep_gray">#ff666666</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="dialog_bottom_line">#BCBCBC</color>
+    <color name="dialog_conversation_line_color">#3498db</color>
+    <color name="dialog_tiltle_blue">#2277BB</color>
+    <color name="dialog_top_line">#C2C2C2</color>
+    <color name="dkgray">#FF444444</color>
+    <color name="doodle_bg">#fff2f3f5</color>
+    <color name="downLoadBackFocus">#FF6698E7</color>
+    <color name="downLoadBackNomal">#FFFFFFFF</color>
+    <color name="downLoadBackPressed">#FF3366CC</color>
+    <color name="downLoadTextNomal">#FF3366CC</color>
+    <color name="downLoadTextPressed">#FFFFFFFF</color>
+    <color name="emo_item_sel">#ff1f2124</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="feed_image_background_color">#fff2f2f2</color>
+    <color name="feed_item_assist_text_color">#ff979797</color>
+    <color name="feed_item_comm_text">#ff6a6a6a</color>
+    <color name="feed_item_commbutton_text">#ff525557</color>
+    <color name="feed_item_comment_background">#fff6f6f6</color>
+    <color name="feed_item_comment_press_background">#ffdddddd</color>
+    <color name="feed_item_content_text_color">#ff333333</color>
+    <color name="feed_item_content_text_color_normal">#ff000000</color>
+    <color name="feed_item_pressed">#ffeeeeee</color>
+    <color name="feed_item_time_text">#ff979797</color>
+    <color name="feed_operation_text_color">#ff246183</color>
+    <color name="feedcontenttextColor">#ff6a6a6a</color>
+    <color name="fifteen_trans_black">#26000000</color>
+    <color name="font_black">#484848</color>
+    <color name="fragment_home_bg">#f6f6f6</color>
+    <color name="gold">#FFDE92</color>
+    <color name="gray">#C3C3C3</color>
+    <color name="gray6">#f6f6f6</color>
+    <color name="gray7">#e7e7e7</color>
+    <color name="gray_white">#ffececec</color>
+    <color name="green">#B9EA80</color>
+    <color name="grey">#a8a8a8</color>
+    <color name="grey1">#ffb7b7b7</color>
+    <color name="grey_text">#9e9e9e</color>
+    <color name="grgray">#686868</color>
+    <color name="header">#58567D</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="home_gray_line">#FFe4e4e4</color>
+    <color name="index_red">#dd434d</color>
+    <color name="index_red_press">#ab6569</color>
+    <color name="item_text">#333377</color>
+    <color name="light_gray">#ff999999</color>
+    <color name="light_red">#ffff6845</color>
+    <color name="lightblue">#f4ffff</color>
+    <color name="lightgray">#ff555555</color>
+    <color name="linegray">#f0f0f0</color>
+    <color name="list_contact_prompt_line">#ffc2c8cd</color>
+    <color name="list_item_focus_for_friendlist">#ffd3d7da</color>
+    <color name="list_item_focus_for_troop">#ffe9eaeb</color>
+    <color name="list_item_line">#ffc2c8cd</color>
+    <color name="list_item_press">#fff2f4f5</color>
+    <color name="low_brown">#E7DFDF</color>
+    <color name="ltgray">#FFCCCCCC</color>
+    <color name="magenta">#FFFF00FF</color>
+    <color name="main_guide_normal_color">#616161</color>
+    <color name="main_guide_press_color">#dd434d</color>
+    <color name="mediumOrchid">#997ecb</color>
+    <color name="miaoshabac">#f0efec</color>
+    <color name="milky">#fff7f7f7</color>
+    <color name="myfeed_comment_color">#ff4a4a4a</color>
+    <color name="myfeed_item_comment_text_color">#ff999999</color>
+    <color name="myfeed_item_content_text_color">#ff333333</color>
+    <color name="myfeed_item_more_comment_color">#ff067bb1</color>
+    <color name="myfeed_item_praise_text">#ff424242</color>
+    <color name="nineideyanse">#436EEE</color>
+    <color name="no_auto_reply_normal">#ff636363</color>
+    <color name="no_auto_reply_press">#ffc6c6c6</color>
+    <color name="obchildname">#c3ccc6</color>
+    <color name="observertitle">#fd9240</color>
+    <color name="orange">#f8af00</color>
+    <color name="orange2">#f8b000</color>
+    <color name="orange5">#f8af00</color>
+    <color name="orange_bg">#fe5836</color>
+    <color name="pink">#eb3d97</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="progress_gray_bg">#ABAFB3</color>
+    <color name="qq_normal">@color/color_hei</color>
+    <color name="qzone_black">#ff000000</color>
+    <color name="qzone_feed_comm_text_un">#ffacaeaf</color>
+    <color name="qzone_feed_content">#ff0e0e0e</color>
+    <color name="qzone_myfeed_rztitle">#ff262626</color>
+    <color name="qzone_myfeed_title">#ff404040</color>
+    <color name="qzone_picviewer_description">#ffe0e0e0</color>
+    <color name="qzone_picviewer_loading_bg">#99000000</color>
+    <color name="qzone_picviewer_loading_loaded">#ffffffff</color>
+    <color name="qzone_picviewer_loading_text">#fffefefe</color>
+    <color name="qzone_picviewer_loading_toload">#bf000000</color>
+    <color name="qzone_shuoshuo_textcount_exceed_color">#ffd90115</color>
+    <color name="qzone_shuoshuo_textcount_normal_color">#ff9a9999</color>
+    <color name="qzone_transparent">#00ffffff</color>
+    <color name="qzone_white">#ffffffff</color>
+    <color name="rc_bg_highlight">#d3d3d3</color>
+    <color name="rc_bg_toolbar">#dee0e2</color>
+    <color name="rc_bottom_toolbar_bg">#7f000000</color>
+    <color name="rc_btn_submit">#ff4444</color>
+    <color name="rc_item_conversation_recevier_color">#666666</color>
+    <color name="rc_item_conversation_send_color">@android:color/white</color>
+    <color name="rc_list_item_hover_color">#FAFAFA</color>
+    <color name="rc_list_item_istop_bg_color">#F4FBFF</color>
+    <color name="rc_list_item_normal_color">#FFFFFF</color>
+    <color name="rc_message_bar_control_color">#aab2ba</color>
+    <color name="rc_message_bar_edit_color">#F8F8F8</color>
+    <color name="rc_rich_add_bg_color">#bdbdbd</color>
+    <color name="rc_rich_image_bg_color">#F3C44E</color>
+    <color name="rc_rich_location_bg_color">#79cc60</color>
+    <color name="rc_rich_take_photo_bg_color">#97a0e5</color>
+    <color name="rc_rich_voice_bg_color">#47bbd4</color>
+    <color name="rc_text_color_primary">#252525</color>
+    <color name="rc_text_color_primary_inverse">@android:color/white</color>
+    <color name="rc_text_color_secondary">#8e8e8e</color>
+    <color name="rc_text_color_secondary_inverse">@android:color/white</color>
+    <color name="rc_text_color_select_btn_disable">#97d9b3</color>
+    <color name="rc_text_color_tertiary">#cbcbcb</color>
+    <color name="rc_text_color_tertiary_inverse">@android:color/white</color>
+    <color name="rc_text_color_warning">#99ff0000</color>
+    <color name="rc_title_bg">#3498DB</color>
+    <color name="recent_msg">@color/color_zhonghui</color>
+    <color name="recommend_products_click_to_view">#171717</color>
+    <color name="recommend_products_item_line">#b6b6b6</color>
+    <color name="recommend_products_title">#484848</color>
+    <color name="record_content_text_color">#958B91</color>
+    <color name="record_line_color">#E9DDBF</color>
+    <color name="red">#FE0000</color>
+    <color name="red_color">#ff0000</color>
+    <color name="red_dark">#c3232d</color>
+    <color name="red_font">#f00710</color>
+    <color name="red_pressed">#F80E3B</color>
+    <color name="red_progress_bg">#E9565E</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sank_noselect">#484848</color>
+    <color name="sank_select">#3592e2</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="sc_black">#ff000000</color>
+    <color name="sc_chat_contact">#ffeeeeee</color>
+    <color name="sc_gray">#ff777777</color>
+    <color name="sc_info_btn_press">#f043afd4</color>
+    <color name="sc_name">#ff5fc4ff</color>
+    <color name="sc_red">#ffff0000</color>
+    <color name="sc_transparent">#00ffffff</color>
+    <color name="sc_transparent_background">@color/color_hei_8</color>
+    <color name="sc_transparent_black">#7f000000</color>
+    <color name="sc_white">@color/color_bai_8</color>
+    <color name="screenshot_normal">#3f000000</color>
+    <color name="screenshot_pressed">#bf000000</color>
+    <color name="search_cancel_text">#ff0e0e0e</color>
+    <color name="search_text">#ff929292</color>
+    <color name="secondbtntextColor">#FF496ea3</color>
+    <color name="semi_transparent">#7f000000</color>
+    <color name="semi_transparent_w">#7fffffff</color>
+    <color name="setting_bg">#ffe3e6e8</color>
+    <color name="setting_text1">@color/color_hei</color>
+    <color name="setting_text2">@color/color_zhonghui</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="shorttextColor">#ff8d8d8d</color>
+    <color name="sqqname">#ffee860a</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="tab_background">#eeeeff</color>
+    <color name="tab_focus">#ffff8000</color>
+    <color name="tab_font_focus">#ffffffff</color>
+    <color name="tab_font_press">#ff888888</color>
+    <color name="tab_font_selected">#ffffffff</color>
+    <color name="tab_font_unselected">#ff888888</color>
+    <color name="tab_press">#ffe9a700</color>
+    <color name="tab_selected">#6699ff</color>
+    <color name="tab_unselected">#5588ff</color>
+    <color name="tag_textview1">#ff795028</color>
+    <color name="tag_textview2">#ff4a7928</color>
+    <color name="tag_textview3">#ff284479</color>
+    <color name="textColorforCheckBox">#FF333333</color>
+    <color name="textColorforItemTitle">#FF666666</color>
+    <color name="text_color_black">#5C5643</color>
+    <color name="text_color_black2">#9E9989</color>
+    <color name="text_color_brown">#906C32</color>
+    <color name="text_color_green">#5D8000</color>
+    <color name="text_color_red">#FA365D</color>
+    <color name="text_comment">#ff6b6b6b</color>
+    <color name="text_drag_refresh_big">@color/color_shenhui</color>
+    <color name="text_nick_name">#ff333333</color>
+    <color name="text_shadow_color">#66000000</color>
+    <color name="thirty_transparent_black">#4d000000</color>
+    <color name="tip_text_color">#9B9585</color>
+    <color name="title_bg">#ff54acea</color>
+    <color name="traffic_bg">#ffe3e6e8</color>
+    <color name="traffic_data">@color/color_zhonghui</color>
+    <color name="traffic_txt">@color/color_hei</color>
+    <color name="translucent_background">#5c000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent111">#0000</color>
+    <color name="transparentpercent">#e5000000</color>
+    <color name="twenty_transparent_black">#33000000</color>
+    <color name="video_bg_color">#ffecf3f9</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="window_bg">#ffeef1f3</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="yt_black">#303537</color>
+    <color name="yt_blue">#0bb8f0</color>
+    <color name="yt_cap_blue">#1d7dd4</color>
+    <color name="yt_cap_blue_green">#44b39c</color>
+    <color name="yt_cap_gray">#6a6e71</color>
+    <color name="yt_cap_green">#73b442</color>
+    <color name="yt_cap_orange">#f37600</color>
+    <color name="yt_cap_red">#cf3326</color>
+    <color name="yt_cap_yellow">#ffcc00</color>
+    <color name="yt_qrcode_blue">#0054a5</color>
+    <declare-styleable name="AsyncImageView"><attr name="shape"><flag name="square" value="0"/><flag name="circle" value="1"/></attr><attr format="reference" name="defDrawable"/></declare-styleable>
+    <declare-styleable name="CircleFlowIndicator"><attr format="color" name="activeColor"/><attr format="color" name="inactiveColor"/><attr format="dimension" name="radius"/><attr format="boolean" name="centered"/><attr format="integer" name="fadeOut"/><attr name="inactiveType"><flag name="stroke" value="0"/><flag name="fill" value="1"/></attr><attr name="activeType"><flag name="stroke" value="0"/><flag name="fill" value="1"/></attr><attr format="dimension" name="circleSeparation"/><attr format="dimension" name="activeRadius"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered_"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius_"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth_"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="CoverFrameLayout"><attr format="reference" name="coverView"/><attr format="reference" name="triggerView"/><attr format="integer" name="triggerLimit"/></declare-styleable>
+    <declare-styleable name="ExpandableTextView"><attr format="integer" name="trimLength"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered_"/><attr name="unselectedColor_"/><attr name="selectedColor_"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth_"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="PullLayout"><attr format="dimension" name="pull_limit"/><attr format="boolean" name="support_over"/><attr name="hold_adjust_type"><flag name="not_adjust" value="0"/><flag name="adjust_content" value="1"/><flag name="elasticity_adjust" value="2"/></attr></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <declare-styleable name="SlipButton"><attr format="integer" name="slipButtonBG"/><attr format="integer" name="slipButtonOff"/><attr format="integer" name="slipButtonOn"/></declare-styleable>
+    <declare-styleable name="StickyScrollView"><attr format="dimension" name="stuckShadowHeight"/><attr format="reference" name="stuckShadowDrawable"/></declare-styleable>
+    <declare-styleable name="SwitchGroup"><attr name="orientation"><flag name="horizontal" value="0"/><flag name="vertical" value="1"/></attr><attr format="reference" name="pinned_view"/><attr format="reference" name="pinned_item"/><attr format="reference" name="pinned_item_array"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor_"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="TwoWayAbsListView"><attr format="color|reference" name="listSelector"/><attr format="boolean" name="drawSelectorOnTop"/><attr format="boolean" name="stackFromBottom"/><attr format="boolean" name="scrollingCache"/><attr name="transcriptMode"><enum name="disabled" value="0"/><enum name="normal" value="1"/><enum name="alwaysScroll" value="2"/></attr><attr format="color" name="cacheColorHint"/><attr format="boolean" name="smoothScrollbar"/><attr name="scrollDirectionPortrait"><enum name="vertical" value="0"/><enum name="horizontal" value="1"/></attr><attr name="scrollDirectionLandscape"><enum name="vertical" value="0"/><enum name="horizontal" value="1"/></attr></declare-styleable>
+    <declare-styleable name="TwoWayGridView"><attr format="dimension" name="horizontalSpacing"/><attr format="dimension" name="verticalSpacing"/><attr name="stretchMode"><enum name="none" value="0"/><enum name="spacingWidth" value="1"/><enum name="columnWidth" value="2"/><enum name="spacingWidthUniform" value="3"/></attr><attr format="dimension" name="columnWidth"/><attr format="dimension" name="rowHeight"/><attr format="integer" min="0" name="numColumns"><enum name="auto_fit" value="-1"/></attr><attr format="integer" min="0" name="numRows"><enum name="auto_fit" value="-1"/></attr><attr name="gravity"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor_"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewFlow"><attr format="integer" name="sidebuffer"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="roundedimageview"><attr format="dimension" name="border_thickness"/><attr format="color" name="border_inside_color"/><attr format="color" name="border_outside_color"/></declare-styleable>
+    <dimen name="actionbar_height">46dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="class_point_left">4dp</dimen>
+    <dimen name="common_big_text_size">14sp</dimen>
+    <dimen name="common_btn_text_size">14sp</dimen>
+    <dimen name="common_lage_text_size">16sp</dimen>
+    <dimen name="common_min_text_size">10sp</dimen>
+    <dimen name="common_small_text_size">12sp</dimen>
+    <dimen name="common_text_size">13sp</dimen>
+    <dimen name="common_text_view_height">42dp</dimen>
+    <dimen name="common_title_bar_height">50dp</dimen>
+    <dimen name="common_title_size">20sp</dimen>
+    <dimen name="default_circle_indicator_radius">@dimen/px_to_dip_8</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">@dimen/px_to_dip_18</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">@dimen/px_to_dip_18</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <dimen name="dialog_btn_size">16sp</dimen>
+    <dimen name="dialog_content_size">16sp</dimen>
+    <dimen name="dialog_title_size">17sp</dimen>
+    <dimen name="fragment_home_classification_height">70dip</dimen>
+    <dimen name="fragment_home_cuxiao1_height">190.0dip</dimen>
+    <dimen name="fragment_home_cuxiao4_height">230dip</dimen>
+    <dimen name="fragment_home_cuxiao4_height_half">110dip</dimen>
+    <dimen name="fragment_home_gallery_height">125dip</dimen>
+    <dimen name="fragment_home_tools_height">160dip</dimen>
+    <dimen name="fragment_home_tools_height_half">80dip</dimen>
+    <dimen name="fragment_home_tools_item_height">80dip</dimen>
+    <dimen name="fragment_home_tools_item_width">80dip</dimen>
+    <dimen name="fragment_house_keep_item_height">54dip</dimen>
+    <dimen name="fragment_house_keep_item_width">160dip</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="leftMoveWidth">20.0dip</dimen>
+    <dimen name="leftlist_img_width">80.0dip</dimen>
+    <dimen name="list_keep_width">100.0dip</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="listitem_text_detail_size">13sp</dimen>
+    <dimen name="listitem_text_marginLeft">10dp</dimen>
+    <dimen name="listitem_text_marginLeft1">40dp</dimen>
+    <dimen name="listitem_text_titel_size">18sp</dimen>
+    <dimen name="px_to_dip_0">0.00dp</dimen>
+    <dimen name="px_to_dip_1">0.50dp</dimen>
+    <dimen name="px_to_dip_10">5.00dp</dimen>
+    <dimen name="px_to_dip_100">50.00dp</dimen>
+    <dimen name="px_to_dip_101">50.50dp</dimen>
+    <dimen name="px_to_dip_102">51.00dp</dimen>
+    <dimen name="px_to_dip_103">51.50dp</dimen>
+    <dimen name="px_to_dip_104">52.00dp</dimen>
+    <dimen name="px_to_dip_105">52.50dp</dimen>
+    <dimen name="px_to_dip_106">53.00dp</dimen>
+    <dimen name="px_to_dip_107">53.50dp</dimen>
+    <dimen name="px_to_dip_108">54.00dp</dimen>
+    <dimen name="px_to_dip_109">54.50dp</dimen>
+    <dimen name="px_to_dip_11">5.50dp</dimen>
+    <dimen name="px_to_dip_110">55.00dp</dimen>
+    <dimen name="px_to_dip_111">55.50dp</dimen>
+    <dimen name="px_to_dip_112">56.00dp</dimen>
+    <dimen name="px_to_dip_113">56.50dp</dimen>
+    <dimen name="px_to_dip_114">57.00dp</dimen>
+    <dimen name="px_to_dip_115">57.50dp</dimen>
+    <dimen name="px_to_dip_116">58.00dp</dimen>
+    <dimen name="px_to_dip_117">58.50dp</dimen>
+    <dimen name="px_to_dip_118">59.00dp</dimen>
+    <dimen name="px_to_dip_119">59.50dp</dimen>
+    <dimen name="px_to_dip_12">6.00dp</dimen>
+    <dimen name="px_to_dip_120">60.00dp</dimen>
+    <dimen name="px_to_dip_121">60.50dp</dimen>
+    <dimen name="px_to_dip_122">61.00dp</dimen>
+    <dimen name="px_to_dip_123">61.50dp</dimen>
+    <dimen name="px_to_dip_124">62.00dp</dimen>
+    <dimen name="px_to_dip_125">62.50dp</dimen>
+    <dimen name="px_to_dip_126">63.00dp</dimen>
+    <dimen name="px_to_dip_127">63.50dp</dimen>
+    <dimen name="px_to_dip_128">64.00dp</dimen>
+    <dimen name="px_to_dip_129">64.50dp</dimen>
+    <dimen name="px_to_dip_13">6.50dp</dimen>
+    <dimen name="px_to_dip_130">65.00dp</dimen>
+    <dimen name="px_to_dip_131">65.50dp</dimen>
+    <dimen name="px_to_dip_132">66.00dp</dimen>
+    <dimen name="px_to_dip_133">66.50dp</dimen>
+    <dimen name="px_to_dip_134">67.00dp</dimen>
+    <dimen name="px_to_dip_135">67.50dp</dimen>
+    <dimen name="px_to_dip_136">68.00dp</dimen>
+    <dimen name="px_to_dip_137">68.50dp</dimen>
+    <dimen name="px_to_dip_138">69.00dp</dimen>
+    <dimen name="px_to_dip_139">69.50dp</dimen>
+    <dimen name="px_to_dip_14">7.00dp</dimen>
+    <dimen name="px_to_dip_140">70.00dp</dimen>
+    <dimen name="px_to_dip_141">70.50dp</dimen>
+    <dimen name="px_to_dip_142">71.00dp</dimen>
+    <dimen name="px_to_dip_143">71.50dp</dimen>
+    <dimen name="px_to_dip_144">72.00dp</dimen>
+    <dimen name="px_to_dip_145">72.50dp</dimen>
+    <dimen name="px_to_dip_146">73.00dp</dimen>
+    <dimen name="px_to_dip_147">73.50dp</dimen>
+    <dimen name="px_to_dip_148">74.00dp</dimen>
+    <dimen name="px_to_dip_149">74.50dp</dimen>
+    <dimen name="px_to_dip_15">7.50dp</dimen>
+    <dimen name="px_to_dip_150">75.00dp</dimen>
+    <dimen name="px_to_dip_151">75.50dp</dimen>
+    <dimen name="px_to_dip_152">76.00dp</dimen>
+    <dimen name="px_to_dip_153">76.50dp</dimen>
+    <dimen name="px_to_dip_154">77.00dp</dimen>
+    <dimen name="px_to_dip_155">77.50dp</dimen>
+    <dimen name="px_to_dip_156">78.00dp</dimen>
+    <dimen name="px_to_dip_157">78.50dp</dimen>
+    <dimen name="px_to_dip_158">79.00dp</dimen>
+    <dimen name="px_to_dip_159">79.50dp</dimen>
+    <dimen name="px_to_dip_16">8.00dp</dimen>
+    <dimen name="px_to_dip_160">80.00dp</dimen>
+    <dimen name="px_to_dip_161">80.50dp</dimen>
+    <dimen name="px_to_dip_162">81.00dp</dimen>
+    <dimen name="px_to_dip_163">81.50dp</dimen>
+    <dimen name="px_to_dip_164">82.00dp</dimen>
+    <dimen name="px_to_dip_165">82.50dp</dimen>
+    <dimen name="px_to_dip_166">83.00dp</dimen>
+    <dimen name="px_to_dip_167">83.50dp</dimen>
+    <dimen name="px_to_dip_168">84.00dp</dimen>
+    <dimen name="px_to_dip_169">84.50dp</dimen>
+    <dimen name="px_to_dip_17">8.50dp</dimen>
+    <dimen name="px_to_dip_170">85.00dp</dimen>
+    <dimen name="px_to_dip_171">85.50dp</dimen>
+    <dimen name="px_to_dip_172">86.00dp</dimen>
+    <dimen name="px_to_dip_173">86.50dp</dimen>
+    <dimen name="px_to_dip_174">87.00dp</dimen>
+    <dimen name="px_to_dip_175">87.50dp</dimen>
+    <dimen name="px_to_dip_176">88.00dp</dimen>
+    <dimen name="px_to_dip_177">88.50dp</dimen>
+    <dimen name="px_to_dip_178">89.00dp</dimen>
+    <dimen name="px_to_dip_179">89.50dp</dimen>
+    <dimen name="px_to_dip_18">9.00dp</dimen>
+    <dimen name="px_to_dip_180">90.00dp</dimen>
+    <dimen name="px_to_dip_181">90.50dp</dimen>
+    <dimen name="px_to_dip_182">91.00dp</dimen>
+    <dimen name="px_to_dip_183">91.50dp</dimen>
+    <dimen name="px_to_dip_184">92.00dp</dimen>
+    <dimen name="px_to_dip_185">92.50dp</dimen>
+    <dimen name="px_to_dip_186">93.00dp</dimen>
+    <dimen name="px_to_dip_187">93.50dp</dimen>
+    <dimen name="px_to_dip_188">94.00dp</dimen>
+    <dimen name="px_to_dip_189">94.50dp</dimen>
+    <dimen name="px_to_dip_19">9.50dp</dimen>
+    <dimen name="px_to_dip_190">95.00dp</dimen>
+    <dimen name="px_to_dip_191">95.50dp</dimen>
+    <dimen name="px_to_dip_192">96.00dp</dimen>
+    <dimen name="px_to_dip_193">96.50dp</dimen>
+    <dimen name="px_to_dip_194">97.00dp</dimen>
+    <dimen name="px_to_dip_195">97.50dp</dimen>
+    <dimen name="px_to_dip_196">98.00dp</dimen>
+    <dimen name="px_to_dip_197">98.50dp</dimen>
+    <dimen name="px_to_dip_198">99.00dp</dimen>
+    <dimen name="px_to_dip_199">99.50dp</dimen>
+    <dimen name="px_to_dip_2">1.00dp</dimen>
+    <dimen name="px_to_dip_20">10.00dp</dimen>
+    <dimen name="px_to_dip_200">100.00dp</dimen>
+    <dimen name="px_to_dip_201">100.50dp</dimen>
+    <dimen name="px_to_dip_202">101.00dp</dimen>
+    <dimen name="px_to_dip_203">101.50dp</dimen>
+    <dimen name="px_to_dip_204">102.00dp</dimen>
+    <dimen name="px_to_dip_205">102.50dp</dimen>
+    <dimen name="px_to_dip_206">103.00dp</dimen>
+    <dimen name="px_to_dip_207">103.50dp</dimen>
+    <dimen name="px_to_dip_208">104.00dp</dimen>
+    <dimen name="px_to_dip_209">104.50dp</dimen>
+    <dimen name="px_to_dip_21">10.50dp</dimen>
+    <dimen name="px_to_dip_210">105.00dp</dimen>
+    <dimen name="px_to_dip_211">105.50dp</dimen>
+    <dimen name="px_to_dip_212">106.00dp</dimen>
+    <dimen name="px_to_dip_213">106.50dp</dimen>
+    <dimen name="px_to_dip_214">107.00dp</dimen>
+    <dimen name="px_to_dip_215">107.50dp</dimen>
+    <dimen name="px_to_dip_216">108.00dp</dimen>
+    <dimen name="px_to_dip_217">108.50dp</dimen>
+    <dimen name="px_to_dip_218">109.00dp</dimen>
+    <dimen name="px_to_dip_219">109.50dp</dimen>
+    <dimen name="px_to_dip_22">11.00dp</dimen>
+    <dimen name="px_to_dip_220">110.00dp</dimen>
+    <dimen name="px_to_dip_221">110.50dp</dimen>
+    <dimen name="px_to_dip_222">111.00dp</dimen>
+    <dimen name="px_to_dip_223">111.50dp</dimen>
+    <dimen name="px_to_dip_224">112.00dp</dimen>
+    <dimen name="px_to_dip_225">112.50dp</dimen>
+    <dimen name="px_to_dip_226">113.00dp</dimen>
+    <dimen name="px_to_dip_227">113.50dp</dimen>
+    <dimen name="px_to_dip_228">114.00dp</dimen>
+    <dimen name="px_to_dip_229">114.50dp</dimen>
+    <dimen name="px_to_dip_23">11.50dp</dimen>
+    <dimen name="px_to_dip_230">115.00dp</dimen>
+    <dimen name="px_to_dip_231">115.50dp</dimen>
+    <dimen name="px_to_dip_232">116.00dp</dimen>
+    <dimen name="px_to_dip_233">116.50dp</dimen>
+    <dimen name="px_to_dip_234">117.00dp</dimen>
+    <dimen name="px_to_dip_235">117.50dp</dimen>
+    <dimen name="px_to_dip_236">118.00dp</dimen>
+    <dimen name="px_to_dip_237">118.50dp</dimen>
+    <dimen name="px_to_dip_238">119.00dp</dimen>
+    <dimen name="px_to_dip_239">119.50dp</dimen>
+    <dimen name="px_to_dip_24">12.00dp</dimen>
+    <dimen name="px_to_dip_240">120.00dp</dimen>
+    <dimen name="px_to_dip_241">120.50dp</dimen>
+    <dimen name="px_to_dip_242">121.00dp</dimen>
+    <dimen name="px_to_dip_243">121.50dp</dimen>
+    <dimen name="px_to_dip_244">122.00dp</dimen>
+    <dimen name="px_to_dip_245">122.50dp</dimen>
+    <dimen name="px_to_dip_246">123.00dp</dimen>
+    <dimen name="px_to_dip_247">123.50dp</dimen>
+    <dimen name="px_to_dip_248">124.00dp</dimen>
+    <dimen name="px_to_dip_249">124.50dp</dimen>
+    <dimen name="px_to_dip_25">12.50dp</dimen>
+    <dimen name="px_to_dip_250">125.00dp</dimen>
+    <dimen name="px_to_dip_251">125.50dp</dimen>
+    <dimen name="px_to_dip_252">126.00dp</dimen>
+    <dimen name="px_to_dip_253">126.50dp</dimen>
+    <dimen name="px_to_dip_254">127.00dp</dimen>
+    <dimen name="px_to_dip_255">127.50dp</dimen>
+    <dimen name="px_to_dip_256">128.00dp</dimen>
+    <dimen name="px_to_dip_257">128.50dp</dimen>
+    <dimen name="px_to_dip_258">129.00dp</dimen>
+    <dimen name="px_to_dip_259">129.50dp</dimen>
+    <dimen name="px_to_dip_26">13.00dp</dimen>
+    <dimen name="px_to_dip_260">130.00dp</dimen>
+    <dimen name="px_to_dip_261">130.50dp</dimen>
+    <dimen name="px_to_dip_262">131.00dp</dimen>
+    <dimen name="px_to_dip_263">131.50dp</dimen>
+    <dimen name="px_to_dip_264">132.00dp</dimen>
+    <dimen name="px_to_dip_265">132.50dp</dimen>
+    <dimen name="px_to_dip_266">133.00dp</dimen>
+    <dimen name="px_to_dip_267">133.50dp</dimen>
+    <dimen name="px_to_dip_268">134.00dp</dimen>
+    <dimen name="px_to_dip_269">134.50dp</dimen>
+    <dimen name="px_to_dip_27">13.50dp</dimen>
+    <dimen name="px_to_dip_270">135.00dp</dimen>
+    <dimen name="px_to_dip_271">135.50dp</dimen>
+    <dimen name="px_to_dip_272">136.00dp</dimen>
+    <dimen name="px_to_dip_273">136.50dp</dimen>
+    <dimen name="px_to_dip_274">137.00dp</dimen>
+    <dimen name="px_to_dip_275">137.50dp</dimen>
+    <dimen name="px_to_dip_276">138.00dp</dimen>
+    <dimen name="px_to_dip_277">138.50dp</dimen>
+    <dimen name="px_to_dip_278">139.00dp</dimen>
+    <dimen name="px_to_dip_279">139.50dp</dimen>
+    <dimen name="px_to_dip_28">14.00dp</dimen>
+    <dimen name="px_to_dip_280">140.00dp</dimen>
+    <dimen name="px_to_dip_281">140.50dp</dimen>
+    <dimen name="px_to_dip_282">141.00dp</dimen>
+    <dimen name="px_to_dip_283">141.50dp</dimen>
+    <dimen name="px_to_dip_284">142.00dp</dimen>
+    <dimen name="px_to_dip_285">142.50dp</dimen>
+    <dimen name="px_to_dip_286">143.00dp</dimen>
+    <dimen name="px_to_dip_287">143.50dp</dimen>
+    <dimen name="px_to_dip_288">144.00dp</dimen>
+    <dimen name="px_to_dip_289">144.50dp</dimen>
+    <dimen name="px_to_dip_29">14.50dp</dimen>
+    <dimen name="px_to_dip_290">145.00dp</dimen>
+    <dimen name="px_to_dip_291">145.50dp</dimen>
+    <dimen name="px_to_dip_292">146.00dp</dimen>
+    <dimen name="px_to_dip_293">146.50dp</dimen>
+    <dimen name="px_to_dip_294">147.00dp</dimen>
+    <dimen name="px_to_dip_295">147.50dp</dimen>
+    <dimen name="px_to_dip_296">148.00dp</dimen>
+    <dimen name="px_to_dip_297">148.50dp</dimen>
+    <dimen name="px_to_dip_298">149.00dp</dimen>
+    <dimen name="px_to_dip_299">149.50dp</dimen>
+    <dimen name="px_to_dip_3">1.50dp</dimen>
+    <dimen name="px_to_dip_30">15.00dp</dimen>
+    <dimen name="px_to_dip_300">150.00dp</dimen>
+    <dimen name="px_to_dip_301">150.50dp</dimen>
+    <dimen name="px_to_dip_302">151.00dp</dimen>
+    <dimen name="px_to_dip_303">151.50dp</dimen>
+    <dimen name="px_to_dip_304">152.00dp</dimen>
+    <dimen name="px_to_dip_305">152.50dp</dimen>
+    <dimen name="px_to_dip_306">153.00dp</dimen>
+    <dimen name="px_to_dip_307">153.50dp</dimen>
+    <dimen name="px_to_dip_308">154.00dp</dimen>
+    <dimen name="px_to_dip_309">154.50dp</dimen>
+    <dimen name="px_to_dip_31">15.50dp</dimen>
+    <dimen name="px_to_dip_310">155.00dp</dimen>
+    <dimen name="px_to_dip_311">155.50dp</dimen>
+    <dimen name="px_to_dip_312">156.00dp</dimen>
+    <dimen name="px_to_dip_313">156.50dp</dimen>
+    <dimen name="px_to_dip_314">157.00dp</dimen>
+    <dimen name="px_to_dip_315">157.50dp</dimen>
+    <dimen name="px_to_dip_316">158.00dp</dimen>
+    <dimen name="px_to_dip_317">158.50dp</dimen>
+    <dimen name="px_to_dip_318">159.00dp</dimen>
+    <dimen name="px_to_dip_319">159.50dp</dimen>
+    <dimen name="px_to_dip_32">16.00dp</dimen>
+    <dimen name="px_to_dip_320">160.00dp</dimen>
+    <dimen name="px_to_dip_321">160.50dp</dimen>
+    <dimen name="px_to_dip_322">161.00dp</dimen>
+    <dimen name="px_to_dip_323">161.50dp</dimen>
+    <dimen name="px_to_dip_324">162.00dp</dimen>
+    <dimen name="px_to_dip_325">162.50dp</dimen>
+    <dimen name="px_to_dip_326">163.00dp</dimen>
+    <dimen name="px_to_dip_327">163.50dp</dimen>
+    <dimen name="px_to_dip_328">164.00dp</dimen>
+    <dimen name="px_to_dip_329">164.50dp</dimen>
+    <dimen name="px_to_dip_33">16.50dp</dimen>
+    <dimen name="px_to_dip_330">165.00dp</dimen>
+    <dimen name="px_to_dip_331">165.50dp</dimen>
+    <dimen name="px_to_dip_332">166.00dp</dimen>
+    <dimen name="px_to_dip_333">166.50dp</dimen>
+    <dimen name="px_to_dip_334">167.00dp</dimen>
+    <dimen name="px_to_dip_335">167.50dp</dimen>
+    <dimen name="px_to_dip_336">168.00dp</dimen>
+    <dimen name="px_to_dip_337">168.50dp</dimen>
+    <dimen name="px_to_dip_338">169.00dp</dimen>
+    <dimen name="px_to_dip_339">169.50dp</dimen>
+    <dimen name="px_to_dip_34">17.00dp</dimen>
+    <dimen name="px_to_dip_340">170.00dp</dimen>
+    <dimen name="px_to_dip_341">170.50dp</dimen>
+    <dimen name="px_to_dip_342">171.00dp</dimen>
+    <dimen name="px_to_dip_343">171.50dp</dimen>
+    <dimen name="px_to_dip_344">172.00dp</dimen>
+    <dimen name="px_to_dip_345">172.50dp</dimen>
+    <dimen name="px_to_dip_346">173.00dp</dimen>
+    <dimen name="px_to_dip_347">173.50dp</dimen>
+    <dimen name="px_to_dip_348">174.00dp</dimen>
+    <dimen name="px_to_dip_349">174.50dp</dimen>
+    <dimen name="px_to_dip_35">17.50dp</dimen>
+    <dimen name="px_to_dip_350">175.00dp</dimen>
+    <dimen name="px_to_dip_351">175.50dp</dimen>
+    <dimen name="px_to_dip_352">176.00dp</dimen>
+    <dimen name="px_to_dip_353">176.50dp</dimen>
+    <dimen name="px_to_dip_354">177.00dp</dimen>
+    <dimen name="px_to_dip_355">177.50dp</dimen>
+    <dimen name="px_to_dip_356">178.00dp</dimen>
+    <dimen name="px_to_dip_357">178.50dp</dimen>
+    <dimen name="px_to_dip_358">179.00dp</dimen>
+    <dimen name="px_to_dip_359">179.50dp</dimen>
+    <dimen name="px_to_dip_36">18.00dp</dimen>
+    <dimen name="px_to_dip_360">180.00dp</dimen>
+    <dimen name="px_to_dip_361">180.50dp</dimen>
+    <dimen name="px_to_dip_362">181.00dp</dimen>
+    <dimen name="px_to_dip_363">181.50dp</dimen>
+    <dimen name="px_to_dip_364">182.00dp</dimen>
+    <dimen name="px_to_dip_365">182.50dp</dimen>
+    <dimen name="px_to_dip_366">183.00dp</dimen>
+    <dimen name="px_to_dip_367">183.50dp</dimen>
+    <dimen name="px_to_dip_368">184.00dp</dimen>
+    <dimen name="px_to_dip_369">184.50dp</dimen>
+    <dimen name="px_to_dip_37">18.50dp</dimen>
+    <dimen name="px_to_dip_370">185.00dp</dimen>
+    <dimen name="px_to_dip_371">185.50dp</dimen>
+    <dimen name="px_to_dip_372">186.00dp</dimen>
+    <dimen name="px_to_dip_373">186.50dp</dimen>
+    <dimen name="px_to_dip_374">187.00dp</dimen>
+    <dimen name="px_to_dip_375">187.50dp</dimen>
+    <dimen name="px_to_dip_376">188.00dp</dimen>
+    <dimen name="px_to_dip_377">188.50dp</dimen>
+    <dimen name="px_to_dip_378">189.00dp</dimen>
+    <dimen name="px_to_dip_379">189.50dp</dimen>
+    <dimen name="px_to_dip_38">19.00dp</dimen>
+    <dimen name="px_to_dip_380">190.00dp</dimen>
+    <dimen name="px_to_dip_381">190.50dp</dimen>
+    <dimen name="px_to_dip_382">191.00dp</dimen>
+    <dimen name="px_to_dip_383">191.50dp</dimen>
+    <dimen name="px_to_dip_384">192.00dp</dimen>
+    <dimen name="px_to_dip_385">192.50dp</dimen>
+    <dimen name="px_to_dip_386">193.00dp</dimen>
+    <dimen name="px_to_dip_387">193.50dp</dimen>
+    <dimen name="px_to_dip_388">194.00dp</dimen>
+    <dimen name="px_to_dip_389">194.50dp</dimen>
+    <dimen name="px_to_dip_39">19.50dp</dimen>
+    <dimen name="px_to_dip_390">195.00dp</dimen>
+    <dimen name="px_to_dip_391">195.50dp</dimen>
+    <dimen name="px_to_dip_392">196.00dp</dimen>
+    <dimen name="px_to_dip_393">196.50dp</dimen>
+    <dimen name="px_to_dip_394">197.00dp</dimen>
+    <dimen name="px_to_dip_395">197.50dp</dimen>
+    <dimen name="px_to_dip_396">198.00dp</dimen>
+    <dimen name="px_to_dip_397">198.50dp</dimen>
+    <dimen name="px_to_dip_398">199.00dp</dimen>
+    <dimen name="px_to_dip_399">199.50dp</dimen>
+    <dimen name="px_to_dip_4">2.00dp</dimen>
+    <dimen name="px_to_dip_40">20.00dp</dimen>
+    <dimen name="px_to_dip_400">200.00dp</dimen>
+    <dimen name="px_to_dip_401">200.50dp</dimen>
+    <dimen name="px_to_dip_402">201.00dp</dimen>
+    <dimen name="px_to_dip_403">201.50dp</dimen>
+    <dimen name="px_to_dip_404">202.00dp</dimen>
+    <dimen name="px_to_dip_405">202.50dp</dimen>
+    <dimen name="px_to_dip_406">203.00dp</dimen>
+    <dimen name="px_to_dip_407">203.50dp</dimen>
+    <dimen name="px_to_dip_408">204.00dp</dimen>
+    <dimen name="px_to_dip_409">204.50dp</dimen>
+    <dimen name="px_to_dip_41">20.50dp</dimen>
+    <dimen name="px_to_dip_410">205.00dp</dimen>
+    <dimen name="px_to_dip_411">205.50dp</dimen>
+    <dimen name="px_to_dip_412">206.00dp</dimen>
+    <dimen name="px_to_dip_413">206.50dp</dimen>
+    <dimen name="px_to_dip_414">207.00dp</dimen>
+    <dimen name="px_to_dip_415">207.50dp</dimen>
+    <dimen name="px_to_dip_416">208.00dp</dimen>
+    <dimen name="px_to_dip_417">208.50dp</dimen>
+    <dimen name="px_to_dip_418">209.00dp</dimen>
+    <dimen name="px_to_dip_419">209.50dp</dimen>
+    <dimen name="px_to_dip_42">21.00dp</dimen>
+    <dimen name="px_to_dip_420">210.00dp</dimen>
+    <dimen name="px_to_dip_421">210.50dp</dimen>
+    <dimen name="px_to_dip_422">211.00dp</dimen>
+    <dimen name="px_to_dip_423">211.50dp</dimen>
+    <dimen name="px_to_dip_424">212.00dp</dimen>
+    <dimen name="px_to_dip_425">212.50dp</dimen>
+    <dimen name="px_to_dip_426">213.00dp</dimen>
+    <dimen name="px_to_dip_427">213.50dp</dimen>
+    <dimen name="px_to_dip_428">214.00dp</dimen>
+    <dimen name="px_to_dip_429">214.50dp</dimen>
+    <dimen name="px_to_dip_43">21.50dp</dimen>
+    <dimen name="px_to_dip_430">215.00dp</dimen>
+    <dimen name="px_to_dip_431">215.50dp</dimen>
+    <dimen name="px_to_dip_432">216.00dp</dimen>
+    <dimen name="px_to_dip_433">216.50dp</dimen>
+    <dimen name="px_to_dip_434">217.00dp</dimen>
+    <dimen name="px_to_dip_435">217.50dp</dimen>
+    <dimen name="px_to_dip_436">218.00dp</dimen>
+    <dimen name="px_to_dip_437">218.50dp</dimen>
+    <dimen name="px_to_dip_438">219.00dp</dimen>
+    <dimen name="px_to_dip_439">219.50dp</dimen>
+    <dimen name="px_to_dip_44">22.00dp</dimen>
+    <dimen name="px_to_dip_440">220.00dp</dimen>
+    <dimen name="px_to_dip_441">220.50dp</dimen>
+    <dimen name="px_to_dip_442">221.00dp</dimen>
+    <dimen name="px_to_dip_443">221.50dp</dimen>
+    <dimen name="px_to_dip_444">222.00dp</dimen>
+    <dimen name="px_to_dip_445">222.50dp</dimen>
+    <dimen name="px_to_dip_446">223.00dp</dimen>
+    <dimen name="px_to_dip_447">223.50dp</dimen>
+    <dimen name="px_to_dip_448">224.00dp</dimen>
+    <dimen name="px_to_dip_449">224.50dp</dimen>
+    <dimen name="px_to_dip_45">22.50dp</dimen>
+    <dimen name="px_to_dip_450">225.00dp</dimen>
+    <dimen name="px_to_dip_451">225.50dp</dimen>
+    <dimen name="px_to_dip_452">226.00dp</dimen>
+    <dimen name="px_to_dip_453">226.50dp</dimen>
+    <dimen name="px_to_dip_454">227.00dp</dimen>
+    <dimen name="px_to_dip_455">227.50dp</dimen>
+    <dimen name="px_to_dip_456">228.00dp</dimen>
+    <dimen name="px_to_dip_457">228.50dp</dimen>
+    <dimen name="px_to_dip_458">229.00dp</dimen>
+    <dimen name="px_to_dip_459">229.50dp</dimen>
+    <dimen name="px_to_dip_46">23.00dp</dimen>
+    <dimen name="px_to_dip_460">230.00dp</dimen>
+    <dimen name="px_to_dip_461">230.50dp</dimen>
+    <dimen name="px_to_dip_462">231.00dp</dimen>
+    <dimen name="px_to_dip_463">231.50dp</dimen>
+    <dimen name="px_to_dip_464">232.00dp</dimen>
+    <dimen name="px_to_dip_465">232.50dp</dimen>
+    <dimen name="px_to_dip_466">233.00dp</dimen>
+    <dimen name="px_to_dip_467">233.50dp</dimen>
+    <dimen name="px_to_dip_468">234.00dp</dimen>
+    <dimen name="px_to_dip_469">234.50dp</dimen>
+    <dimen name="px_to_dip_47">23.50dp</dimen>
+    <dimen name="px_to_dip_470">235.00dp</dimen>
+    <dimen name="px_to_dip_471">235.50dp</dimen>
+    <dimen name="px_to_dip_472">236.00dp</dimen>
+    <dimen name="px_to_dip_473">236.50dp</dimen>
+    <dimen name="px_to_dip_474">237.00dp</dimen>
+    <dimen name="px_to_dip_475">237.50dp</dimen>
+    <dimen name="px_to_dip_476">238.00dp</dimen>
+    <dimen name="px_to_dip_477">238.50dp</dimen>
+    <dimen name="px_to_dip_478">239.00dp</dimen>
+    <dimen name="px_to_dip_479">239.50dp</dimen>
+    <dimen name="px_to_dip_48">24.00dp</dimen>
+    <dimen name="px_to_dip_480">240.00dp</dimen>
+    <dimen name="px_to_dip_481">240.50dp</dimen>
+    <dimen name="px_to_dip_482">241.00dp</dimen>
+    <dimen name="px_to_dip_483">241.50dp</dimen>
+    <dimen name="px_to_dip_484">242.00dp</dimen>
+    <dimen name="px_to_dip_485">242.50dp</dimen>
+    <dimen name="px_to_dip_486">243.00dp</dimen>
+    <dimen name="px_to_dip_487">243.50dp</dimen>
+    <dimen name="px_to_dip_488">244.00dp</dimen>
+    <dimen name="px_to_dip_489">244.50dp</dimen>
+    <dimen name="px_to_dip_49">24.50dp</dimen>
+    <dimen name="px_to_dip_490">245.00dp</dimen>
+    <dimen name="px_to_dip_491">245.50dp</dimen>
+    <dimen name="px_to_dip_492">246.00dp</dimen>
+    <dimen name="px_to_dip_493">246.50dp</dimen>
+    <dimen name="px_to_dip_494">247.00dp</dimen>
+    <dimen name="px_to_dip_495">247.50dp</dimen>
+    <dimen name="px_to_dip_496">248.00dp</dimen>
+    <dimen name="px_to_dip_497">248.50dp</dimen>
+    <dimen name="px_to_dip_498">249.00dp</dimen>
+    <dimen name="px_to_dip_499">249.50dp</dimen>
+    <dimen name="px_to_dip_5">2.50dp</dimen>
+    <dimen name="px_to_dip_50">25.00dp</dimen>
+    <dimen name="px_to_dip_500">250.00dp</dimen>
+    <dimen name="px_to_dip_501">250.50dp</dimen>
+    <dimen name="px_to_dip_502">251.00dp</dimen>
+    <dimen name="px_to_dip_503">251.50dp</dimen>
+    <dimen name="px_to_dip_504">252.00dp</dimen>
+    <dimen name="px_to_dip_505">252.50dp</dimen>
+    <dimen name="px_to_dip_506">253.00dp</dimen>
+    <dimen name="px_to_dip_507">253.50dp</dimen>
+    <dimen name="px_to_dip_508">254.00dp</dimen>
+    <dimen name="px_to_dip_509">254.50dp</dimen>
+    <dimen name="px_to_dip_51">25.50dp</dimen>
+    <dimen name="px_to_dip_510">255.00dp</dimen>
+    <dimen name="px_to_dip_511">255.50dp</dimen>
+    <dimen name="px_to_dip_512">256.00dp</dimen>
+    <dimen name="px_to_dip_513">256.50dp</dimen>
+    <dimen name="px_to_dip_514">257.00dp</dimen>
+    <dimen name="px_to_dip_515">257.50dp</dimen>
+    <dimen name="px_to_dip_516">258.00dp</dimen>
+    <dimen name="px_to_dip_517">258.50dp</dimen>
+    <dimen name="px_to_dip_518">259.00dp</dimen>
+    <dimen name="px_to_dip_519">259.50dp</dimen>
+    <dimen name="px_to_dip_52">26.00dp</dimen>
+    <dimen name="px_to_dip_520">260.00dp</dimen>
+    <dimen name="px_to_dip_521">260.50dp</dimen>
+    <dimen name="px_to_dip_522">261.00dp</dimen>
+    <dimen name="px_to_dip_523">261.50dp</dimen>
+    <dimen name="px_to_dip_524">262.00dp</dimen>
+    <dimen name="px_to_dip_525">262.50dp</dimen>
+    <dimen name="px_to_dip_526">263.00dp</dimen>
+    <dimen name="px_to_dip_527">263.50dp</dimen>
+    <dimen name="px_to_dip_528">264.00dp</dimen>
+    <dimen name="px_to_dip_529">264.50dp</dimen>
+    <dimen name="px_to_dip_53">26.50dp</dimen>
+    <dimen name="px_to_dip_530">265.00dp</dimen>
+    <dimen name="px_to_dip_531">265.50dp</dimen>
+    <dimen name="px_to_dip_532">266.00dp</dimen>
+    <dimen name="px_to_dip_533">266.50dp</dimen>
+    <dimen name="px_to_dip_534">267.00dp</dimen>
+    <dimen name="px_to_dip_535">267.50dp</dimen>
+    <dimen name="px_to_dip_536">268.00dp</dimen>
+    <dimen name="px_to_dip_537">268.50dp</dimen>
+    <dimen name="px_to_dip_538">269.00dp</dimen>
+    <dimen name="px_to_dip_539">269.50dp</dimen>
+    <dimen name="px_to_dip_54">27.00dp</dimen>
+    <dimen name="px_to_dip_540">270.00dp</dimen>
+    <dimen name="px_to_dip_541">270.50dp</dimen>
+    <dimen name="px_to_dip_542">271.00dp</dimen>
+    <dimen name="px_to_dip_543">271.50dp</dimen>
+    <dimen name="px_to_dip_544">272.00dp</dimen>
+    <dimen name="px_to_dip_545">272.50dp</dimen>
+    <dimen name="px_to_dip_546">273.00dp</dimen>
+    <dimen name="px_to_dip_547">273.50dp</dimen>
+    <dimen name="px_to_dip_548">274.00dp</dimen>
+    <dimen name="px_to_dip_549">274.50dp</dimen>
+    <dimen name="px_to_dip_55">27.50dp</dimen>
+    <dimen name="px_to_dip_550">275.00dp</dimen>
+    <dimen name="px_to_dip_551">275.50dp</dimen>
+    <dimen name="px_to_dip_552">276.00dp</dimen>
+    <dimen name="px_to_dip_553">276.50dp</dimen>
+    <dimen name="px_to_dip_554">277.00dp</dimen>
+    <dimen name="px_to_dip_555">277.50dp</dimen>
+    <dimen name="px_to_dip_556">278.00dp</dimen>
+    <dimen name="px_to_dip_557">278.50dp</dimen>
+    <dimen name="px_to_dip_558">279.00dp</dimen>
+    <dimen name="px_to_dip_559">279.50dp</dimen>
+    <dimen name="px_to_dip_56">28.00dp</dimen>
+    <dimen name="px_to_dip_560">280.00dp</dimen>
+    <dimen name="px_to_dip_561">280.50dp</dimen>
+    <dimen name="px_to_dip_562">281.00dp</dimen>
+    <dimen name="px_to_dip_563">281.50dp</dimen>
+    <dimen name="px_to_dip_564">282.00dp</dimen>
+    <dimen name="px_to_dip_565">282.50dp</dimen>
+    <dimen name="px_to_dip_566">283.00dp</dimen>
+    <dimen name="px_to_dip_567">283.50dp</dimen>
+    <dimen name="px_to_dip_568">284.00dp</dimen>
+    <dimen name="px_to_dip_569">284.50dp</dimen>
+    <dimen name="px_to_dip_57">28.50dp</dimen>
+    <dimen name="px_to_dip_570">285.00dp</dimen>
+    <dimen name="px_to_dip_571">285.50dp</dimen>
+    <dimen name="px_to_dip_572">286.00dp</dimen>
+    <dimen name="px_to_dip_573">286.50dp</dimen>
+    <dimen name="px_to_dip_574">287.00dp</dimen>
+    <dimen name="px_to_dip_575">287.50dp</dimen>
+    <dimen name="px_to_dip_576">288.00dp</dimen>
+    <dimen name="px_to_dip_577">288.50dp</dimen>
+    <dimen name="px_to_dip_578">289.00dp</dimen>
+    <dimen name="px_to_dip_579">289.50dp</dimen>
+    <dimen name="px_to_dip_58">29.00dp</dimen>
+    <dimen name="px_to_dip_580">290.00dp</dimen>
+    <dimen name="px_to_dip_581">290.50dp</dimen>
+    <dimen name="px_to_dip_582">291.00dp</dimen>
+    <dimen name="px_to_dip_583">291.50dp</dimen>
+    <dimen name="px_to_dip_584">292.00dp</dimen>
+    <dimen name="px_to_dip_585">292.50dp</dimen>
+    <dimen name="px_to_dip_586">293.00dp</dimen>
+    <dimen name="px_to_dip_587">293.50dp</dimen>
+    <dimen name="px_to_dip_588">294.00dp</dimen>
+    <dimen name="px_to_dip_589">294.50dp</dimen>
+    <dimen name="px_to_dip_59">29.50dp</dimen>
+    <dimen name="px_to_dip_590">295.00dp</dimen>
+    <dimen name="px_to_dip_591">295.50dp</dimen>
+    <dimen name="px_to_dip_592">296.00dp</dimen>
+    <dimen name="px_to_dip_593">296.50dp</dimen>
+    <dimen name="px_to_dip_594">297.00dp</dimen>
+    <dimen name="px_to_dip_595">297.50dp</dimen>
+    <dimen name="px_to_dip_596">298.00dp</dimen>
+    <dimen name="px_to_dip_597">298.50dp</dimen>
+    <dimen name="px_to_dip_598">299.00dp</dimen>
+    <dimen name="px_to_dip_599">299.50dp</dimen>
+    <dimen name="px_to_dip_6">3.00dp</dimen>
+    <dimen name="px_to_dip_60">30.00dp</dimen>
+    <dimen name="px_to_dip_600">300.00dp</dimen>
+    <dimen name="px_to_dip_601">300.50dp</dimen>
+    <dimen name="px_to_dip_602">301.00dp</dimen>
+    <dimen name="px_to_dip_603">301.50dp</dimen>
+    <dimen name="px_to_dip_604">302.00dp</dimen>
+    <dimen name="px_to_dip_605">302.50dp</dimen>
+    <dimen name="px_to_dip_606">303.00dp</dimen>
+    <dimen name="px_to_dip_607">303.50dp</dimen>
+    <dimen name="px_to_dip_608">304.00dp</dimen>
+    <dimen name="px_to_dip_609">304.50dp</dimen>
+    <dimen name="px_to_dip_61">30.50dp</dimen>
+    <dimen name="px_to_dip_610">305.00dp</dimen>
+    <dimen name="px_to_dip_611">305.50dp</dimen>
+    <dimen name="px_to_dip_612">306.00dp</dimen>
+    <dimen name="px_to_dip_613">306.50dp</dimen>
+    <dimen name="px_to_dip_614">307.00dp</dimen>
+    <dimen name="px_to_dip_615">307.50dp</dimen>
+    <dimen name="px_to_dip_616">308.00dp</dimen>
+    <dimen name="px_to_dip_617">308.50dp</dimen>
+    <dimen name="px_to_dip_618">309.00dp</dimen>
+    <dimen name="px_to_dip_619">309.50dp</dimen>
+    <dimen name="px_to_dip_62">31.00dp</dimen>
+    <dimen name="px_to_dip_620">310.00dp</dimen>
+    <dimen name="px_to_dip_621">310.50dp</dimen>
+    <dimen name="px_to_dip_622">311.00dp</dimen>
+    <dimen name="px_to_dip_623">311.50dp</dimen>
+    <dimen name="px_to_dip_624">312.00dp</dimen>
+    <dimen name="px_to_dip_625">312.50dp</dimen>
+    <dimen name="px_to_dip_626">313.00dp</dimen>
+    <dimen name="px_to_dip_627">313.50dp</dimen>
+    <dimen name="px_to_dip_628">314.00dp</dimen>
+    <dimen name="px_to_dip_629">314.50dp</dimen>
+    <dimen name="px_to_dip_63">31.50dp</dimen>
+    <dimen name="px_to_dip_630">315.00dp</dimen>
+    <dimen name="px_to_dip_631">315.50dp</dimen>
+    <dimen name="px_to_dip_632">316.00dp</dimen>
+    <dimen name="px_to_dip_633">316.50dp</dimen>
+    <dimen name="px_to_dip_634">317.00dp</dimen>
+    <dimen name="px_to_dip_635">317.50dp</dimen>
+    <dimen name="px_to_dip_636">318.00dp</dimen>
+    <dimen name="px_to_dip_637">318.50dp</dimen>
+    <dimen name="px_to_dip_638">319.00dp</dimen>
+    <dimen name="px_to_dip_639">319.50dp</dimen>
+    <dimen name="px_to_dip_64">32.00dp</dimen>
+    <dimen name="px_to_dip_640">320.00dp</dimen>
+    <dimen name="px_to_dip_641">320.50dp</dimen>
+    <dimen name="px_to_dip_642">321.00dp</dimen>
+    <dimen name="px_to_dip_643">321.50dp</dimen>
+    <dimen name="px_to_dip_644">322.00dp</dimen>
+    <dimen name="px_to_dip_645">322.50dp</dimen>
+    <dimen name="px_to_dip_646">323.00dp</dimen>
+    <dimen name="px_to_dip_647">323.50dp</dimen>
+    <dimen name="px_to_dip_648">324.00dp</dimen>
+    <dimen name="px_to_dip_649">324.50dp</dimen>
+    <dimen name="px_to_dip_65">32.50dp</dimen>
+    <dimen name="px_to_dip_650">325.00dp</dimen>
+    <dimen name="px_to_dip_651">325.50dp</dimen>
+    <dimen name="px_to_dip_652">326.00dp</dimen>
+    <dimen name="px_to_dip_653">326.50dp</dimen>
+    <dimen name="px_to_dip_654">327.00dp</dimen>
+    <dimen name="px_to_dip_655">327.50dp</dimen>
+    <dimen name="px_to_dip_656">328.00dp</dimen>
+    <dimen name="px_to_dip_657">328.50dp</dimen>
+    <dimen name="px_to_dip_658">329.00dp</dimen>
+    <dimen name="px_to_dip_659">329.50dp</dimen>
+    <dimen name="px_to_dip_66">33.00dp</dimen>
+    <dimen name="px_to_dip_660">330.00dp</dimen>
+    <dimen name="px_to_dip_661">330.50dp</dimen>
+    <dimen name="px_to_dip_662">331.00dp</dimen>
+    <dimen name="px_to_dip_663">331.50dp</dimen>
+    <dimen name="px_to_dip_664">332.00dp</dimen>
+    <dimen name="px_to_dip_665">332.50dp</dimen>
+    <dimen name="px_to_dip_666">333.00dp</dimen>
+    <dimen name="px_to_dip_667">333.50dp</dimen>
+    <dimen name="px_to_dip_668">334.00dp</dimen>
+    <dimen name="px_to_dip_669">334.50dp</dimen>
+    <dimen name="px_to_dip_67">33.50dp</dimen>
+    <dimen name="px_to_dip_670">335.00dp</dimen>
+    <dimen name="px_to_dip_671">335.50dp</dimen>
+    <dimen name="px_to_dip_672">336.00dp</dimen>
+    <dimen name="px_to_dip_673">336.50dp</dimen>
+    <dimen name="px_to_dip_674">337.00dp</dimen>
+    <dimen name="px_to_dip_675">337.50dp</dimen>
+    <dimen name="px_to_dip_676">338.00dp</dimen>
+    <dimen name="px_to_dip_677">338.50dp</dimen>
+    <dimen name="px_to_dip_678">339.00dp</dimen>
+    <dimen name="px_to_dip_679">339.50dp</dimen>
+    <dimen name="px_to_dip_68">34.00dp</dimen>
+    <dimen name="px_to_dip_680">340.00dp</dimen>
+    <dimen name="px_to_dip_681">340.50dp</dimen>
+    <dimen name="px_to_dip_682">341.00dp</dimen>
+    <dimen name="px_to_dip_683">341.50dp</dimen>
+    <dimen name="px_to_dip_684">342.00dp</dimen>
+    <dimen name="px_to_dip_685">342.50dp</dimen>
+    <dimen name="px_to_dip_686">343.00dp</dimen>
+    <dimen name="px_to_dip_687">343.50dp</dimen>
+    <dimen name="px_to_dip_688">344.00dp</dimen>
+    <dimen name="px_to_dip_689">344.50dp</dimen>
+    <dimen name="px_to_dip_69">34.50dp</dimen>
+    <dimen name="px_to_dip_690">345.00dp</dimen>
+    <dimen name="px_to_dip_691">345.50dp</dimen>
+    <dimen name="px_to_dip_692">346.00dp</dimen>
+    <dimen name="px_to_dip_693">346.50dp</dimen>
+    <dimen name="px_to_dip_694">347.00dp</dimen>
+    <dimen name="px_to_dip_695">347.50dp</dimen>
+    <dimen name="px_to_dip_696">348.00dp</dimen>
+    <dimen name="px_to_dip_697">348.50dp</dimen>
+    <dimen name="px_to_dip_698">349.00dp</dimen>
+    <dimen name="px_to_dip_699">349.50dp</dimen>
+    <dimen name="px_to_dip_7">3.50dp</dimen>
+    <dimen name="px_to_dip_70">35.00dp</dimen>
+    <dimen name="px_to_dip_700">350.00dp</dimen>
+    <dimen name="px_to_dip_701">350.50dp</dimen>
+    <dimen name="px_to_dip_702">351.00dp</dimen>
+    <dimen name="px_to_dip_703">351.50dp</dimen>
+    <dimen name="px_to_dip_704">352.00dp</dimen>
+    <dimen name="px_to_dip_705">352.50dp</dimen>
+    <dimen name="px_to_dip_706">353.00dp</dimen>
+    <dimen name="px_to_dip_707">353.50dp</dimen>
+    <dimen name="px_to_dip_708">354.00dp</dimen>
+    <dimen name="px_to_dip_709">354.50dp</dimen>
+    <dimen name="px_to_dip_71">35.50dp</dimen>
+    <dimen name="px_to_dip_710">355.00dp</dimen>
+    <dimen name="px_to_dip_711">355.50dp</dimen>
+    <dimen name="px_to_dip_712">356.00dp</dimen>
+    <dimen name="px_to_dip_713">356.50dp</dimen>
+    <dimen name="px_to_dip_714">357.00dp</dimen>
+    <dimen name="px_to_dip_715">357.50dp</dimen>
+    <dimen name="px_to_dip_716">358.00dp</dimen>
+    <dimen name="px_to_dip_717">358.50dp</dimen>
+    <dimen name="px_to_dip_718">359.00dp</dimen>
+    <dimen name="px_to_dip_719">359.50dp</dimen>
+    <dimen name="px_to_dip_72">36.00dp</dimen>
+    <dimen name="px_to_dip_720">360.00dp</dimen>
+    <dimen name="px_to_dip_721">360.50dp</dimen>
+    <dimen name="px_to_dip_722">361.00dp</dimen>
+    <dimen name="px_to_dip_723">361.50dp</dimen>
+    <dimen name="px_to_dip_724">362.00dp</dimen>
+    <dimen name="px_to_dip_725">362.50dp</dimen>
+    <dimen name="px_to_dip_726">363.00dp</dimen>
+    <dimen name="px_to_dip_727">363.50dp</dimen>
+    <dimen name="px_to_dip_728">364.00dp</dimen>
+    <dimen name="px_to_dip_729">364.50dp</dimen>
+    <dimen name="px_to_dip_73">36.50dp</dimen>
+    <dimen name="px_to_dip_730">365.00dp</dimen>
+    <dimen name="px_to_dip_731">365.50dp</dimen>
+    <dimen name="px_to_dip_732">366.00dp</dimen>
+    <dimen name="px_to_dip_733">366.50dp</dimen>
+    <dimen name="px_to_dip_734">367.00dp</dimen>
+    <dimen name="px_to_dip_735">367.50dp</dimen>
+    <dimen name="px_to_dip_736">368.00dp</dimen>
+    <dimen name="px_to_dip_737">368.50dp</dimen>
+    <dimen name="px_to_dip_738">369.00dp</dimen>
+    <dimen name="px_to_dip_739">369.50dp</dimen>
+    <dimen name="px_to_dip_74">37.00dp</dimen>
+    <dimen name="px_to_dip_740">370.00dp</dimen>
+    <dimen name="px_to_dip_741">370.50dp</dimen>
+    <dimen name="px_to_dip_742">371.00dp</dimen>
+    <dimen name="px_to_dip_743">371.50dp</dimen>
+    <dimen name="px_to_dip_744">372.00dp</dimen>
+    <dimen name="px_to_dip_745">372.50dp</dimen>
+    <dimen name="px_to_dip_746">373.00dp</dimen>
+    <dimen name="px_to_dip_747">373.50dp</dimen>
+    <dimen name="px_to_dip_748">374.00dp</dimen>
+    <dimen name="px_to_dip_749">374.50dp</dimen>
+    <dimen name="px_to_dip_75">37.50dp</dimen>
+    <dimen name="px_to_dip_750">375.00dp</dimen>
+    <dimen name="px_to_dip_751">375.50dp</dimen>
+    <dimen name="px_to_dip_752">376.00dp</dimen>
+    <dimen name="px_to_dip_753">376.50dp</dimen>
+    <dimen name="px_to_dip_754">377.00dp</dimen>
+    <dimen name="px_to_dip_755">377.50dp</dimen>
+    <dimen name="px_to_dip_756">378.00dp</dimen>
+    <dimen name="px_to_dip_757">378.50dp</dimen>
+    <dimen name="px_to_dip_758">379.00dp</dimen>
+    <dimen name="px_to_dip_759">379.50dp</dimen>
+    <dimen name="px_to_dip_76">38.00dp</dimen>
+    <dimen name="px_to_dip_760">380.00dp</dimen>
+    <dimen name="px_to_dip_761">380.50dp</dimen>
+    <dimen name="px_to_dip_762">381.00dp</dimen>
+    <dimen name="px_to_dip_763">381.50dp</dimen>
+    <dimen name="px_to_dip_764">382.00dp</dimen>
+    <dimen name="px_to_dip_765">382.50dp</dimen>
+    <dimen name="px_to_dip_766">383.00dp</dimen>
+    <dimen name="px_to_dip_767">383.50dp</dimen>
+    <dimen name="px_to_dip_768">384.00dp</dimen>
+    <dimen name="px_to_dip_769">384.50dp</dimen>
+    <dimen name="px_to_dip_77">38.50dp</dimen>
+    <dimen name="px_to_dip_770">385.00dp</dimen>
+    <dimen name="px_to_dip_771">385.50dp</dimen>
+    <dimen name="px_to_dip_772">386.00dp</dimen>
+    <dimen name="px_to_dip_773">386.50dp</dimen>
+    <dimen name="px_to_dip_774">387.00dp</dimen>
+    <dimen name="px_to_dip_775">387.50dp</dimen>
+    <dimen name="px_to_dip_776">388.00dp</dimen>
+    <dimen name="px_to_dip_777">388.50dp</dimen>
+    <dimen name="px_to_dip_778">389.00dp</dimen>
+    <dimen name="px_to_dip_779">389.50dp</dimen>
+    <dimen name="px_to_dip_78">39.00dp</dimen>
+    <dimen name="px_to_dip_780">390.00dp</dimen>
+    <dimen name="px_to_dip_781">390.50dp</dimen>
+    <dimen name="px_to_dip_782">391.00dp</dimen>
+    <dimen name="px_to_dip_783">391.50dp</dimen>
+    <dimen name="px_to_dip_784">392.00dp</dimen>
+    <dimen name="px_to_dip_785">392.50dp</dimen>
+    <dimen name="px_to_dip_786">393.00dp</dimen>
+    <dimen name="px_to_dip_787">393.50dp</dimen>
+    <dimen name="px_to_dip_788">394.00dp</dimen>
+    <dimen name="px_to_dip_789">394.50dp</dimen>
+    <dimen name="px_to_dip_79">39.50dp</dimen>
+    <dimen name="px_to_dip_790">395.00dp</dimen>
+    <dimen name="px_to_dip_791">395.50dp</dimen>
+    <dimen name="px_to_dip_792">396.00dp</dimen>
+    <dimen name="px_to_dip_793">396.50dp</dimen>
+    <dimen name="px_to_dip_794">397.00dp</dimen>
+    <dimen name="px_to_dip_795">397.50dp</dimen>
+    <dimen name="px_to_dip_796">398.00dp</dimen>
+    <dimen name="px_to_dip_797">398.50dp</dimen>
+    <dimen name="px_to_dip_798">399.00dp</dimen>
+    <dimen name="px_to_dip_799">399.50dp</dimen>
+    <dimen name="px_to_dip_8">4.00dp</dimen>
+    <dimen name="px_to_dip_80">40.00dp</dimen>
+    <dimen name="px_to_dip_800">400.00dp</dimen>
+    <dimen name="px_to_dip_801">400.50dp</dimen>
+    <dimen name="px_to_dip_802">401.00dp</dimen>
+    <dimen name="px_to_dip_803">401.50dp</dimen>
+    <dimen name="px_to_dip_804">402.00dp</dimen>
+    <dimen name="px_to_dip_805">402.50dp</dimen>
+    <dimen name="px_to_dip_806">403.00dp</dimen>
+    <dimen name="px_to_dip_807">403.50dp</dimen>
+    <dimen name="px_to_dip_808">404.00dp</dimen>
+    <dimen name="px_to_dip_809">404.50dp</dimen>
+    <dimen name="px_to_dip_81">40.50dp</dimen>
+    <dimen name="px_to_dip_810">405.00dp</dimen>
+    <dimen name="px_to_dip_811">405.50dp</dimen>
+    <dimen name="px_to_dip_812">406.00dp</dimen>
+    <dimen name="px_to_dip_813">406.50dp</dimen>
+    <dimen name="px_to_dip_814">407.00dp</dimen>
+    <dimen name="px_to_dip_815">407.50dp</dimen>
+    <dimen name="px_to_dip_816">408.00dp</dimen>
+    <dimen name="px_to_dip_817">408.50dp</dimen>
+    <dimen name="px_to_dip_818">409.00dp</dimen>
+    <dimen name="px_to_dip_819">409.50dp</dimen>
+    <dimen name="px_to_dip_82">41.00dp</dimen>
+    <dimen name="px_to_dip_820">410.00dp</dimen>
+    <dimen name="px_to_dip_821">410.50dp</dimen>
+    <dimen name="px_to_dip_822">411.00dp</dimen>
+    <dimen name="px_to_dip_823">411.50dp</dimen>
+    <dimen name="px_to_dip_824">412.00dp</dimen>
+    <dimen name="px_to_dip_825">412.50dp</dimen>
+    <dimen name="px_to_dip_826">413.00dp</dimen>
+    <dimen name="px_to_dip_827">413.50dp</dimen>
+    <dimen name="px_to_dip_828">414.00dp</dimen>
+    <dimen name="px_to_dip_829">414.50dp</dimen>
+    <dimen name="px_to_dip_83">41.50dp</dimen>
+    <dimen name="px_to_dip_830">415.00dp</dimen>
+    <dimen name="px_to_dip_831">415.50dp</dimen>
+    <dimen name="px_to_dip_832">416.00dp</dimen>
+    <dimen name="px_to_dip_833">416.50dp</dimen>
+    <dimen name="px_to_dip_834">417.00dp</dimen>
+    <dimen name="px_to_dip_835">417.50dp</dimen>
+    <dimen name="px_to_dip_836">418.00dp</dimen>
+    <dimen name="px_to_dip_837">418.50dp</dimen>
+    <dimen name="px_to_dip_838">419.00dp</dimen>
+    <dimen name="px_to_dip_839">419.50dp</dimen>
+    <dimen name="px_to_dip_84">42.00dp</dimen>
+    <dimen name="px_to_dip_840">420.00dp</dimen>
+    <dimen name="px_to_dip_841">420.50dp</dimen>
+    <dimen name="px_to_dip_842">421.00dp</dimen>
+    <dimen name="px_to_dip_843">421.50dp</dimen>
+    <dimen name="px_to_dip_844">422.00dp</dimen>
+    <dimen name="px_to_dip_845">422.50dp</dimen>
+    <dimen name="px_to_dip_846">423.00dp</dimen>
+    <dimen name="px_to_dip_847">423.50dp</dimen>
+    <dimen name="px_to_dip_848">424.00dp</dimen>
+    <dimen name="px_to_dip_849">424.50dp</dimen>
+    <dimen name="px_to_dip_85">42.50dp</dimen>
+    <dimen name="px_to_dip_86">43.00dp</dimen>
+    <dimen name="px_to_dip_87">43.50dp</dimen>
+    <dimen name="px_to_dip_88">44.00dp</dimen>
+    <dimen name="px_to_dip_89">44.50dp</dimen>
+    <dimen name="px_to_dip_9">4.50dp</dimen>
+    <dimen name="px_to_dip_90">45.00dp</dimen>
+    <dimen name="px_to_dip_91">45.50dp</dimen>
+    <dimen name="px_to_dip_92">46.00dp</dimen>
+    <dimen name="px_to_dip_93">46.50dp</dimen>
+    <dimen name="px_to_dip_94">47.00dp</dimen>
+    <dimen name="px_to_dip_95">47.50dp</dimen>
+    <dimen name="px_to_dip_96">48.00dp</dimen>
+    <dimen name="px_to_dip_97">48.50dp</dimen>
+    <dimen name="px_to_dip_98">49.00dp</dimen>
+    <dimen name="px_to_dip_99">49.50dp</dimen>
+    <dimen name="px_to_sp_18">12sp</dimen>
+    <dimen name="px_to_sp_21">14dp</dimen>
+    <dimen name="px_to_sp_22">14.67dp</dimen>
+    <dimen name="px_to_sp_23">15.33dp</dimen>
+    <dimen name="px_to_sp_24">16sp</dimen>
+    <dimen name="px_to_sp_26">17.33sp</dimen>
+    <dimen name="search_item_height">38dip</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="title_height">48dp</dimen>
+    <drawable name="trans">@color/color_hei_8</drawable>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="gridview" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="rc_actionbar" type="id"/>
+    <item name="rc_back" type="id"/>
+    <item name="rc_content" type="id"/>
+    <item name="rc_item0" type="id"/>
+    <item name="rc_item1" type="id"/>
+    <item name="rc_item2" type="id"/>
+    <item name="rc_item3" type="id"/>
+    <item name="rc_item4" type="id"/>
+    <item name="rc_item5" type="id"/>
+    <item name="rc_item6" type="id"/>
+    <item name="rc_item7" type="id"/>
+    <item name="rc_item8" type="id"/>
+    <item name="rc_item9" type="id"/>
+    <item name="rc_logo" type="id"/>
+    <item name="rc_new" type="id"/>
+    <item name="rc_title" type="id"/>
+    <item name="rc_title_layout" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="selected_view" type="id"/>
+    <item name="tag" type="id"/>
+    <item name="tag_expandable_text_view_reused" type="id"/>
+    <item name="webview" type="id"/>
+    <integer name="abc_max_action_buttons">2</integer>
+    <integer name="config_slideAnimTime">300</integer>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <integer name="num_cols">1</integer>
+    <string name="about_title_1">扫描二维码</string>
+    <string name="about_title_2">你的朋友也可以下载汇银乐虎客户端</string>
+    <string name="about_title_3">For Android V4.4.0 Build1.0</string>
+    <string name="about_title_4">Copyright @ 2011-2014</string>
+    <string name="about_title_5">汇银乐虎lehumall.com版权所有</string>
+    <string name="account_is_null">账号不能为空</string>
+    <string name="action_settings">Settings</string>
+    <string name="addr_detail_info">详细地址：(*)%s</string>
+    <string name="addr_detail_is_null">详细地址不能为空</string>
+    <string name="addr_is_null">地址不能为空</string>
+    <string name="affirm_pwd_not_same">确认密码跟输入密码不一致</string>
+    <string name="agree_agreement">同意《汇银乐虎服务协议》</string>
+    <string name="agreement">勾选协议方能注册</string>
+    <string name="alter_dialog_cancel">"取消"</string>
+    <string name="alter_dialog_confirm">"确定"</string>
+    <string name="app_name">汇银乐虎</string>
+    <string name="app_surelogout">确定退出程序吗？</string>
+    <string name="back_addr">退货地址：</string>
+    <string name="back_change_good">我要换货（只能换同类同款商品）</string>
+    <string name="back_info">退货时间：</string>
+    <string name="back_money">退款成功并退款至你的提交的账户</string>
+    <string name="back_title_info">请退货给汇银乐虎</string>
+    <string name="bank_is_null">银行不能为空</string>
+    <string name="bind_success">绑定成功</string>
+    <string name="branch_is_null">支行不能为空</string>
+    <string name="buy_sum"><Data>&lt;font >已搭配&lt;/font>&lt;font color="red">%1$s&lt;/font>&lt;font >件&lt;/font> </Data></string>
+    <string name="buy_together">组合购买共%d件商品</string>
+    <string name="canNotGetConnected">无法连接网络</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_install_alipay">你已取消安装支付宝钱包</string>
+    <string name="cancel_install_msp">你已取消安装移动快捷支付服务</string>
+    <string name="card_disenable">卡号不存在</string>
+    <string name="card_is_null">请输入卡号</string>
+    <string name="check_sign_failed">您的订单信息已被非法篡改。</string>
+    <string name="choice_image_tip">图片上传</string>
+    <string name="classification">分类</string>
+    <string name="club_count">您今天还有<u>%d </u>次抽奖机会</string>
+    <string name="club_count_without_login">您还未登录,每天有<u>%d </u>次免费抽奖机会</string>
+    <string name="code_is_null">验证号无效</string>
+    <string name="commodity_is_null">无预约商品！</string>
+    <string name="config_number">xxxxx</string>
+    <string name="confirm_title">提示</string>
+    <string name="connect_auto_fail">自动重连失败</string>
+    <string name="connect_auto_reconnect">自动连接中...</string>
+    <string name="connect_auto_success">自动重连成功</string>
+    <string name="conntect_state_prompt_auth_unavailable">"验证失败"</string>
+    <string name="conntect_state_prompt_disconnect">"服务尚未连接"</string>
+    <string name="conntect_state_prompt_network_unavailable">"当前网络不可用"</string>
+    <string name="conntect_state_prompt_other_device_login">"该用户在其他设备上登录"</string>
+    <string name="conntect_state_prompt_service_unavailable">"当前服务不可用"</string>
+    <string name="conntect_state_prompt_unknow_error">"服务尚未连接"</string>
+    <string name="contact_is_null">联系人不能为空</string>
+    <string name="content_description">"融云"</string>
+    <string name="content_description_icon">icon</string>
+    <string name="content_is_null">内容不能为空</string>
+    <string name="converastion_list_notify_load_data">"正在初始化数据...."</string>
+    <string name="conversation_list_action_bar_title">"会话"</string>
+    <string name="conversation_list_set_top">已置顶</string>
+    <string name="conversation_list_set_top_cancel">取消置顶</string>
+    <string name="conversation_setting_clear_messages">"清空聊天消息"</string>
+    <string name="conversation_setting_discussion_exit">"删除并退出"</string>
+    <string name="conversation_setting_discussion_exit_failure">"退出讨论失败"</string>
+    <string name="conversation_setting_exit_prompt">"退出该讨论组后，将不再收到讨论组聊天信息，聊天记录也一并删除。确定退出？"</string>
+    <string name="conversation_setting_get_info_failure">"获取信息失败"</string>
+    <string name="conversation_setting_history_message">"查看聊天记录"</string>
+    <string name="conversation_setting_istop">"置顶聊天"</string>
+    <string name="conversation_setting_notify">"新消息通知"</string>
+    <string name="conversation_setting_set_bg">"设置当前聊天背景"</string>
+    <string name="conversation_setting_title">"聊天设置"</string>
+    <string name="default_discussion_name">"讨论组"</string>
+    <string name="default_name">"用户名"</string>
+    <string name="dialog_converastion_cope_message">"复制消息"</string>
+    <string name="dialog_converastion_delete_message">"删除消息"</string>
+    <string name="dialog_converastion_istop">"置顶该会话"</string>
+    <string name="dialog_converastion_istop_cancel">"取消置顶"</string>
+    <string name="dialog_converastion_remove">"从会话列表中移除"</string>
+    <string name="dialog_converastion_title">""</string>
+    <string name="discussion_create_failure">"创建讨论组失败"</string>
+    <string name="discussion_create_loading_title">"正在创建讨论组"</string>
+    <string name="discussion_remove_member_failure">"删除成员失败"</string>
+    <string name="download">下载</string>
+    <string name="download_fail">下载安装包失败</string>
+    <string name="email_disenable">邮箱地址格式错误</string>
+    <string name="ensure">确定</string>
+    <string name="error_tip"><Data> &lt;font color="red">%1$s&lt;/font> </Data></string>
+    <string name="first_page">首页</string>
+    <string name="focus_cancel">取消收藏</string>
+    <string name="free_freight">（满%s免运费）</string>
+    <string name="friend_list_multi_choice_comfirt_btn">"确定(%1$s)"</string>
+    <string name="friend_list_multi_choice_title">"选择好友"</string>
+    <string name="friend_multi_choice_people_max_prompt">"讨论组人数上限为50人"</string>
+    <string name="getback_money">我要退款</string>
+    <string name="good_detail">查看详情</string>
+    <string name="goods_detail_guige">参数规格</string>
+    <string name="goods_detail_qingdan">包装清单</string>
+    <string name="goods_detail_shouhoufuwu">售后服务</string>
+    <string name="goods_detail_tuwen">图文详情</string>
+    <string name="goods_detail_xiangxi">商品详细</string>
+    <string name="goods_detail_xinxi">基本信息</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hk_tip">温馨提示：为了后续提供更好的服务，请优先拍照上传对应的发票，或上传铭牌</string>
+    <string name="housekeeper">管家</string>
+    <string name="image_out_of_memeroy">"内存低"</string>
+    <string name="install_alipay">你尚未安装支付宝钱包，请立即安装</string>
+    <string name="install_msp">你尚未安装支付宝移动快捷支付服务，请立即安装</string>
+    <string name="integral_deducate_1"><Data>共&lt;font color="red">%s&lt;/font>个积分，  </Data></string>
+    <string name="integral_deducate_2"><Data>抵&lt;font color="red">%s&lt;/font>元</Data></string>
+    <string name="invoice_info_1">如果您是首次开具增值税发票，请您填写纳税人识别号等开票信息，并发送加盖公章的
+         营业执照副本、税务登记证副本、一般纳税人资格证书及银行开户许可证扫描件乐虎邮箱地址kf@lehumail.com,收到您的开票
+         资料后，我们会尽快审核。</string>
+    <string name="invoice_info_2">注意：此账户订单的发票将邮寄到该地址。如果地址变更，所有待邮寄的发票都
+         将邮寄到新地址。</string>
+    <string name="jifen_deducate"><Data>个积分，可抵&lt;font color="red">%s&lt;/font>元</Data></string>
+    <string name="jsonError">网络错误</string>
+    <string name="kefurexian">客服热线：</string>
+    <string name="lehujuan_past">有%s张即将过期</string>
+    <string name="lehujuan_total">我的乐虎红包(券)(%s)</string>
+    <string name="lhj_demand">满%s使用</string>
+    <string name="lhj_tip">您有%s张即将过期</string>
+    <string name="lhj_use_condition">该优惠劵要购物满%s元才能使用！</string>
+    <string name="lhj_value">乐虎优惠劵面值%s元</string>
+    <string name="list_converastion_emtpy_prompt">"暂时没有会话\n点击右上角开始会话"</string>
+    <string name="loading">正在加载...</string>
+    <string name="login">登录</string>
+    <string name="login_success">登录成功</string>
+    <string name="logistic_company">物流公司不能为空</string>
+    <string name="logistic_num">物流单号不能为空</string>
+    <string name="logisticsinfo"><Data>&lt;font>订单编号：%1$s&lt;/font>&amp;nbsp&lt;font color="#3994E2">%2$s&lt;/font>&amp;nbsp&lt;font>%3$s件商品，共计&lt;/font>&lt;font color="red">%4$s&lt;/font></Data></string>
+    <string name="mailcode_is_null">邮编不能为空</string>
+    <string name="message_image_send_fail">图片发送失败，请重试。</string>
+    <string name="message_type_draft_content">"[草稿]"</string>
+    <string name="message_type_image_content">"[图片]"</string>
+    <string name="message_type_image_text_content">"[图文]"</string>
+    <string name="message_type_video_content">"[视频]"</string>
+    <string name="message_type_voice_content">"[语音]"</string>
+    <string name="ming_pai_ding_yi">铭牌定义：产品投放市场后，固定在产品上向用户提供厂家商标识别，
+             品牌区分，产品参数铭记等信息的铭牌，铭牌又称标牌，
+            铭牌主要用来记载生产厂家及额定工作情况下的一些技术数据，以供正确使用而不致损坏设备。</string>
+    <string name="modify_success">密码修改成功！</string>
+    <string name="msg_success">留言成功</string>
+    <string name="my_lehu">我的乐虎</string>
+    <string name="name_is_null">真实姓名不能为空</string>
+    <string name="networkError">网络不可用</string>
+    <string name="networkFailure">网络连接失败</string>
+    <string name="new_message_more">"···"</string>
+    <string name="newpwd_is_null">新密码不能为空</string>
+    <string name="nodata">暂无数据！</string>
+    <string name="not_get_ver_code">请获取验证码</string>
+    <string name="notification_message_discussion_add">"%1$s邀请了%2$s位成员加入了讨论组"</string>
+    <string name="notification_message_discussion_added">"%1$s邀请%2$s加入了讨论组"</string>
+    <string name="notification_message_discussion_exit">"%1$s退出了讨论组"</string>
+    <string name="notification_message_discussion_is_open_invite">"%1$s%2$s了成员邀请"</string>
+    <string name="notification_message_discussion_removed">"你被%1$s移出了讨论组"</string>
+    <string name="notification_message_discussion_rename">"%1$s修改讨论组名称为%2$s"</string>
+    <string name="notification_message_discussion_who_removed">"%1$s被%2$s 移出了讨论组"</string>
+    <string name="notification_new_message">"您有了一条新消息"</string>
+    <string name="notification_new_message_mang_p">"%1$s个联系人发来%2$s条消息"</string>
+    <string name="notification_new_message_one_p">"发来了%1$s条消息"</string>
+    <string name="notification_new_message_one_p_one">"%1$s发来一条消息"</string>
+    <string name="num_code_is_null">手机号或验证码不正确</string>
+    <string name="order_deal">请您及时付款，以便订单尽快处理！</string>
+    <string name="order_discount_1"><Data>共&lt;font color="red">%s&lt;/font>张可用的虎劵， </Data></string>
+    <string name="order_discount_2"><Data>打算使用面值&lt;font color="red">%s&lt;/font>元的虎劵</Data></string>
+    <string name="order_remark">注：一旦交易订单成功，虎劵不可返回！</string>
+    <string formatted="false" name="pay_result_callback_msg">微信支付结果：%s</string>
+    <string name="phone_disenable">手机号码格式错误</string>
+    <string name="phone_is_null">请输入手机号码</string>
+    <string name="phone_msg">需要解绑手机或更换手机，请联系汇银乐虎客服！</string>
+    <string name="phone_title_1">你的手机已经绑定该账号</string>
+    <string name="phone_title_2">绑定手机号码：%s</string>
+    <string name="pic_upload">图片上传：最多上传9张</string>
+    <string name="price_after"><Data>&lt;font >乐虎价：&lt;/font>&lt;font color="red">¥%1$s&lt;/font></Data></string>
+    <string name="price_before"><Data>&lt;font >组合价：¥%1$s&lt;/font></Data></string>
+    <string name="price_min"><Data>&lt;font >立即省：&lt;/font>&lt;font color="green">¥%1$s&lt;/font></Data></string>
+    <string name="processing">加载中</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="pwd_is_null">密码不能为空</string>
+    <string name="pwd_is_six">密码不能少于6位</string>
+    <string name="rc_conversation_setting_add_discussion_member_failure">"添加讨论组成员失败"</string>
+    <string name="rc_conversation_setting_clear_messages_prompt">"你确定清空聊天记录？"</string>
+    <string name="rc_conversation_setting_discussion_name">"讨论组名称"</string>
+    <string name="rc_conversation_setting_discussion_open_invite">"开放成员邀请"</string>
+    <string name="rc_conversation_setting_exit_discussion_failure">"退出讨论组失败"</string>
+    <string name="rc_conversation_setting_new_message_receive">"新消息通知"</string>
+    <string name="rc_conversation_setting_remove_discussion_member_failure">"移除讨论组成员失败"</string>
+    <string name="rc_conversation_setting_update_discussion_name">"修改讨论组名称"</string>
+    <string name="rc_conversation_setting_update_discussion_name_failure">"修改讨论组名字失败"</string>
+    <string name="rc_create_chatroom_fail">"进入聊天室失败，请重试"</string>
+    <string name="rc_create_chatroom_notice">"正在进入聊天室"</string>
+    <string name="rc_group_conversation_list_name">"我的群组"</string>
+    <string name="rc_image_load_fail">图片加载失败</string>
+    <string name="rc_loading">"正在加载中\.\.\."</string>
+    <string name="rc_public_data_process">"数据处理中···"</string>
+    <string name="re_start_app">"应用已被关闭，请重启应用"</string>
+    <string name="reason_is_null">原因不能为空</string>
+    <string name="receiver_is_null">收货人不能为空</string>
+    <string name="redo">重试</string>
+    <string name="refresh">刷新</string>
+    <string name="regedit_success">注册成功</string>
+    <string name="remark_msg">备注信息</string>
+    <string name="requestTimeout">请求超时</string>
+    <string name="resend_tip">短信已发送, %d秒后可重新获取短信验证码</string>
+    <string name="responseTimeout">响应超时</string>
+    <string name="rich_icon_image_txt">"图片"</string>
+    <string name="rich_icon_location_txt">"位置"</string>
+    <string name="rich_icon_phone_txt">"语音通话"</string>
+    <string name="rich_icon_take_photo_txt">"拍照"</string>
+    <string name="save_space_not_enough">sd卡储存空间不足</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="settlement">结算(%d)</string>
+    <string name="shenqin_commit">已提交%s条预约申请</string>
+    <string name="shop_pay_title">继续完成下面的步骤，选择支付平台</string>
+    <string name="shopping_car">购物车</string>
+    <string name="show_download_image_loading">"图片加载中...."</string>
+    <string name="show_download_image_title">"查看大图"</string>
+    <string name="show_image_comfirm">"确定"</string>
+    <string name="show_image_download_failure">"图片加载失败"</string>
+    <string name="show_image_reselect">"重选"</string>
+    <string name="show_image_save">"保存"</string>
+    <string name="show_image_save_failure">"保存失败"</string>
+    <string name="show_image_save_success">"保存成功"</string>
+    <string name="socket_exception_error">网络异常，读取数据超时</string>
+    <string name="sure">确定</string>
+    <string name="sure_add">加入购物车</string>
+    <string name="sure_buy">确定购买</string>
+    <string name="sure_receive">如果商家确认收货：</string>
+    <string name="surelogout">退出</string>
+    <string name="sys_resource_dir">"RongCloud"</string>
+    <string name="system_msg">系统消息(%s)</string>
+    <string name="tag_id">tagId</string>
+    <string name="tijiao">提交中</string>
+    <string name="time_tip">%d秒</string>
+    <string name="total_useable_hj">共%s张乐虎劵可使用</string>
+    <string name="txt_download">正在下载更新</string>
+    <string name="txt_download_cancel">取消</string>
+    <string name="txt_download_pro">下载进度</string>
+    <string name="txt_update_cancel">暂不更新</string>
+    <string name="txt_update_msg">检测到新版本，是否进行更新？</string>
+    <string name="txt_update_ok">马上更新</string>
+    <string name="use_the_third">使用合作账号登录</string>
+    <string name="user_is_null">用户名不能为空</string>
+    <string name="user_name_disable">用户名格式错误</string>
+    <string name="ver_code_is_null">验证码不能为空</string>
+    <string name="view_message_bar_send">"发送"</string>
+    <string name="view_message_bar_voice_speak">"按住 说话"</string>
+    <string name="view_message_bar_voice_speak_end">"松开 结束"</string>
+    <string name="voice_dialog_cancel_send">"松开手指，取消发送"</string>
+    <string name="voice_dialog_collect">"手指上滑，取消发送"</string>
+    <string name="voice_dialog_time_short">"说话时间太短"</string>
+    <string name="voice_length">"%1$s''"</string>
+    <string name="welcome_company">汇银控股集团</string>
+    <string name="wenxin_tip">温馨提示</string>
+    <string name="wenxin_tip_7">请选择上传图片的来源</string>
+    <string name="wenxin_tip_8">是否执行此操作?</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_last_time">上次更新时间:</string>
+    <string name="yanzheng_success">验证通过</string>
+    <string name="yt_authcancel">授权取消</string>
+    <string name="yt_authfailed">授权失败</string>
+    <string name="yt_authing">授权中</string>
+    <string name="yt_authsuccess">授权成功</string>
+    <string name="yt_cancel">取消</string>
+    <string name="yt_chooseemail">请选择邮件发送软件</string>
+    <string name="yt_connecterror">连接到服务器错误</string>
+    <string name="yt_copyfail">复制失败，请手动复制</string>
+    <string name="yt_copylink">复制链接</string>
+    <string name="yt_copysuccess">复制成功</string>
+    <string name="yt_description">描述</string>
+    <string name="yt_email">邮件</string>
+    <string name="yt_getsharecontent_fail">获取分享内容失败...</string>
+    <string name="yt_loading">加载中</string>
+    <string name="yt_logincancel">登录取消</string>
+    <string name="yt_loginsuccess">登录成功,请再点击进行分享</string>
+    <string name="yt_man">男</string>
+    <string name="yt_more">更多</string>
+    <string name="yt_nonetwork">无网络连接，请查看您的网络情况</string>
+    <string name="yt_nopic">未找到分享图片，请重新设置分享图片路径...</string>
+    <string name="yt_noqqclient">未安装QQ</string>
+    <string name="yt_norennclient">未安装人人网</string>
+    <string name="yt_notargeturl">分享链接为空</string>
+    <string name="yt_nowechatclient">未安装微信</string>
+    <string name="yt_pointcharge">积分兑换</string>
+    <string name="yt_qrcode">二维码</string>
+    <string name="yt_qzone">QQ空间</string>
+    <string name="yt_reauth">授权失败,请重新获取授权</string>
+    <string name="yt_reconnect">网络连接异常，是否重新连接？</string>
+    <string name="yt_renn">人人网</string>
+    <string name="yt_savecap">截屏文件已保存至SDCard/youtui目录下</string>
+    <string name="yt_screencap">截屏</string>
+    <string name="yt_share">分享</string>
+    <string name="yt_shareing">分享中</string>
+    <string name="yt_sharepic">分享图片</string>
+    <string name="yt_shortmessage">短信</string>
+    <string name="yt_sinaweibo">新浪微博</string>
+    <string name="yt_teccentweibo">腾讯微博</string>
+    <string name="yt_tencentweibo">腾讯微博</string>
+    <string name="yt_unknownfilesize">无法获知文件大小 </string>
+    <string name="yt_wechat">微信</string>
+    <string name="yt_wechatmoments">微信朋友圈</string>
+    <string name="yt_woman">女</string>
+    <string name="yuyeu_tiem">预约时间不能为空！</string>
+    <string name="yuyue_content_length">字数不能超过300,否则无法提交！</string>
+    <string name="yuyue_content_over_length">备注信息字已经超过了最大规定字数！</string>
+    <string name="yuyue_message_1">为了更加快速处理您的服务，请申请前一定和我们的客服同学通报哦</string>
+    <string name="yuyue_order_num_format">订单号格式不正确！</string>
+    <string name="yuyue_order_num_regx">订单编号不能为空！</string>
+    <string name="yuyue_phone_number_regx">手机号码格式不正确！</string>
+    <style name="AlertDialog" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/popup_bg</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="NotificationText">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="NotificationTitle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style mce_bogus="1" name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popwindow_in</item>
+        <item name="android:windowExitAnimation">@anim/popwindow_out</item>
+    </style>
+    <style name="ProgressBar_Mini" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">50dip</item>
+        <item name="android:minHeight">8dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/progressbar_mini</item>
+    </style>
+    <style name="RcDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="RcTheme" parent="@android:style/Theme.Light">
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:textColorPrimary">@color/rc_text_color_primary</item>
+        <item name="android:textColorSecondary">@color/rc_text_color_secondary</item>
+        <item name="android:textColorTertiary">@color/rc_text_color_tertiary</item>
+        <item name="android:textColorPrimaryInverse">@color/rc_text_color_primary_inverse</item>
+        <item name="android:textColorSecondaryInverse">@color/rc_text_color_secondary_inverse</item>
+        <item name="android:textColorTertiaryInverse">@color/rc_text_color_tertiary_inverse</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:indeterminateDrawable">@drawable/rc_progress_round</item>
+    </style>
+    <style name="RcTheme.ActionBar">
+        <item name="android:background">@color/index_red</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+    <style name="RcTheme.ActionBar.Back">
+        <item name="android:src">@drawable/rc_bar_back</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+    <style name="RcTheme.ActionBar.Button" parent="@android:TextAppearance.Small.Inverse">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/rc_select_friends_selector</item>
+        <item name="android:textColor">@drawable/rc_co_select_selector</item>
+    </style>
+    <style name="RcTheme.ActionBar.Logo">
+        <item name="android:src">@drawable/ic_launcher</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="RcTheme.ActionBar.Title" parent="@android:TextAppearance.Medium.Inverse"/>
+    <style name="RcTheme.Setting"/>
+    <style name="RcTheme.Setting.HighLight">
+        <item name="android:background">@color/rc_bg_highlight</item>
+    </style>
+    <style name="RcTheme.Setting.Submit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:layout_marginRight">18dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:textColor">@color/rc_text_color_primary_inverse</item>
+        <item name="android:background">@color/rc_btn_submit</item>
+    </style>
+    <style name="RcTheme.Toolbar">
+        <item name="android:background">@color/rc_bg_toolbar</item>
+    </style>
+    <style name="StatusBarBackground">
+        <item name="android:background">@color/orange</item>
+    </style>
+    <style name="Theme.Start" parent="android:Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="ThemeForCustomTitle" parent="android:Theme">
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowTitleBackgroundStyle">@style/StatusBarBackground</item>
+        <item name="android:windowTitleSize">46dip</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="YtDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+    </style>
+    <style name="YtSharePopupAnim">
+        <item name="android:windowEnterAnimation">@anim/yt_sharepopup_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/yt_sharepopup_fade_out</item>
+    </style>
+    <style name="YtSharePopupAnimFast">
+        <item name="android:windowEnterAnimation">@anim/yt_sharepopup_fade_in_fast</item>
+        <item name="android:windowExitAnimation">@anim/yt_sharepopup_fade_out_fast</item>
+    </style>
+    <style name="activity_index_8icon_ll_style1">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="base_font_medium_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="goods_detail_text_style">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/common_text_size</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="load_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+    <style name="loading_large">
+        <item name="android:indeterminateDrawable">@drawable/progress_large_holo</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="mRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratting_bar_drawable</item>
+        <item name="android:minHeight">11dip</item>
+        <item name="android:maxHeight">11dip</item>
+    </style>
+    <style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+    <style name="progressBarHorizontal_color" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progress_color_horizontal</item>
+        <item name="android:minHeight">6dip</item>
+        <item name="android:maxHeight">6dip</item>
+    </style>
+    <style name="subscribe_tip_text">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff2e2e2e</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

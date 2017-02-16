@@ -1,0 +1,66 @@
+[
+    {
+        "outputFile": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 184,
+                        "endLine": 10,
+                        "endColumn": 12,
+                        "endOffset": 318
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 192,
+                    "endColumn": 94,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 326,
+                        "endColumn": 95,
+                        "endOffset": 417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 287,
+                    "endColumn": 98,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 425,
+                        "endColumn": 99,
+                        "endOffset": 520
+                    }
+                }
+            }
+        ]
+    }
+]

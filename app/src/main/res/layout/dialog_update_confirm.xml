@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="270.0dip"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_dialog_bg"
+    android:orientation="vertical"
+    android:paddingBottom="20.0dip"
+    android:paddingLeft="14.0dip"
+    android:paddingRight="14.0dip" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:gravity="center"
+        android:paddingBottom="16.0dip"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:paddingTop="16.0dip"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#ff484848"
+        android:textSize="20.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="#ffb6b6b6" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <WebView
+            android:id="@+id/mWebView"
+            android:layout_width="fill_parent"
+            android:layout_height="160dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4.0dip"
+            android:layout_marginLeft="4.0dip"
+            android:layout_marginRight="4.0dip"
+            android:layout_marginTop="4.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="4dip" >
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="0dip"
+            android:layout_height="36dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="3.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/red_cornor_bg"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#ffffffff"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dip"
+            android:layout_height="36dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="3.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_btn_gray2_selector"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#ffffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

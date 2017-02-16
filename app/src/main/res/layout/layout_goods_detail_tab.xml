@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dip"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tab_baseinfo"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="基本信息"
+        android:textColor="@color/common_tab_text_red_selector"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="0.1dip"
+        android:layout_height="match_parent"
+        android:background="#ffb6b6b6" />
+
+    <TextView
+        android:id="@+id/tab_image_text"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="图文信息"
+        android:textColor="@color/common_tab_text_red_selector"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="0.1dip"
+        android:layout_height="match_parent"
+        android:background="#ffb6b6b6" />
+
+    <TextView
+        android:id="@+id/tab_parameter"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="参数规格"
+        android:textColor="@color/common_tab_text_red_selector"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="#ffb6b6b6" />
+
+    <TextView
+        android:id="@+id/tab_packaging"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="包装信息"
+        android:textColor="@color/common_tab_text_red_selector"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="0.1dip"
+        android:layout_height="match_parent"
+        android:background="#ffb6b6b6" />
+
+    <TextView
+        android:id="@+id/tab_service"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="售后服务"
+        android:textColor="@color/common_tab_text_red_selector"
+        android:textSize="13sp" />
+
+</LinearLayout>

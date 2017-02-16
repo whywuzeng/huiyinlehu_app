@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/rc_sound_off_disable"
+        android:maxLevel="1"/>
+    <item
+        android:drawable="@drawable/rc_sound_off"
+        android:maxLevel="2"/>
+    <item
+        android:drawable="@drawable/rc_sound_off_down"
+        android:maxLevel="3"/>
+
+</level-list>

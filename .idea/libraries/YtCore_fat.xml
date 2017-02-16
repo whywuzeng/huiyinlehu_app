@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="YtCore_fat">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/YtCore_fat.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/imageView_chanpin_ic"
+        android:layout_width="90dip"
+        android:layout_height="90dip"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="90dip"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/imageView_chanpin_ic"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_name_shangping"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="8dip"
+            android:layout_weight="2"
+            android:maxLines="2"
+            android:text=""
+            android:textColor="#ff474747"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_yuhujiange_show_show"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="4dip"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text=""
+            android:textColor="#ffff0103"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginBottom="8dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_zxs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ff9e9e9e"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/group_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:clickable="false" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

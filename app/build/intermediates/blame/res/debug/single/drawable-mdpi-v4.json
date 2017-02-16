@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\current_mark.png",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\drawable-mdpi\\current_mark.png"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\current.png",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\drawable-mdpi\\current.png"
+    }
+]

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#878787"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/lehuquan_textView"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="已选择的快捷导航(提示:长按图标可拖动排序)"
+            android:textColor="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/module_pop_complete_ibtn"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_margin="5dip"
+            android:background="@null"
+            android:src="@drawable/icon_wancheng" />
+
+        <ImageButton
+            android:id="@+id/module_pop_canl_ibtn"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_margin="5dip"
+            android:background="@null"
+            android:src="@drawable/icon_quxiao" />
+    </LinearLayout>
+
+    <com.eims.widget.grid.drag.DragGridView
+        android:id="@+id/dragGridView"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:columnWidth="90dip"
+        android:gravity="center"
+        android:horizontalSpacing="0.5dip"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:verticalSpacing="0.5dip" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:id="@+id/lehuquan_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="选择下面快捷按钮到首页里"
+        android:textColor="@android:color/white" />
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:columnWidth="90dip"
+        android:gravity="center"
+        android:horizontalSpacing="5dip"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:verticalSpacing="5dip" />
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion '23.0.2'
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    defaultConfig {
+        applicationId "com.huiyin"
+        minSdkVersion 13
+        targetSdkVersion 18
+
+        testApplicationId "com.huiyin.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    compileOptions {
+        encoding "UTF-8"
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    project.afterEvaluate({
+        android.applicationVariants.all { variant ->
+            tasks."process${variant.name.capitalize()}Resources".doFirst{
+                println "pre${variant.name.capitalize()}Build is runing"
+                copy{
+                    from "build/intermediates/assets/${variant.name}/data"
+                    into "build/intermediates/res/merged/${variant.name}/drawable"
+                    include 'data.bin'
+                }
+            }
+        }
+    })
+
+    project.afterEvaluate({
+        android.applicationVariants.all { variant ->
+            tasks."process${variant.name.capitalize()}Resources".doFirst{
+                println "pre${variant.name.capitalize()}Build is runing"
+                copy{
+                    from "build/intermediates/assets/${variant.name}/data"
+                    into "build/intermediates/res/merged/${variant.name}/drawable"
+                    include 'data.bin'
+                }
+            }
+        }
+    })
+
+
+}
+
+
+dependencies {
+    compile 'com.android.support:support-v4:20.0.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/alipay.jar')
+    compile files('libs/android-async-http-1.4.4.jar')
+    compile files('libs/android-custom-vg.2.6.0.jar')
+    compile files('libs/android_api_1.1_forsdk.jar')
+    compile files('libs/android_api_3_5.jar')
+    compile files('libs/Android_SDK.jar')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/commons-httpclient-3.1.jar')
+    compile files('libs/core.jar')
+    compile files('libs/eims.jar')
+    compile files('libs/galaxy_mini.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/mta-sdk-1.0.0.jar')
+    compile files('libs/nineoldanimatin.jar')
+    compile files('libs/open_sdk.jar')
+    compile files('libs/pushservice-4.2.0.63.jar')
+    compile files('libs/RennSDK-Android.jar')
+    compile files('libs/Rong_IMKit_v1_2_0.jar')
+    compile files('libs/universal-image-loader-1.8.5-with-sources.jar')
+    compile files('libs/UPPayAssistEx.jar')
+    compile files('libs/UPPayPluginExPro.jar')
+    compile files('libs/weibosdkcore.jar')
+    compile files('libs/youitui-point_fat.jar')
+    compile files('libs/youtui-template.jar')
+    compile files('libs/YtCore_fat.jar')
+}

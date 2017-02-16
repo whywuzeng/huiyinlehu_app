@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huiyin.ui.home.module.ModuleDragView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f6f6f6"
+    android:minHeight="150dip"
+    android:orientation="vertical" >
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="8dp" > -->
+    <!-- </LinearLayout> -->
+
+
+    <!-- <com.huiyin.ui.home.more.DragGridView -->
+    <!-- android:id="@+id/dragGridView_d" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="158dp" -->
+    <!-- android:cacheColorHint="@android:color/transparent" -->
+    <!-- android:columnWidth="90dip" -->
+    <!-- android:gravity="center" -->
+    <!-- android:horizontalSpacing="10dip" -->
+    <!-- android:listSelector="@android:color/transparent" -->
+    <!-- android:numColumns="4" -->
+    <!-- android:verticalSpacing="10dip" > -->
+    <!-- </com.huiyin.ui.home.more.DragGridView> -->
+
+</com.huiyin.ui.home.module.ModuleDragView>

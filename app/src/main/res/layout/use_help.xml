@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray6"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/help_add_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!--
+     <TextView android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:gravity="left|center"
+		android:paddingLeft="10dp"
+		android:textSize="@dimen/common_lage_text_size"
+		android:text="关于汇银"/>
+           
+         
+    <View android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="@color/gray"/>
+          
+     <TextView 
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="left|center"
+         android:paddingLeft="10dp"
+         android:id="@+id/help_huiyin_introduce"
+         android:paddingRight="10dp"
+         android:drawableRight="@drawable/com_black_arraw"
+         android:textColor="@color/gray"
+         android:text="汇银介绍"
+         />
+           
+      
+      <View 
+          android:layout_width="match_parent"
+	       android:layout_height="30dp"
+	       android:background="@color/gray7"/>
+         
+       <TextView 
+           android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:gravity="left|center"
+			android:paddingLeft="10dp"
+			android:textSize="@dimen/common_lage_text_size"
+			android:text="购物指南"/>
+          
+         
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+          
+    <TextView android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="left|center"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:id="@+id/help_buy_process"
+         android:drawableRight="@drawable/com_black_arraw"
+         android:textColor="@color/gray"
+         android:text="购物流程"
+         />
+         
+    
+    <View android:layout_width="match_parent"
+     android:layout_height="1dp"
+     android:background="@color/gray"/>
+         
+             
+     <TextView android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="left|center"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:id="@+id/help_user_system"
+         android:textColor="@color/gray"
+         android:drawableRight="@drawable/com_black_arraw"
+         android:text="会员制度"
+         />
+         
+         
+         <View android:layout_width="match_parent"
+	         android:layout_height="1dp"
+	         android:background="@color/gray"/>
+          
+             
+        <TextView android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="left|center"
+         android:paddingLeft="10dp"
+          android:id="@+id/help_jifen_instruction"
+         android:paddingRight="10dp"
+         android:textColor="@color/gray"
+         android:drawableRight="@drawable/com_black_arraw"
+         android:text="积分说明"
+         />
+         
+       
+         
+         <View android:layout_width="match_parent"
+	         android:layout_height="1dp"
+	         android:background="@color/gray"/>
+         
+             
+      <TextView android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="left|center"
+         android:paddingLeft="10dp"
+         android:id="@+id/help_code"
+         android:paddingRight="10dp"
+         android:textColor="@color/gray"
+         android:drawableRight="@drawable/com_black_arraw"
+         android:text="条码购"
+         />
+      
+      <View android:layout_width="match_parent"
+	         android:layout_height="1dp"
+	         android:background="@color/gray"/>
+         
+             
+      <TextView android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="left|center"
+         android:textColor="@color/gray"
+         android:paddingLeft="10dp"
+         android:id="@+id/help_common_problem"
+         android:paddingRight="10dp"
+         android:drawableRight="@drawable/com_black_arraw"
+         android:text="常见问题"
+         />
+      
+       <View android:layout_width="match_parent"
+       android:layout_height="30dp"
+       android:background="@color/gray7"/>
+         
+       <TextView android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:gravity="left|center"
+		android:paddingLeft="10dp"
+		android:textSize="@dimen/common_lage_text_size"
+		android:text="配送方式"/>
+           
+          
+         
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+          
+    <TextView android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="left|center"
+         android:paddingLeft="10dp"
+         android:textColor="@color/gray"
+         android:id="@+id/help_peison"
+         android:paddingRight="10dp"
+         android:drawableRight="@drawable/com_black_arraw"
+         android:text="汇银乐虎配送"
+         />
+    
+      <View android:layout_width="match_parent"
+       android:layout_height="30dp"
+       android:background="@color/gray7"/>
+         
+       <TextView android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:gravity="left|center"
+		android:paddingLeft="10dp"
+		android:textSize="@dimen/common_lage_text_size"
+		android:text="支付方式"/>
+           
+          
+         
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+          
+    <TextView android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="left|center"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:textColor="@color/gray"
+         android:id="@+id/help_online_pay"
+         android:drawableRight="@drawable/com_black_arraw"
+         android:text="在线支付"
+         />
+     <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+     
+     <TextView android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="left|center"
+         android:textColor="@color/gray"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:id="@+id/help_invoice"
+         android:drawableRight="@drawable/com_black_arraw"
+         android:text="发票制度"
+         />
+     
+        <View android:layout_width="match_parent"
+       android:layout_height="30dp"
+       android:background="@color/gray7"/>
+         
+       <TextView android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:gravity="left|center"
+		android:paddingLeft="10dp"
+		android:textSize="@dimen/common_lage_text_size"
+		android:text="售后服务"/>
+           
+          
+         
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+          
+    <TextView android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="left|center"
+         android:paddingLeft="10dp"
+         android:textColor="@color/gray"
+         android:paddingRight="10dp"
+         android:id="@+id/help_backgood_policy"
+         android:drawableRight="@drawable/com_black_arraw"
+         android:text="退换货政策"
+         />
+     <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+     
+     <TextView android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="left|center"
+         android:paddingLeft="10dp"
+         android:textColor="@color/gray"
+         android:paddingRight="10dp"
+         android:id="@+id/help_backgood_process"
+         android:drawableRight="@drawable/com_black_arraw"
+         android:text="退换货流程"
+         />
+      <View android:layout_width="match_parent"
+       android:layout_height="30dp"
+       android:background="@color/gray7"/>
+      
+      <View android:layout_width="match_parent"
+       android:layout_height="30dp"
+       android:background="@color/gray6"/>
+            -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

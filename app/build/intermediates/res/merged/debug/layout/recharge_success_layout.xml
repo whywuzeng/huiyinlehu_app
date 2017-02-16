@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/index_red"
+        android:gravity="center"
+        android:text="充值成功"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/common_title_size"
+        android:typeface="monospace" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title"
+        android:background="#f6f6f6" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_pay_tip1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                android:text="充值成功！"
+                android:textSize="@dimen/common_title_size" />
+
+            <TextView
+                android:id="@+id/tv_pay_tip2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="您已成功使用充值宝支付完成交易"
+                android:textColor="#9e9e9e"
+                android:textSize="@dimen/common_btn_text_size" />
+
+            <ImageView
+                android:id="@+id/iv_pay_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/tv_pay_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#9e9e9e"
+                android:textSize="@dimen/common_btn_text_size"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/layout_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/pay_continueshop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/common_btn_orange_selector"
+                    android:gravity="center"
+                    android:text="马上购物"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/common_lage_text_size" />
+
+                <Button
+                    android:id="@+id/pay_find_orderinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/common_btn_orange_selector"
+                    android:gravity="center"
+                    android:text="查看明细"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/common_lage_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tv_countdown"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="提示"
+                    android:textColor="#9e9e9e" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.充值失败原因有可能是网络不稳定,返回信息迟缓,你可以选择返回列表"
+                    android:textColor="#9e9e9e" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.也有可能以为您选择的支付平台的账户余额不足,你可以重新选择其他支付平台充值"
+                    android:textColor="#9e9e9e" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

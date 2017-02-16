@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray6"
+    tools:context=".ui.user.AddressModifyActivity" >
+
+    <!-- 头部分 -->
+
+    <com.huiyin.ui.classic.SlidingMenu
+        android:id="@+id/slidingMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/goods_detail_ll_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/goods_detail_rl_1"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@color/orange" >
+
+                <ImageView
+                    android:id="@+id/goods_detail_back"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/icon_fanhui" />
+
+                <TextView
+                    android:id="@+id/goods_detail_xiangxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/goods_detail_xiangxi"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/goods_detail_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/icon_fenxiang" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/goods_detail_jiben"
+                    style="@style/goods_detail_text_style"
+                    android:focusable="true"
+                    android:text="@string/goods_detail_xinxi" />
+
+                <include layout="@layout/goods_detail_line_ver" />
+
+                <TextView
+                    android:id="@+id/goods_detail_tuwen"
+                    style="@style/goods_detail_text_style"
+                    android:focusable="true"
+                    android:text="@string/goods_detail_tuwen" />
+
+                <include layout="@layout/goods_detail_line_ver" />
+
+                <TextView
+                    android:id="@+id/goods_detail_canshu"
+                    style="@style/goods_detail_text_style"
+                    android:focusable="true"
+                    android:text="@string/goods_detail_guige" />
+
+                <include layout="@layout/goods_detail_line_ver" />
+
+                <TextView
+                    android:id="@+id/goods_detail_baozhuang"
+                    style="@style/goods_detail_text_style"
+                    android:focusable="true"
+                    android:text="@string/goods_detail_qingdan" />
+
+                <include layout="@layout/goods_detail_line_ver" />
+
+                <TextView
+                    android:id="@+id/goods_detail_shouhoufuwu"
+                    style="@style/goods_detail_text_style"
+                    android:focusable="true"
+                    android:text="@string/goods_detail_shouhoufuwu" />
+            </LinearLayout>
+
+            <include layout="@layout/goods_detail_line_hor" />
+        </LinearLayout>
+
+        <!-- 中间部分 -->
+
+
+        <!-- com.huiyin.wight.pulltorefresh.PullToRefreshScrollView -->
+
+        <com.huiyin.wight.pulltorefresh.PullToRefreshScrollView
+            android:id="@+id/goods_detail_sv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/goods_detail_ll_2"
+            android:layout_below="@+id/goods_detail_ll_1"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <include
+                    android:id="@+id/goods_detail_viewpa"
+                    layout="@layout/goods_detail_viewpage" />
+
+                <include layout="@layout/goods_detail_line_hor" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_goods_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:orientation="vertical"
+                        android:padding="15dp" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/goods_detail_lehujia"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="乐虎价:"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/goods_detail_lehujiage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="$3599.00"
+                                android:textColor="@color/red_color"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal"
+                            android:visibility="invisible" >
+
+                            <TextView
+                                android:id="@+id/goods_detail_cankaojia"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="参考价:"
+                                android:textColor="@color/gray"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/goods_detail_cankaojiage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="$4599.00"
+                                android:textColor="@color/gray"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/goods_detail_ll_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_wujiaoxing" />
+
+                        <TextView
+                            android:id="@+id/goods_detail_renshu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="(115人)" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="60dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="30dp"
+                        android:layout_toLeftOf="@+id/goods_detail_ll_1"
+                        android:background="@color/gray" />
+                </RelativeLayout>
+
+                <include layout="@layout/view_strips" />
+
+                <RelativeLayout
+                    android:id="@+id/goods_detail_dianpingcaidan"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="商品信息"
+                        android:textSize="15dp" />
+
+                    <ImageView
+                        android:id="@+id/goods_detail_next1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/icon_next_left" />
+                </RelativeLayout>
+
+                <include layout="@layout/goods_detail_line_hor" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/goods_detail_show1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="格力(GREE)KFR-23GW/(23570)Aa-3 " />
+
+                    <TextView
+                        android:id="@+id/goods_detail_Advertising"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="热销定速机型！强劲制冷！启动快！舒适静享！"
+                        android:textColor="@color/blue1" />
+                </LinearLayout>
+
+                <include layout="@layout/view_strips" />
+
+                <RelativeLayout
+                    android:id="@+id/pingjiashaidan_layout_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/tv_main_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="评价晒单"
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:id="@+id/goods_detail_pingxing_ll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/goods_detail_next2"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/icon_pingxing" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/icon_pingxing" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/icon_pingxing" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/icon_pingxing" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/goods_detail_next2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/icon_next_left" />
+                </RelativeLayout>
+
+                <include layout="@layout/goods_detail_line_hor" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:id="@+id/goods_detail_iv1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/icon_fahuo" />
+
+                        <TextView
+                            android:id="@+id/goods_detail_fahuo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/goods_detail_iv1"
+                            android:text="乐虎发货" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/gray" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:id="@+id/goods_detail_iv2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/icon_shouhou" />
+
+                        <TextView
+                            android:id="@+id/goods_detail_shouhou"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/goods_detail_iv2"
+                            android:text="乐虎售后" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/gray" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:id="@+id/goods_detail_iv3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/icon_fukuan" />
+
+                        <TextView
+                            android:id="@+id/goods_detail_fukuan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/goods_detail_iv3"
+                            android:text="货到付款" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:id="@+id/goods_detail_iv3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/icon_mianyunfei" />
+
+                        <TextView
+                            android:id="@+id/goods_detail_fukuan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/goods_detail_iv3"
+                            android:text="免运费" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <include layout="@layout/view_strips" />
+
+                <LinearLayout
+                    android:id="@+id/layout_combine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="组合购买：" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="共省123.5元" />
+                </LinearLayout>
+
+                <include layout="@layout/view_strips" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_margin="10dp"
+                        android:text="也许您还喜欢："
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="200dp"
+                            android:orientation="horizontal" >
+
+                            <android.support.v4.view.ViewPager
+                                android:id="@+id/viewpager"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.huiyin.wight.pulltorefresh.PullToRefreshScrollView>
+
+        <!-- 底部三个按钮 -->
+
+        <LinearLayout
+            android:id="@+id/goods_detail_ll_2"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <include layout="@layout/goods_detail_line_hor" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/goods_detail_jiaru_bt_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/button_bg1"
+                    android:text="加入购物车"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/goods_detail_jiesuan_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/button_bg1"
+                    android:text="马上结算"
+                    android:textSize="15sp" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" >
+
+                    <Button
+                        android:id="@+id/goods_detail_gouwuche_bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/btn_bg2"
+                        android:text="购物车"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/goods_detail_gouwuche_tv"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="top|right"
+                        android:background="@drawable/icon_yuandibaibian"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/white" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <WebView
+            android:id="@+id/goods_detail_wv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/goods_detail_ll_1"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+    </com.huiyin.ui.classic.SlidingMenu>
+
+</RelativeLayout>

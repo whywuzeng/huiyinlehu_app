@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp" >
+
+    <com.huiyin.ui.show.view.CircularImage
+        android:id="@+id/comment_touxiang"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/tv_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/comment_touxiang"
+        android:text="张三"
+        android:textColor="#9e9e9e"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_content_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_list_name"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/comment_touxiang"
+        android:text=""
+        android:textColor="#ADADAD"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_list_name"
+        android:layout_toRightOf="@id/tv_content_info"
+        android:text=""
+        android:textColor="@color/font_black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_comment_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:text=""
+        android:textColor="#9e9e9e"
+        android:textSize="10sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/tv_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/comment_touxiang"
+        android:background="@color/cornor_clolr" />
+
+</RelativeLayout>

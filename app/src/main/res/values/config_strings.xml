@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 门店编号 -->
+    <string name="config_number">xxxxx</string>
+
+</resources>

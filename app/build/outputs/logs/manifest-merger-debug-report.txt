@@ -1,0 +1,1503 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:2:1-997:12
+	package
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:4:5-25
+		INJECTED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml
+		INJECTED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:6:5-32
+		INJECTED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml
+		INJECTED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml
+		INJECTED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:20.0.0] F:\PullToRefreshListFragment\huiyinlehu_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:16:5-42
+	android:targetSdkVersion
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml
+		INJECTED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml
+		INJECTED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:12:5-85
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:12:22-82
+uses-permission#android.permission.CAMERA
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:13:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:14:22-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:17:5-89
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:17:22-86
+uses-permission#android.permission.INTERNET
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:19:5-70
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:19:22-67
+uses-permission#android.permission.READ_CONTACTS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:21:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:24:22-68
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:25:22-72
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:26:22-72
+uses-permission#android.permission.FLASHLIGHT
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:27:5-69
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:27:22-66
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:28:5-84
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:28:22-81
+uses-permission#android.permission.CALL_PHONE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:29:5-69
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:29:22-66
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:32:5-74
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:32:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:33:5-74
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:33:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:34:5-80
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:34:22-77
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:35:5-85
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:35:22-82
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:36:5-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:36:22-70
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:37:5-76
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:37:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:38:5-76
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:38:22-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:41:5-71
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:41:22-68
+uses-permission#android.permission.GET_TASKS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:42:5-68
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:42:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:43:5-68
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:43:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:44:5-80
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:44:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:47:5-81
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:47:22-78
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:48:5-82
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:48:22-79
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:49:22-85
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:50:5-75
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:50:22-72
+application
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:52:5-991:19
+MERGED from [com.android.support:support-v4:20.0.0] F:\PullToRefreshListFragment\huiyinlehu_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:17:5-19
+	android:label
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:56:9-41
+	android:allowBackup
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:54:9-35
+	android:icon
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:55:9-45
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:57:9-68
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:53:9-45
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:60:9-62:56
+	android:value
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:62:13-53
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:61:13-52
+service#com.baidu.location.f
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:64:9-68:19
+	android:enabled
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:66:13-35
+	android:process
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:67:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:65:13-48
+meta-data#BaiduMobAd_STAT_ID
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:73:9-75:42
+	android:value
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:75:13-39
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:74:13-46
+meta-data#BaiduMobAd_CHANNEL
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:76:9-78:42
+	android:value
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:78:13-39
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:77:13-46
+meta-data#BaiduMobAd_EXCEPTION_LOG
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:79:9-81:36
+	android:value
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:81:13-33
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:80:13-52
+meta-data#BaiduMobAd_SEND_STRATEGY
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:83:9-85:41
+	android:value
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:85:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:84:13-52
+meta-data#BaiduMobAd_ONLY_WIFI
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:88:9-90:36
+	android:value
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:90:13-33
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:89:13-48
+meta-data#BaiduMobAd_CELL_LOCATION
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:91:9-93:37
+	android:value
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:93:13-34
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:92:13-52
+meta-data#BaiduMobAd_GPS_LOCATION
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:94:9-96:37
+	android:value
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:96:13-34
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:95:13-51
+meta-data#BaiduMobAd_WIFI_LOCATION
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:97:9-99:37
+	android:value
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:99:13-34
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:98:13-52
+activity#io.rong.imkit.RongActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:104:9-137:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:105:13-54
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:107:13-116:29
+action#android.intent.action.VIEW
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:108:17-69
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:108:25-66
+category#android.intent.category.DEFAULT
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:110:17-76
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:110:27-73
+data
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:112:17-115:45
+	android:host
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:113:21-46
+	android:scheme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:115:21-42
+	android:pathPrefix
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:114:21-63
+activity#io.rong.imkit.RongSingleActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:138:9-152:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:141:13-49
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:140:13-44
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:139:13-60
+activity#io.rong.imkit.RongSecActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:153:9-167:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:156:13-49
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:155:13-44
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:154:13-57
+activity#io.rong.voipkit.activity.CallSideActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:168:9-170:52
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:170:13-49
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:169:13-69
+activity#io.rong.voipkit.activity.CalledSideActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:171:9-185:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:174:13-49
+	android:excludeFromRecents
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:173:13-46
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:172:13-71
+intent-filter#android.intent.category.DEFAULT+io.rong.voipkit.calledSideActivity.action
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:175:13-184:29
+action#io.rong.voipkit.calledSideActivity.action
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:176:17-84
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:176:25-81
+service#io.rong.imkit.service.RongIMService
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:187:9-192:19
+	android:enabled
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:189:13-35
+	android:exported
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:190:13-37
+	android:priority
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:191:13-36
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:188:13-63
+service#io.rong.imlib.PushService
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:193:9-195:54
+	android:process
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:195:13-51
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:194:13-53
+service#io.rong.imlib.RongService
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:196:9-61
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:196:18-58
+receiver#io.rong.imlib.PushReceiver
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:198:9-214:20
+	android:process
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:200:13-51
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:199:13-54
+intent-filter#io.rong.imlib.action.push.heartbeat
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:201:13-203:29
+action#io.rong.imlib.action.push.heartbeat
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:202:17-78
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:202:25-75
+intent-filter#android.intent.action.BOOT_COMPLETED+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:204:13-207:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:205:17-79
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:205:25-76
+action#android.intent.action.BOOT_COMPLETED
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:206:17-79
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:206:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:208:13-213:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:209:17-78
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:209:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:210:17-80
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:210:25-77
+receiver#com.huiyin.broadcast.MyPushMessageReceiver
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:221:9-230:20
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:221:19-76
+intent-filter#com.baidu.android.pushservice.action.MESSAGE+com.baidu.android.pushservice.action.RECEIVE+com.baidu.android.pushservice.action.notification.CLICK
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:222:13-229:29
+action#com.baidu.android.pushservice.action.MESSAGE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:225:17-87
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:225:25-84
+action#com.baidu.android.pushservice.action.RECEIVE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:227:17-87
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:227:25-84
+action#com.baidu.android.pushservice.action.notification.CLICK
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:228:17-98
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:228:25-95
+receiver#com.baidu.android.pushservice.PushServiceReceiver
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:231:9-240:20
+	android:process
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:233:13-44
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:232:13-77
+intent-filter#android.intent.action.BOOT_COMPLETED+android.net.conn.CONNECTIVITY_CHANGE+com.baidu.android.pushservice.action.media.CLICK+com.baidu.android.pushservice.action.notification.SHOW
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:234:13-239:29
+action#com.baidu.android.pushservice.action.notification.SHOW
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:237:17-97
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:237:25-94
+action#com.baidu.android.pushservice.action.media.CLICK
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:238:17-91
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:238:25-88
+receiver#com.baidu.android.pushservice.RegistrationReceiver
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:241:9-253:20
+	android:process
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:243:13-44
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:242:13-78
+intent-filter#com.baidu.android.pushservice.action.BIND_SYNC+com.baidu.android.pushservice.action.METHOD
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:244:13-247:29
+action#com.baidu.android.pushservice.action.METHOD
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:245:17-86
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:245:25-83
+action#com.baidu.android.pushservice.action.BIND_SYNC
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:246:17-89
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:246:25-86
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:248:13-252:29
+service#com.baidu.android.pushservice.PushService
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:255:9-262:19
+	android:process
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:258:13-44
+	android:exported
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:257:13-36
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:256:13-69
+intent-filter#com.baidu.android.pushservice.action.PUSH_SERVICE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:259:13-261:29
+action#com.baidu.android.pushservice.action.PUSH_SERVICE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:260:17-92
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:260:25-89
+meta-data#api_key
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:267:9-269:56
+	android:value
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:269:13-53
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:268:13-35
+activity#com.huiyin.ui.StartActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:272:9-281:20
+	android:label
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:274:13-45
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:275:13-47
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:273:13-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:276:13-280:29
+action#android.intent.action.MAIN
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:277:17-69
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:277:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:279:17-77
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:279:27-74
+activity#com.huiyin.ui.WelcomeActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:282:9-283:20
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:282:19-63
+activity#com.huiyin.ui.MainActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:284:9-290:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:288:13-49
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:287:13-44
+	android:exported
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:286:13-36
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:289:13-52
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:285:13-54
+activity#com.huiyin.ui.common.CommonConfrimCancelDialog
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:294:9-299:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:296:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:298:13-54
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:297:13-56
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:295:13-74
+activity#com.huiyin.ui.user.LoginActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:302:9-307:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:305:13-49
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:304:13-44
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:306:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:303:13-60
+activity#com.huiyin.ui.user.RegisterActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:308:9-312:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:310:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:311:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:309:13-63
+activity#com.huiyin.ui.user.BackPswActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:313:9-317:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:315:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:316:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:314:13-62
+activity#com.huiyin.ui.user.LeHuJuanActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:318:9-322:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:320:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:321:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:319:13-63
+activity#com.huiyin.ui.user.MyOrderActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:323:9-328:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:326:13-49
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:325:13-44
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:327:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:324:13-62
+activity#com.huiyin.ui.user.MyBespeakActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:329:9-333:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:331:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:332:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:330:13-64
+activity#com.huiyin.ui.user.CollectActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:334:9-338:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:336:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:337:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:335:13-62
+activity#com.huiyin.ui.user.AboutActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:339:9-343:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:341:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:342:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:340:13-60
+activity#com.huiyin.ui.user.YuYueShenQingActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:344:9-348:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:346:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:347:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:345:13-68
+activity#com.huiyin.ui.user.ModifyUserNameActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:349:9-354:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:351:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:353:13-73
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:352:13-56
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:350:13-69
+activity#com.huiyin.ui.user.YuYueDetailActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:355:9-359:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:357:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:358:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:356:13-66
+activity#com.huiyin.ui.user.AccountManageActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:360:9-365:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:363:13-49
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:362:13-44
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:364:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:361:13-68
+activity#com.huiyin.ui.user.KefuCenterActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:366:9-371:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:369:13-49
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:368:13-44
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:370:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:367:13-65
+activity#com.huiyin.ui.user.SettingActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:372:9-376:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:374:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:375:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:373:13-62
+activity#com.huiyin.ui.user.OnLineHelpActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:377:9-381:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:379:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:380:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:378:13-65
+activity#com.huiyin.ui.user.OnLineMsgActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:382:9-386:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:384:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:385:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:383:13-64
+activity#com.huiyin.ui.user.BindPhoneActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:387:9-391:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:389:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:390:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:388:13-64
+activity#com.huiyin.ui.user.BindActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:392:9-396:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:394:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:395:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:393:13-59
+activity#com.huiyin.ui.user.MyJiFenActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:397:9-401:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:399:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:400:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:398:13-62
+activity#com.huiyin.ui.user.CommonWebPageActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:402:9-406:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:404:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:405:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:403:13-68
+activity#com.huiyin.ui.home.HuodongWebPageActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:407:9-411:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:409:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:410:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:408:13-69
+activity#com.huiyin.ui.user.AddressManagementActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:412:9-416:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:414:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:415:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:413:13-72
+activity#com.huiyin.ui.user.AddressModifyActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:417:9-422:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:420:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:421:13-91
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:419:13-63
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:418:13-68
+activity#com.huiyin.ui.user.MyOrderDetailActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:423:9-428:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:426:13-49
+	android:exported
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:425:13-36
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:427:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:424:13-68
+activity#com.huiyin.ui.user.OrderCommentActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:429:9-433:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:431:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:432:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:430:13-67
+activity#com.huiyin.ui.user.CommodityCommentActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:434:9-438:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:436:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:437:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:435:13-71
+activity#com.huiyin.ui.user.ApplyAfterSaleActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:439:9-443:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:441:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:442:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:440:13-69
+activity#com.huiyin.ui.user.WriteLogisticNumActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:444:9-448:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:446:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:447:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:445:13-71
+activity#com.huiyin.ui.user.AfterSaleDetailActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:449:9-453:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:451:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:452:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:450:13-70
+activity#com.huiyin.ui.user.BackgoodsDealStatuActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:454:9-458:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:456:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:457:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:455:13-73
+activity#com.huiyin.ui.user.CheckLogisticActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:459:9-463:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:461:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:462:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:460:13-68
+activity#com.huiyin.ui.housekeeper.HkDetailActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:467:9-471:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:469:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:470:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:468:13-70
+activity#com.huiyin.ui.housekeeper.HKYuYueActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:472:9-476:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:474:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:475:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:473:13-69
+activity#com.huiyin.ui.housekeeper.HouseKeeperOrderActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:477:9-486:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:479:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:480:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:478:13-78
+intent-filter#android.intent.category.DEFAULT+com.huiyin.ui.housekeeper.HouseKeeperOrderActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:481:13-485:29
+action#com.huiyin.ui.housekeeper.HouseKeeperOrderActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:482:17-93
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:482:25-90
+activity#com.huiyin.ui.shoppingcar.CommitOrderActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:489:9-494:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:492:13-49
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:491:13-44
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:493:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:490:13-73
+activity#com.huiyin.ui.shoppingcar.WriteOrderActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:495:9-499:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:497:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:498:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:496:13-72
+activity#com.huiyin.ui.shoppingcar.GoodsListActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:500:9-504:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:502:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:503:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:501:13-71
+activity#com.huiyin.ui.shoppingcar.HuJuanDeductionActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:505:9-509:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:507:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:508:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:506:13-77
+activity#com.huiyin.ui.shoppingcar.InvoiceInfoActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:510:9-514:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:512:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:513:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:511:13-73
+activity#com.huiyin.ui.shoppingcar.PayWayActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:515:9-519:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:517:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:518:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:516:13-68
+activity#com.huiyin.ui.shoppingcar.DuteSelectActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:520:9-525:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:522:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:524:13-60
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:523:13-56
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:521:13-72
+activity#com.huiyin.ui.classic.GoodsDetailActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:529:9-533:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:531:13-49
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:532:13-55
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:530:13-69
+activity#com.huiyin.ui.classic.SortListShaiXuan2
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:534:9-538:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:536:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:537:13-52
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:535:13-67
+activity#com.huiyin.ui.classic.SortListSelection
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:539:9-543:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:541:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:542:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:540:13-67
+activity#com.huiyin.ui.home.ZxingCodeScan
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:544:9-548:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:546:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:547:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:545:13-60
+activity#com.huiyin.ui.home.SiteSearchActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:549:9-553:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:551:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:552:13-74
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:550:13-65
+activity#com.huiyin.ui.home.HotSearchActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:554:9-558:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:556:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:557:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:555:13-64
+activity#com.zxing.scan.activity.ZxingCodeActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:559:9-563:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:561:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:562:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:560:13-69
+activity#com.huiyin.ui.home.NewsTodayActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:564:9-573:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:566:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:567:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:565:13-64
+intent-filter#android.intent.category.DEFAULT+com.huiyin.ui.home.NewsTodayActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:568:13-572:29
+action#com.huiyin.ui.home.NewsTodayActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:569:17-79
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:569:25-76
+activity#com.huiyin.ui.home.Prefecture1
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:574:9-578:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:576:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:577:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:575:13-58
+activity#com.huiyin.ui.home.Prefecture2
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:579:9-583:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:581:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:582:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:580:13-58
+activity#com.huiyin.ui.home.Prefecture3
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:584:9-588:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:586:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:587:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:585:13-58
+activity#com.huiyin.ui.club.ClubAct
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:589:9-593:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:591:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:592:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:590:13-54
+activity#com.huiyin.ui.show.TheShowActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:594:9-598:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:596:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:597:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:595:13-62
+activity#com.huiyin.ui.show.TheShowReleaseActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:599:9-603:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:601:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:602:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:600:13-69
+activity#com.huiyin.ui.show.TheShowlikeActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:604:9-608:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:606:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:607:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:605:13-66
+activity#com.huiyin.ui.show.TheShowCommentActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:609:9-613:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:611:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:612:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:610:13-69
+activity#com.huiyin.ui.show.TheShowSearchActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:614:9-618:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:616:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:617:13-68
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:615:13-68
+activity#com.zxing.scan.activity.ZxingCodeScanResult
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:619:9-623:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:621:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:622:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:620:13-71
+activity#com.huiyin.ui.classic.DianPingShaiDan
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:624:9-628:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:626:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:627:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:625:13-65
+activity#com.huiyin.ui.home.more.TheMoreActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:629:9-633:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:631:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:632:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:630:13-67
+activity#com.huiyin.ui.classic.SalesRanking
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:634:9-638:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:636:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:637:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:635:13-62
+activity#com.huiyin.CatalogueActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:639:9-640:20
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:639:19-52
+activity#com.huiyin.ui.classic.CategorySearchActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:641:9-645:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:643:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:644:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:642:13-72
+activity#com.huiyin.ui.classic.SaleRankActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:646:9-650:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:648:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:649:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:647:13-66
+activity#com.huiyin.ui.housekeeper.HouseKeeperListActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:651:9-655:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:653:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:654:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:652:13-77
+activity#com.huiyin.ui.nearshop.NearTheShopActivityNew
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:657:9-661:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:659:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:660:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:658:13-73
+activity#com.huiyin.ui.nearshop.NearTheShopMapActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:662:9-666:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:664:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:665:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:663:13-73
+activity#com.huiyin.ui.nearshop.NearShopLineActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:667:9-671:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:669:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:670:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:668:13-71
+activity#com.huiyin.ui.nearshop.NearTheShopInfoActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:672:9-676:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:674:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:675:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:673:13-74
+activity#com.huiyin.ui.home.LnkToolsActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:677:9-681:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:679:13-49
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:680:13-72
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:678:13-63
+activity#com.huiyin.ui.club.ClubActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:682:9-686:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:684:13-49
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:685:13-72
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:683:13-59
+activity#com.huiyin.ui.club.ClubAboutActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:687:9-691:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:689:13-49
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:690:13-72
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:688:13-64
+activity#com.huiyin.ui.user.MyMessageActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:693:9-697:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:695:13-49
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:696:13-72
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:694:13-64
+activity#com.huiyin.ui.user.MessageWebActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:698:9-702:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:700:13-49
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:701:13-72
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:699:13-65
+activity#com.huiyin.ui.home.LotteryActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:703:9-707:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:705:13-49
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:706:13-72
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:704:13-62
+activity#com.huiyin.ui.classic.GoodsDetailGalleryActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:708:9-711:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:710:13-49
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:709:13-76
+activity#com.huiyin.ui.classic.PhotoViewActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:712:9-715:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:714:13-49
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:713:13-67
+uses-library#android.test.runner
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:717:9-60
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:717:23-57
+activity#com.huiyin.wxapi.WXPayEntryActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:719:9-722:46
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:722:13-43
+	android:exported
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:721:13-36
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:720:13-53
+activity#com.huiyin.ui.home.prefecture.ZhuanQuActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:723:9-727:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:725:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:726:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:724:13-73
+activity#com.unionpay.uppay.PayActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:729:9-730:20
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:729:19-64
+activity#com.huiyin.ui.user.MemberRankActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:732:9-742:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:736:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:734:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:735:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:733:13-65
+intent-filter#android.intent.category.DEFAULT+com.huiyin.ui.user.MemberRankActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:737:13-741:29
+action#com.huiyin.ui.user.MemberRankActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:738:17-80
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:738:25-77
+activity#com.huiyin.ui.shoppingcar.PaymentSuccessActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:743:9-748:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:747:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:745:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:746:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:744:13-76
+activity#com.huiyin.ui.user.BackPswSuccessActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:749:9-754:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:753:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:751:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:752:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:750:13-69
+activity#com.huiyin.ui.user.ExitSuccessActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:755:9-760:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:759:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:757:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:758:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:756:13-66
+activity#com.huiyin.ui.home.Logistics.LogisticsQueryActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:762:9-767:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:766:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:764:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:765:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:763:13-79
+activity#com.huiyin.ui.home.Logistics.LocationCarActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:769:9-774:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:773:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:771:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:772:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:770:13-76
+activity#com.huiyin.ui.servicecard.ServiceCardActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:776:9-782:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:781:13-49
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:779:13-44
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:778:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:780:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:777:13-73
+activity#com.huiyin.ui.servicecard.BindServiceCard
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:783:9-787:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:785:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:786:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:784:13-69
+activity#com.huiyin.ui.servicecard.ApplyServiceCard
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:788:9-792:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:790:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:791:13-72
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:789:13-70
+activity#com.huiyin.ui.servicecard.RechargeServiceCard
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:793:9-797:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:795:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:796:13-52
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:794:13-73
+activity#com.huiyin.ui.servicecard.ResetCardPwd
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:798:9-802:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:800:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:801:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:799:13-66
+activity#com.huiyin.ui.servicecard.UpdateCardPwd
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:803:9-807:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:805:13-49
+	android:windowSoftInputMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:806:13-73
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:804:13-67
+activity#com.huiyin.ui.servicecard.ApplyServiceCardSuccessActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:808:9-813:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:812:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:810:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:811:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:809:13-85
+activity#com.huiyin.ui.servicecard.BindSuccess
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:814:9-819:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:818:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:816:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:817:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:815:13-65
+activity#com.huiyin.ui.servicecard.RechargeSuccess
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:820:9-825:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:824:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:822:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:823:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:821:13-69
+activity#com.huiyin.ui.user.ThirdBindActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:827:9-832:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:831:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:829:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:830:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:828:13-54
+activity#com.huiyin.ui.seckill.SeckillActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:834:9-844:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:838:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:836:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:837:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:835:13-55
+intent-filter#android.intent.category.DEFAULT+com.huiyin.ui.seckill.SeckillActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:839:13-843:29
+action#com.huiyin.ui.seckill.SeckillActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:840:17-80
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:840:25-77
+activity#com.huiyin.ui.flash.FlashActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:846:9-856:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:850:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:848:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:849:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:847:13-51
+intent-filter#android.intent.category.DEFAULT+com.huiyin.ui.flash.FlashActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:851:13-855:29
+action#com.huiyin.ui.flash.FlashActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:852:17-76
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:852:25-73
+activity#com.huiyin.ui.flash.FlashPrefectureActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:857:9-862:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:861:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:859:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:860:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:858:13-61
+activity#com.huiyin.ui.bespeak.BespeakActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:864:9-874:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:868:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:866:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:867:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:865:13-55
+intent-filter#android.intent.category.DEFAULT+com.huiyin.ui.bespeak.BespeakActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:869:13-873:29
+action#com.huiyin.ui.bespeak.BespeakActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:870:17-80
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:870:25-77
+activity#com.huiyin.ui.introduce.IntroduceActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:876:9-881:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:880:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:878:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:879:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:877:13-59
+activity#com.huiyin.ui.user.InvoiceDetailActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:883:9-893:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:887:13-49
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:885:13-63
+	android:persistent
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:886:13-38
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:884:13-58
+intent-filter#android.intent.category.DEFAULT+com.huiyin.ui.user.InvoiceDetailActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:888:13-892:29
+action#com.huiyin.ui.user.InvoiceDetailActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:889:17-83
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:889:25-80
+activity#com.alipay.android.app.sdk.WapPayActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:894:9-897:20
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:896:13-49
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:895:13-69
+receiver#com.huiyin.broadcast.DownloadCompleteReceiver
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:899:9-904:20
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:899:19-79
+intent-filter#android.intent.action.DOWNLOAD_COMPLETE+android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:900:13-903:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:901:17-82
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:901:25-79
+action#android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:902:17-94
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:902:25-91
+receiver#com.huiyin.broadcast.MyPushReceiver
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:905:9-913:20
+	android:exported
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:907:13-36
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:906:13-63
+intent-filter#com.mypush
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:908:13-912:29
+	android:priority
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:908:28-51
+action#com.mypush
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:909:17-911:47
+	android:exported
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:911:21-44
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:910:21-46
+meta-data#YOUTUI_CHANNEL
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:919:9-922:21
+	android:value
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:921:13-46
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:920:13-42
+activity#com.huiyin.wxapi.WXEntryActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:925:9-937:20
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:928:13-44
+	android:exported
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:927:13-36
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:929:13-61
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:926:13-50
+activity#com.tencent.connect.common.AssistActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:939:9-944:48
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:942:13-49
+	tools:ignore
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:944:13-45
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:941:13-63
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:943:13-72
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:940:13-69
+activity#com.tencent.tauth.AuthActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:947:9-960:20
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:949:13-44
+	android:noHistory
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:950:13-37
+	tools:ignore
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:951:13-45
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:948:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:952:13-959:29
+category#android.intent.category.BROWSABLE
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:956:17-78
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:956:27-75
+activity#com.renn.rennsdk.oauth.OAuthActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:962:9-964:77
+	android:configChanges
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:964:13-74
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:963:13-64
+activity#cn.bidaround.ytcore.activity.ShareActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:966:9-978:20
+	android:launchMode
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:969:13-43
+	android:exported
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:968:13-36
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:970:13-72
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:967:13-70
+intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:973:13-977:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:974:17-92
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:974:25-89
+activity#cn.bidaround.ytcore.login.AuthActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:980:9-982:75
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:982:13-72
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:981:13-66
+activity#cn.bidaround.point.PointActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:984:9-69
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:984:19-66
+activity#cn.bidaround.youtui_template.ScreenCapEditActivity
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:985:9-988:69
+	android:screenOrientation
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:987:13-49
+	android:theme
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:988:13-66
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:986:13-78
+instrumentation#android.test.InstrumentationTestRunner
+ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:993:5-995:46
+	android:targetPackage
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:995:9-43
+	android:name
+		ADDED from F:\PullToRefreshListFragment\huiyinlehu_app\app\src\main\AndroidManifest.xml:994:9-62

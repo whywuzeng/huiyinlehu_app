@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/show_list_item_bg"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical" >
+
+            <!-- 头像 -->
+
+            <com.huiyin.ui.show.view.CircularImage
+                android:id="@+id/iv_touxiang"
+                android:layout_width="42.0dip"
+                android:layout_height="42.0dip"
+                android:layout_margin="2dp"
+                android:scaleType="centerInside" />
+
+            <!-- 名字 -->
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@id/iv_touxiang"
+                android:text=""
+                android:textSize="16sp" />
+            <!-- 日期 -->
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_name"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@id/iv_touxiang"
+                android:text=""
+                android:textColor="#9e9e9e"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_guanzhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/red_cornor_bg"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_jiaguanzhu"
+                android:drawablePadding="2dp"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_share_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/show_content_bg"
+            android:gravity="top|left"
+            android:padding="5dp"
+            android:textColor="@color/grey_text"
+            android:textSize="14sp" />
+
+        <!-- 晒图 -->
+
+        <com.huiyin.wight.MyGridView
+            android:id="@+id/grv_share_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:horizontalSpacing="2dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:padding="1dp"
+            android:scrollbars="none"
+            android:verticalSpacing="2dp" />
+
+        <!-- 喜欢 、评论、分享 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_like_num"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_xihuan"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="#9e9e9e"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_tall_num"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tv_like_num"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_pinglun"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="#9e9e9e"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/theshow_fenxiang"
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/share_button_bg"
+                android:clickable="true"
+                android:drawableRight="@drawable/icon_fenxiang_ic1"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="分享"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_like_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp" />
+        <!-- 头像列表 -->
+
+        <LinearLayout
+            android:id="@+id/layout_head_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        android:background="#E7E7E7" />
+
+</LinearLayout>

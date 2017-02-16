@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray6" >
+
+    <include
+        android:id="@+id/lay_tab"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_alignParentBottom="true"
+        layout="@layout/tab_layout" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@id/lay_tab"
+        android:background="@color/record_line_color" />
+
+    <com.huiyin.ui.IndexViewPager
+        android:id="@+id/content_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/line"
+        android:fadingEdge="none"
+        android:overScrollMode="never" >
+    </com.huiyin.ui.IndexViewPager>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/item"
+        android:layout_width="@dimen/fragment_house_keep_item_width"
+        android:layout_height="@dimen/fragment_house_keep_item_height"
+        android:layout_gravity="center"
+        android:background="@drawable/house_keep_item_bg"
+        android:gravity="center"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip"
+        android:text="免费空调保养"
+        android:textColor="#484848" />
+
+</LinearLayout>

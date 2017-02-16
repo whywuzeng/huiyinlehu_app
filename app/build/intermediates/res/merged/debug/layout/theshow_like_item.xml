@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <com.huiyin.ui.show.view.CircularImage
+        android:id="@+id/theshow_like_touxiang"
+        android:layout_width="56dip"
+        android:layout_height="56dip"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dip" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical|start"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dip"
+        android:textColor="@color/grey_text"
+        android:textSize="16sp" />
+
+</LinearLayout>

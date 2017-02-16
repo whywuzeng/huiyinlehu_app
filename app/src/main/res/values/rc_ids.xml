@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="rc_content" type="id"/>
+    <item name="rc_back" type="id"/>
+    <item name="rc_actionbar" type="id"/>
+    <item name="rc_logo" type="id"/>
+    <item name="rc_title" type="id"/>
+    <item name="rc_new" type="id"/>
+    <item name="rc_title_layout" type="id"/>
+    <item name="rc_item0" type="id"/>
+    <item name="rc_item1" type="id"/>
+    <item name="rc_item2" type="id"/>
+    <item name="rc_item3" type="id"/>
+    <item name="rc_item4" type="id"/>
+    <item name="rc_item5" type="id"/>
+    <item name="rc_item6" type="id"/>
+    <item name="rc_item7" type="id"/>
+    <item name="rc_item8" type="id"/>
+    <item name="rc_item9" type="id"/>
+
+</resources>
