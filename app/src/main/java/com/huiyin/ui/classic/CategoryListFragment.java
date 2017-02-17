@@ -254,7 +254,7 @@ public class CategoryListFragment extends Fragment implements OnClickListener {
 
 					@Override
 					public void onClick(View arg0) {
-						Intent intent = new Intent(getActivity(), GoodsDetailActivity.class);
+						Intent intent = new Intent(getActivity(),  .class);
 						if (list.get(count).ID != null && !list.get(count).ID.equals("")) {
 							intent.putExtra(GoodsDetailActivity.BUNDLE_KEY_GOODS_ID, list.get(count).ID);
 							Log.i(TAG, list.get(count).ID + "三级分类列表的热销商品的ID");

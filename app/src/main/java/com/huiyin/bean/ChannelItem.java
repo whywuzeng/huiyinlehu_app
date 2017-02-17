@@ -1,13 +1,14 @@
 package com.huiyin.bean;
 
-import java.io.Serializable;
+import android.os.Parcel;
+import android.os.Parcelable;
 
 /**
  * ITEM的对应可序化队列属性
  * */
-public class ChannelItem implements Serializable {
+public class ChannelItem implements Parcelable {
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = -6465237897027410019L;
 	/**
@@ -96,4 +97,39 @@ public class ChannelItem implements Serializable {
 				+ channelId + ", imageUrl=" + imageUrl + "]";
 	}
 
+	@Override
+	public int describeContents() {
+		return 0;
+	}
+
+	@Override
+	public void writeToParcel(Parcel dest, int flags) {
+		dest.writeInt(this.id);
+		dest.writeString(this.name);
+		dest.writeInt(this.orderId);
+		dest.writeInt(this.selected);
+		dest.writeInt(this.channelId);
+		dest.writeString(this.imageUrl);
+	}
+
+	protected ChannelItem(Parcel in) {
+		this.id = in.readInt();
+		this.name = in.readString();
+		this.orderId = in.readInt();
+		this.selected = in.readInt();
+		this.channelId = in.readInt();
+		this.imageUrl = in.readString();
+	}
+
+	public static final Parcelable.Creator<ChannelItem> CREATOR = new Parcelable.Creator<ChannelItem>() {
+		@Override
+		public ChannelItem createFromParcel(Parcel source) {
+			return new ChannelItem(source);
+		}
+
+		@Override
+		public ChannelItem[] newArray(int size) {
+			return new ChannelItem[size];
+		}
+	};
 }

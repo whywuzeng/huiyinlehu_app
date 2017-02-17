@@ -1,11 +1,5 @@
 package com.huiyin.ui;
 
-import java.util.ArrayList;
-
-import org.apache.http.Header;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -45,13 +39,19 @@ import com.huiyin.utils.AppManager;
 import com.huiyin.utils.MathUtil;
 import com.huiyin.utils.NetworkUtils;
 import com.huiyin.utils.SettingPreferenceUtil;
-import com.huiyin.utils.UserinfoPreferenceUtil;
 import com.huiyin.utils.SettingPreferenceUtil.SettingItem;
 import com.huiyin.utils.StringUtils;
 import com.huiyin.utils.UpdateManager;
 import com.huiyin.utils.UpdateVersionTool;
+import com.huiyin.utils.UserinfoPreferenceUtil;
 import com.huiyin.utils.Utils;
 import com.huiyin.wight.BadgeView;
+
+import org.apache.http.Header;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
 
 /***
  * 
@@ -547,6 +547,7 @@ public class MainActivity extends FragmentActivity {
 
 	public void setTheShoppcar(int count) {
 
+		//BadgeView 数字提醒
 		if (shoppingBadge == null) {
 			shoppingBadge = new BadgeView(this, mShoppingCarView);
 		}

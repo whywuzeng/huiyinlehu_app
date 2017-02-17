@@ -1,12 +1,5 @@
 package com.huiyin.ui.classic;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
-import org.apache.http.Header;
-import org.json.JSONObject;
-
 import android.content.Intent;
 import android.graphics.Paint;
 import android.os.Bundle;
@@ -53,6 +46,13 @@ import com.huiyin.utils.LogUtil;
 import com.huiyin.utils.MathUtil;
 import com.huiyin.utils.StringUtils;
 import com.huiyin.wight.rongcloud.RongCloud;
+
+import org.apache.http.Header;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 public class BasicInformationFragment extends Fragment implements
 		OnClickListener, OnPageChangeListener {
@@ -269,10 +269,10 @@ public class BasicInformationFragment extends Fragment implements
 					titleString = "距离预约";
 					break;
 				}
-				TextTask(goodsDetailBeen.commodity.commodity.START_TIME,
-						goodsDetailBeen.commodity.commodity.END_TIME,
-						goodsDetailBeen.commodity.commodity.curDate);
 			}
+			TextTask(goodsDetailBeen.commodity.commodity.START_TIME,
+					goodsDetailBeen.commodity.commodity.END_TIME,
+					goodsDetailBeen.commodity.commodity.curDate);
 			if (goodsDetailBeen.commodity.commodity.MARK == 5) {
 				btn_checkout.setVisibility(View.GONE);
 				btn_add.setVisibility(View.GONE);
@@ -369,8 +369,10 @@ public class BasicInformationFragment extends Fragment implements
 							return;
 						}
 						if (isChecked) {
+							//收藏一个商品
 							collect(AppContext.getInstance().getUserId());
 						} else {
+							//取消收藏一个商品
 							unCollect(AppContext.getInstance().getUserId());
 						}
 					}
@@ -394,6 +396,7 @@ public class BasicInformationFragment extends Fragment implements
 				+ ")");
 
 		layout_dianping.removeAllViews();
+		//点评加布局的地方
 		if (goodsDetailBeen.commodity.reviewList != null) {
 
 			if (goodsDetailBeen.commodity.reviewList.size() >= 1) {
@@ -415,8 +418,9 @@ public class BasicInformationFragment extends Fragment implements
 
 				@Override
 				public void onClick(View v) {
-					// 加入购物车
+					// 加入购物车  showMenu 加一个数值
 					((GoodsDetailActivity) getActivity()).showMenu(1);
+					// showMenuType 等于2
 					GoodsDetailActivity.showMenuType = 2;
 				}
 			});
@@ -496,6 +500,11 @@ public class BasicInformationFragment extends Fragment implements
 		}
 	}
 
+	/**
+	 * 点评 那个布局的加载  那个5颗星的 评论.
+	 * @param item
+	 * @return
+	 */
 	private View addDianPingToLayout(GoodsDetailBeen.DianPing item) {
 		View view = LayoutInflater.from(getActivity()).inflate(
 				R.layout.dian_ping_item, null);
@@ -547,6 +556,7 @@ public class BasicInformationFragment extends Fragment implements
 			// 加入购物车
 			// ((GoodsDetailActivity) getActivity()).showMenu(0);
 			GoodsDetailActivity.showMenuType = 0;
+
 			addShoppingCar();
 		} else if (view == btn_checkout) {
 			if (StringUtils.isBlank(AppContext.getInstance().getUserId())) {
@@ -562,7 +572,7 @@ public class BasicInformationFragment extends Fragment implements
 			GoodsDetailActivity.showMenuType = 1;
 		} else if (view == btn_shopping_car) {
 			// 购物车
-			AppContext.MAIN_TASK = AppContext.SHOPCAR;
+			AppContext.MAIN_TASK = AppContext.SHOPCAR; //标识切换界面的
 			Intent i_main = new Intent(getActivity(), MainActivity.class);
 			i_main.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			startActivity(i_main);
@@ -631,7 +641,7 @@ public class BasicInformationFragment extends Fragment implements
 
 	/**
 	 * 收藏商品
-	 * 
+	 * 访问网络
 	 * */
 	private void collect(String userId) {
 		CustomResponseHandler handler = new CustomResponseHandler(

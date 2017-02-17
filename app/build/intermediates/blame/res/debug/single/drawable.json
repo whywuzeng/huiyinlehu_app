@@ -132,12 +132,12 @@
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\drawable\\btn_selector.xml"
     },
     {
-        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lottery_buttom_node_bg.xml",
-        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\drawable\\lottery_buttom_node_bg.xml"
-    },
-    {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_answer_selector.xml",
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\drawable\\rc_btn_answer_selector.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lottery_buttom_node_bg.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\drawable\\lottery_buttom_node_bg.xml"
     },
     {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_btn_gray_selector.xml",

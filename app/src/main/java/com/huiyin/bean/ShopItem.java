@@ -1,8 +1,9 @@
 package com.huiyin.bean;
 
-import java.io.Serializable;
+import android.os.Parcel;
+import android.os.Parcelable;
 
-public class ShopItem implements Serializable {
+public class ShopItem implements Parcelable {
 
 	/**
 	 * 
@@ -42,4 +43,68 @@ public class ShopItem implements Serializable {
 				+ ", SPECVALUE=" + SPECVALUE + "]";
 	}
 
+	@Override
+	public int describeContents() {
+		return 0;
+	}
+
+	@Override
+	public void writeToParcel(Parcel dest, int flags) {
+		dest.writeInt(this.ID);
+		dest.writeInt(this.FID);
+		dest.writeString(this.GOODS_CODE);
+		dest.writeInt(this.GOODS_STOCKS);
+		dest.writeInt(this.COMMDOTIY_QTY);
+		dest.writeFloat(this.COMMODITY_OLD_PRICE);
+		dest.writeString(this.COMMDOITY_ID);
+		dest.writeString(this.IMG_PATH);
+		dest.writeFloat(this.COMMODITY_PRICE);
+		dest.writeString(this.COMMODITY_NAME);
+		dest.writeString(this.SPECVALUE);
+		dest.writeInt(this.IS_ADDED);
+		dest.writeByte(this.isGroup ? (byte) 1 : (byte) 0);
+		dest.writeFloat(this.disCount);
+		dest.writeString(this.PROMOTIONS_TYPE);
+		dest.writeString(this.PROMOTIONS_PRICE);
+		dest.writeInt(this.QUOTA_FLAG);
+		dest.writeString(this.QUOTA_NUMBER);
+		dest.writeString(this.QUOTA_QUANTITY);
+	}
+
+	public ShopItem() {
+	}
+
+	protected ShopItem(Parcel in) {
+		this.ID = in.readInt();
+		this.FID = in.readInt();
+		this.GOODS_CODE = in.readString();
+		this.GOODS_STOCKS = in.readInt();
+		this.COMMDOTIY_QTY = in.readInt();
+		this.COMMODITY_OLD_PRICE = in.readFloat();
+		this.COMMDOITY_ID = in.readString();
+		this.IMG_PATH = in.readString();
+		this.COMMODITY_PRICE = in.readFloat();
+		this.COMMODITY_NAME = in.readString();
+		this.SPECVALUE = in.readString();
+		this.IS_ADDED = in.readInt();
+		this.isGroup = in.readByte() != 0;
+		this.disCount = in.readFloat();
+		this.PROMOTIONS_TYPE = in.readString();
+		this.PROMOTIONS_PRICE = in.readString();
+		this.QUOTA_FLAG = in.readInt();
+		this.QUOTA_NUMBER = in.readString();
+		this.QUOTA_QUANTITY = in.readString();
+	}
+
+	public static final Parcelable.Creator<ShopItem> CREATOR = new Parcelable.Creator<ShopItem>() {
+		@Override
+		public ShopItem createFromParcel(Parcel source) {
+			return new ShopItem(source);
+		}
+
+		@Override
+		public ShopItem[] newArray(int size) {
+			return new ShopItem[size];
+		}
+	};
 }

@@ -64,12 +64,12 @@
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\fragment_goods_detail_packaging.xml"
     },
     {
-        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_iamge_item.xml",
-        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\add_iamge_item.xml"
-    },
-    {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zu_he_buy_item.xml",
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\zu_he_buy_item.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_iamge_item.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\add_iamge_item.xml"
     },
     {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zhuanqu_list_item1.xml",
@@ -104,12 +104,12 @@
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\account_manage_layout.xml"
     },
     {
-        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_edit_dialog.xml",
-        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\rc_edit_dialog.xml"
-    },
-    {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_dialog_select_item.xml",
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\rc_dialog_select_item.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_edit_dialog.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\rc_edit_dialog.xml"
     },
     {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lnktools_item.xml",
@@ -248,12 +248,12 @@
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\layout_goods_detail_baseinfo.xml"
     },
     {
-        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\logistics_query_line_base.xml",
-        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\logistics_query_line_base.xml"
-    },
-    {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hk_yuyue_layout.xml",
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\hk_yuyue_layout.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\logistics_query_line_base.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\logistics_query_line_base.xml"
     },
     {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_view_message_bar.xml",
@@ -348,12 +348,12 @@
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\classification_screen_item.xml"
     },
     {
-        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_detail_rightmenu.xml",
-        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\activity_goods_detail_rightmenu.xml"
-    },
-    {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\flash_prefecture_layout.xml",
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\flash_prefecture_layout.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_detail_rightmenu.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\activity_goods_detail_rightmenu.xml"
     },
     {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\module_pop_view.xml",
@@ -380,20 +380,20 @@
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\rc_toast.xml"
     },
     {
-        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\publish.xml",
-        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\publish.xml"
-    },
-    {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_shopping_car_item_item.xml",
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\fragment_shopping_car_item_item.xml"
     },
     {
-        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_goods_detail_baseinfo.xml",
-        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\fragment_goods_detail_baseinfo.xml"
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\publish.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\publish.xml"
     },
     {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index.xml",
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\activity_index.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_goods_detail_baseinfo.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\fragment_goods_detail_baseinfo.xml"
     },
     {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_notification_layout.xml",
@@ -416,12 +416,12 @@
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\xlistview_header.xml"
     },
     {
-        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prefecture1.xml",
-        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\prefecture1.xml"
-    },
-    {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_drag_grid_item.xml",
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\home_drag_grid_item.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prefecture1.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\prefecture1.xml"
     },
     {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\browse_items_layout.xml",
@@ -492,16 +492,16 @@
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\rc_item_image_conversation.xml"
     },
     {
-        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\yt_share_pager.xml",
-        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\yt_share_pager.xml"
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\all_lehuquan_title.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\all_lehuquan_title.xml"
     },
     {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_voice_conversation.xml",
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\rc_item_voice_conversation.xml"
     },
     {
-        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\all_lehuquan_title.xml",
-        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\all_lehuquan_title.xml"
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\yt_share_pager.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\yt_share_pager.xml"
     },
     {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lhj_title.xml",
@@ -552,12 +552,12 @@
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\the_show_recommend.xml"
     },
     {
-        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_doag.xml",
-        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\load_doag.xml"
-    },
-    {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_comment_layout.xml",
         "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\order_comment_layout.xml"
+    },
+    {
+        "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_doag.xml",
+        "source": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\src\\main\\res\\layout\\load_doag.xml"
     },
     {
         "merged": "F:\\PullToRefreshListFragment\\huiyinlehu_app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_detail_groupmenu_listitem.xml",

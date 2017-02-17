@@ -1,14 +1,5 @@
 package com.huiyin.ui.shoppingcar;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.http.Header;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -16,10 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -39,12 +30,21 @@ import com.huiyin.bean.OrderBean;
 import com.huiyin.bean.OrderItem;
 import com.huiyin.bean.ShopItem;
 import com.huiyin.dialog.ConfirmDialog;
-import com.huiyin.dialog.SingleConfirmDialog;
 import com.huiyin.dialog.ConfirmDialog.DialogClickListener;
+import com.huiyin.dialog.SingleConfirmDialog;
 import com.huiyin.ui.MainActivity;
 import com.huiyin.ui.PageSelectedListener;
 import com.huiyin.ui.user.LoginActivity;
 import com.huiyin.utils.MathUtil;
+
+import org.apache.http.Header;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /***
  * 购物车
@@ -151,6 +151,7 @@ public class ShoppingCarFragment extends Fragment implements OnClickListener, On
 		shop_check_all = (CheckBox) rootView.findViewById(R.id.shop_check_all);
 		shop_check_all.setOnCheckedChangeListener(this);
 
+		//显示那个登录的一条Item
 		if (AppContext.getInstance().getUserId() == null) {
 			shop_top_login_layout.setVisibility(View.VISIBLE);
 		} else {
@@ -288,10 +289,12 @@ public class ShoppingCarFragment extends Fragment implements OnClickListener, On
 						mOrderAdapter.setOnOrderDataChangeListener(ShoppingCarFragment.this);
 						mListview.setAdapter(mOrderAdapter);
 						if (mListview.getAdapter().getCount() < 1) {
+							//转换
 							mViewSwitch.setDisplayedChild(0);
 							btnDelete.setVisibility(View.INVISIBLE);
 							((MainActivity) getActivity()).setTheShoppcar(0);
 						} else {
+							//转换
 							mViewSwitch.setDisplayedChild(1);
 							btnDelete.setVisibility(View.VISIBLE);
 
@@ -373,24 +376,26 @@ public class ShoppingCarFragment extends Fragment implements OnClickListener, On
 	}
 
 	/***
-	 * 加载网络购物车列表
+	 * 加载网络购物车列表  在界面初始化之后加载数据
 	 */
 	private void loadShopList() {
 		if (null == AppContext.getInstance().getUserId() || AppContext.getInstance().getUserId().equals("")) {
 			// 如果无用户登录
 			shop_top_login_layout.setVisibility(View.VISIBLE);
 			if (mOrderAdapter != null) {
-				mOrderAdapter.deleteItem();
+				mOrderAdapter.deleteItem();  //那其他就不要显示
 			}
 			if (AppContext.shopCarLists != null) {
 				mServerBean.shoppingCar = AppContext.shopCarLists;
 				rebuildData();
 				mOrderAdapter = new ShoppingCarOrderAdapter(getActivity(), mOrderBean);
 				mOrderAdapter.setOnOrderDataChangeListener(this);
+				//mListview  填充数据 这个 ShoppingCarorderAdapter
 				mListview.setAdapter(mOrderAdapter);
 				if (mListview.getAdapter().getCount() < 1) {
 					mViewSwitch.setDisplayedChild(0);
 					btnDelete.setVisibility(View.INVISIBLE);
+					//设置数值
 					((MainActivity) getActivity()).setTheShoppcar(0);
 				} else {
 					mViewSwitch.setDisplayedChild(1);
@@ -438,6 +443,7 @@ public class ShoppingCarFragment extends Fragment implements OnClickListener, On
 					rebuildData();
 					mOrderAdapter = new ShoppingCarOrderAdapter(getActivity(), mOrderBean);
 					mOrderAdapter.setOnOrderDataChangeListener(ShoppingCarFragment.this);
+					//价格和数量
 					mListview.setAdapter(mOrderAdapter);
 					if (mListview.getAdapter().getCount() < 1) {
 						mViewSwitch.setDisplayedChild(0);
